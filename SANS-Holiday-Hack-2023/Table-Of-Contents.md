@@ -1,4 +1,5 @@
-# Test
+# SANS Holiday Hack 2023
+![](images/holidayhack2023.jpg)
 ## Christmas Island
 - [Holiday Hack Orientation](Christmas-Island/Holiday-Hack-Orientation.md)
 - [Snowball Fight](Christmas-Island/Snowball-Fight.md)
