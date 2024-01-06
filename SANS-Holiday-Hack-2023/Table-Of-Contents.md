@@ -1,3 +1,7 @@
-#Test
-##Test
+# Test
+## Christmas Island
 - [Holiday Hack Orientation](Christmas-Island/Holiday-Hack-Orientation.md)
+- [Snowball Fight](Christmas-Island/Snowball-Fight.md)
+- [Linux 101](Christmas-Island/Linux-101.md)
+- [Reportinator](Christmas-Island/Reportinator.md)
+- [Azure 101](Christmas-Island/Azure-101.md)
