@@ -6,3 +6,8 @@
 - [Linux 101](Christmas-Island/Linux-101.md)
 - [Reportinator](Christmas-Island/Reportinator.md)
 - [Azure 101](Christmas-Island/Azure-101.md)
+  ## Film Noir Island
+  - [KQL Kraken Hunt](Film-Noir-Island/KQL-Kraken-Hunt.md)
+  - [Na'an](Film-Noir-Island/Na-an.md)
+  - [Phish Detection Agency](Film-Noir-Island/Phish-Detection-Agency.md)
+    
