@@ -17,5 +17,7 @@ notice how at the end of the line the variable `singlePlayer` is set to `false`.
 ```txt
 window.location.href =
 ```
-and paste the text to be after the equal sign. Make sure to put the `'` marks at the beginning and the end of the text you just pasted. Then go to the end of the text and change `singlePlayer=false` to `singlePlayer=true`. Then press enter to execute your code and the browser will refresh. Once that happens, you will be greeted to the same welcome screem with the ready button. This time, click it. The game will start and a couple seconds later you will get a message that "
+and paste the text to be after the equal sign. Make sure to put the `'` marks at the beginning and the end of the text you just pasted. Then go to the end of the text and change `singlePlayer=false` to `singlePlayer=true`. Then press enter to execute your code and the window where the game is located will refresh. Once that happens, you will be greeted to the same welcome screem with the ready button. This time, click it. The game will start and a couple seconds later you will get a message that "Elf the dwarf has joined your team". 
+
+![](../images/Snowball-fight-part-3.jpg)
 
