@@ -15,3 +15,10 @@ We now must find the troll inside the troll. This can be accomplished with the `
 ```txt
 cat troll_19315479765589239
 ```
+After I executed the command, the result was:
+
+![](../images/Linux-101-part-4.png)
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-4.jpg)
