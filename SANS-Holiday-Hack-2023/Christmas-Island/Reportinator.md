@@ -15,6 +15,8 @@ Which resulted in this script:
 
 ![](../images/Reportinator-part-1.png)
 
+Heres a link to it: [Reportinator.js](../scripts/reportinator.js)
+
 I then went back to reportinator and inputed copied and pasted the script into the console, making sure that the console was set to the window that reportinator was in, not "top". I then executed the script and got the correct combination. I then inputted the corresponding flag for each finding per the correct combination value, and completed the challenge. 
 
 
