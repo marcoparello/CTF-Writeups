@@ -87,5 +87,54 @@ cat .bash_history
 After I executed the command, the result was
 
 ![](../images/Linux-101-part-13.png)
-a
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-8.jpg)
+
+In Linux, the `printenv` command is used to display the enironmental variables of the system. With this information, I typed:
+
+```txt
+printenv
+```
+
+After I executed the command, the result was
+
+![](../images/Linux-101-part-14.png)
+
+It's not exactly pretty. Eh we can't all be beautiful like MacOS I guess.
+
+Anyway with the abomination out of the way, I unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-9.jpg)
+
+We are now going to challenge directories. In order to change directories in Linux, use the `cd` command. For example, if you wanted to change from the "moo" directory to the "moomoo" directory, and the "moomoo" directory was in the same working directory as the current directory, you would use the command 
+
+```txt
+cd moomoo
+```
+
+You are now in the "moomoo" directory. If you wanted to go back on the directory chain, you would use
+
+```txt
+cd ..
+```
+
+Which would move you back one directory
+
+Using this information, I typed
+
+```txt
+cd workshop
+```
+I then used the `ls` command, as ls'ing after entering a new directory is like a second nature to me. I was greeted with
+
+![](../images/Linux-101-Challenge-10-Wall.jpg)
+
+Oh boy. Thats a lot of toolboxes
+
+I then unlocked the next challenge (well I did unlock it after I typed `cd workshop` )
+
+![](../images/Linux-101-Challenge-10.jpg)
+
 
