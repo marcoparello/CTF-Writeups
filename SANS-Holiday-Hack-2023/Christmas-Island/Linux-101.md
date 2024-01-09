@@ -53,3 +53,24 @@ pwd
 After I executed the command, the result was:
 
 ![](../images/Linux-101-part-7.png) 
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-6.jpg)
+
+In order to display hidden files in Linux, use the `ls` command with the `-a` flag. The `-a` includes hidden files and directories in the output of the `ls` command. For example, lets say we have 2 files in the "cow" directory. One of them is named "moo1.jpg" while the other is named "moo2.jpg". The file "moo1.jpg" is a non-hidden file, while "moo2.jpg" is a hidden file. If we execute the `ls` command, only moo1.jpg will be displayed in the output despite the existence of moo2. However, if we executed 
+
+```txt
+ls -a
+```
+
+The output would include both "moo1.jpg" and "moo2.jpg"
+
+Therefore, I typed
+
+```txt
+ls -a
+```
+After I executed the command, the result was
+
+![](../images/Linux-101-part-8.png)
