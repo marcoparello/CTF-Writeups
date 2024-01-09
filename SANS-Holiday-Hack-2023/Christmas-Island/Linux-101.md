@@ -7,7 +7,13 @@ To start the gauntlet, we must type `yes` on our keyboard and hit the `enter` ke
 
 ![](../images/Linux-101-Challenge-2.jpg)
 
-In linux, the `ls` command lists all the files in a directory. Since the task is to perform a directory listing of the home directory, we can assume that the `ls` command is the answer. So type `ls` on the keyboard and the result is:
+In linux, the `ls` command lists all the files in a directory. Since the task is to perform a directory listing of the home directory, we can assume that the `ls` command is the answer. For example, if we were in a directory called dummy and we wanted to see all the files in dummy, we would execute 
+```txt
+ls dummy
+```
+and the output would be the files that are in dummy.
+
+So type `ls` on the keyboard and the result is:
 
 ![](../images/Linux-101-part-3.png)
 
@@ -22,3 +28,28 @@ After I executed the command, the result was:
 I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-4.jpg)
+
+In order to remove a file in Linux, the `rm` command is used. The `rm` command only works if the file that is to be removed is in the current working directory. Let's say that we had a file named "notavirusiswear.exe" and we wanted to remove it from our system. We would execute the command
+```txt
+rm notavirusiswear.exe
+```
+which would remove the file. If we used the `ls` command before, it would show that the "notavirusiswear.exe" is still in the directory. However, after we executed the `rm notavirusiswear.exe` and then executed the `ls` command, "notavirusiswear.exe" would be gone.
+
+With my understanding of the `rm` command, I typed
+
+```txt
+rm troll_19315479765589239
+```
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-5.jpg)
+
+In order to print the present working directory in Linux, the `pwd` command is used. For example, if we were working in the "idea" directory, executing the command `pwd` would result in "idea" being printed to the terminal. Therefore, I simply typed
+
+```txt
+pwd
+```
+After I executed the command, the result was:
+
+![](../images/Linux-101-part-7.png) 
