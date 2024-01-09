@@ -84,4 +84,8 @@ In Linux, your command history is stored in the `.bash_history` file. `bash_hist
 ```txt
 cat .bash_history
 ```
-After I executed the command,
+After I executed the command, the result was
+
+![](../images/Linux-101-part-13.png)
+a
+
