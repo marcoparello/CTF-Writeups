@@ -73,4 +73,15 @@ ls -a
 ```
 After I executed the command, the result was
 
-![](../images/Linux-101-part-8.png)
+![](../images/Linux-101-part-12.png)
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-7.jpg)
+
+In Linux, your command history is stored in the `.bash_history` file. `bash_history` is a hidden file so it has a `.` at the start. As a result, it can only be seen with `ls -a` command if the user usese `ls` to list files on their system. Since the `.bash_history` file in the system we are currently working on is in the same working directory as we are, I simply type:
+
+```txt
+cat .bash_history
+```
+After I executed the command,
