@@ -137,4 +137,40 @@ I then unlocked the next challenge (well I did unlock it after I typed `cd works
 
 ![](../images/Linux-101-Challenge-10.jpg)
 
+This challenge requires the `grep` command to be used. The `grep` command searches for patterns in text. If found, it highlights the patterns in it's output. That is the default `grep` behavior without using any flags.  However, it also has optional flags that you can chain to do a lot of crazy searches. In order to solve the challenge, I typed:
+
+```txt
+grep -Rin "troll" .
+```
+The `-Rin` flag is a combination of the `-R`, `-i`, and `-n` flags for `grep`. The `-R` flag performs a recursive search, aka looking through the current directory and it's subdirectory. It will only stop once there aren't any more directories to traverse. The `-i` flag tells `grep` to perform a case-insensitive search, meaning that casing doesn't matter. As long as `grep` finds patterns that match the words for the target query, it will highlight the pattern. The `-n` flag tells `grep` to display number lines in it's output. I didn't have to put this flag in but I wanted to because it looked nice. Finally the `.` tells `grep` to start the search in the current directory. After I executed `grep -Rin "troll"`, the result was:
+
+![](../images/Linux-101-part-10.png)
+
+Which unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-11.jpg)
+
+Since the `present_engine` binary file is already in our `/usr/local/bin` directory (I checked it before while trying to solve this challenge originally), we don't have to do multiple `cd ..` or `cd` commands to go the directory where `present_engine` is located. Since binary files almost always never have execute permissions by default, I typed:
+
+`chmod +x present_engine`
+
+The `chmod` command changes permissions for files. The `+x` flag adds the "execute" permission to a file, allowing the file to be run by the user. Finally, `present_engine` is the target file for chmod. Now that `present_engine` is an executable file, I type:
+
+`./present_engine`
+
+The `./` command in Linux is used to run executable files from the current directory. Since `present_engine` is in the `/usr/local/bin` directory, we can run it from any location in our system. Because we want to run `present_engine` from the current directory, we use the aformentioned command. After I ran `./present_engine` command, I unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-12.jpg)
+
+To solve this, I simply typed:
+
+```txt
+cd electrical
+```
+
+Which immediately unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-13.jpg)
+
+
 
