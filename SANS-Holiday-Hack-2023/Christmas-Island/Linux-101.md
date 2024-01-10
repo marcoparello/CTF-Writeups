@@ -162,15 +162,49 @@ The `./` command in Linux is used to run executable files from the current direc
 
 ![](../images/Linux-101-Challenge-12.jpg)
 
-To solve this, I simply typed:
+To solve this, I first typed:
 
 ```txt
 cd electrical
 ```
 
+The `mv` command in linux is used for moving files and directories, but it also can be used to rename files. The syntax for renaming files is as follows: `mv <oldname> <newname>`. Using this information, I typed:
+
+```txt
+mv blown_fuse0 fuse0
+```
+
 Which immediately unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-13.jpg)
+
+A symlink in Linux is basically a shortcut in Windows. In order to create a symlink, we must use the `ln -s` command. The `ln` command creates links to files in Linux, while the `-s` flag tells `ln` to make the link a symlink. Using this information, I typed the command:
+
+```txt
+ln -s fuse0 fuse1
+```
+Which immediately unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-14.jpg)
+
+In Linux, the `cp` command is used to copy files. The syntax is as follows `cp <original_file> <copy_file>`. Using this information, I typed:
+
+```txt
+cp fuse1 fuse2
+```
+Which immediately unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-15.jpg)
+
+The `echo >>` command is used to add text to a file in Linux. The `echo` command is used to output text in the terminal, while the `>>` option signifies appending an output to a file. Using this information, I typed:
+
+```txt
+echo TROLL_REPELLENT >> fuse2
+```
+Which immediately unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-16.jpg)
+
 
 
 
