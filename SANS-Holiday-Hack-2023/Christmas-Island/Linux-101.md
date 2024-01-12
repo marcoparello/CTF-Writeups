@@ -242,6 +242,74 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-18.jpg)
 
+Note include explanation later
+
+```txt
+find . -size +108k -size -110k
+```
+
+![](../images/Linux-101-part-24.png)
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-19.jpg)
+
+Note include explanation later
+
+```txt
+ps -ef
+```
+
+![](../images/Linux-101-part-25.png)
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-20.jpg)
+
+Note include explanation later
+
+```txt
+netstat -ntl
+```
+
+![](../images/Linux-101-part-26.png)
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-21.jpg)
+
+Note include explanation later
+
+```txt
+curl 127.0.0.1:54321
+```
+
+![](../images/Linux-101-part-27.png)
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-22.jpg)
+
+Note include explanation later
+
+```txt
+pkill 14516_troll
+```
+
+![](../images/Linux-101-part-28.png)
+
+I then unlocked the next "challenge"
+
+![](../images/Linux-101-Challenge-23.jpg)
+
+Note include explanation later
+
+```txt
+exit
+```
+
+Done
+
 
 
 
