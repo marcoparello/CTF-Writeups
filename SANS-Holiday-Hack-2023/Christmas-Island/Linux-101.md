@@ -283,23 +283,27 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-21.jpg)
 
-Note include explanation later
+Since I want to interact with a server, I will need to use the `curl` command. The `curl` command in Linux is a way to interact with servers over the internet. Think of it like a text-based web browser. You can download files, get information, and send data to a server using `curl`. So I typed:
 
 ```txt
 curl 0.0.0.0:54321
 ```
 
-![](../images/Linux-101-part-27.png)
+The `0.0.0.0` is the ip address of the server that we want to interact with. The `:54321` specifies the port of the server. After I executed the command, the output was:
+
+![](../images/Linux-101-Curl.jpg)
 
 I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-22.jpg)
 
-Note include explanation later
+Since we only know the name of the `14516_troll` processes and not it's process id, we will use the `pkill` command. The `pkill` command in Linux is used to stop (kill) a process by specifying it's name, not it's PID. So I typed:
 
 ```txt
 pkill 14516_troll
 ```
+
+Which then ended 14516_troll's free trial of living. 
 
 ![](../images/Linux-101-part-28.png)
 
@@ -307,13 +311,13 @@ I then unlocked the next "challenge"
 
 ![](../images/Linux-101-Challenge-23.jpg)
 
-Note include explanation later
+Simple. Its time for me to make my `exit`.
 
 ```txt
 exit
 ```
 
-Done
+Done. The gauntlet is finished. 
 
 
 
