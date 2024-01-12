@@ -35,6 +35,17 @@ Since `link` is a column in the `Email` table, and the case description gave me 
 Email
 | where link == 'http://madelvesnorthpole.org/published/search/MonthlyInvoiceForReindeerFood.docx'
 ```
+This KQL searches the `Email` table for the value in the `link` column that is **exactly** equal to the string "http://madelvesnorthpole.org/published/search/MonthlyInvoiceForReindeerFood.docx". The result obtained by the query was:
+
+![](../images/KQL-Kraken-Hunt-part-6.png)
+
+The image shows that the `sender` column contains the string "cwombley@gmail.com", the `recipient` column contains the string "alabaster_snowball@santaworkshopgeeseislands.org" (when double clicked on as it is too large to display with the current column length), and the `subject` column contains the string "[EXTERNAL] Invoice foir reindeer food past due". We now can answer the questions asked:
+
+`What is the email address of the employee who recieved this phishing email?  = alabaster_snowball@santaworkshopgeeseislands.org`
+
+`What is the email address that was used to send this spear phishing email? = cwombley@gmail.com`
+
+`What was the subject line used in the spear phishing email? = [EXTERNAL] Invoice foir reindeer food past due`
 
 ## Someone got phished! Let's dig deeper on the victim...
 ![](../images/KQL-Kraken-Hunt-Challenge-3.jpg)
