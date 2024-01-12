@@ -33,7 +33,7 @@ I then unlocked the next challenge:
 
 ![](../images/Azure-101-part-3.png)
 
-Since I didn't know anything about Azure, I went to the linked page. There I used "ctrl-f" to search for "list resource groups" and got:
+First I typed `q` to exit out of the page. Since I didn't know anything about Azure, I went to the linked page. There I used "ctrl-f" to search for "list resource groups" and got:
 
 ![](../images/Azure-101-part4.jpg)
 
@@ -44,5 +44,7 @@ az group list
 ```
 
 Which displayed:
+
+![](../images/Azure-101-output3.jpg)
 
 
