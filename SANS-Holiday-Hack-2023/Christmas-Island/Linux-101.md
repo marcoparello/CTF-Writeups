@@ -242,11 +242,13 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-18.jpg)
 
-Note include explanation later
+In order to do this, I typed:
 
 ```txt
 find . -size +108k -size -110k
 ```
+
+The `find` searches for files, the `.` specifies the current directory to be searched, the `-size` flag tells `find` to look for files that are a certain size, the `+108k` specifies to look for files that are greater than 108 kilobytes, the second `-size` flag sets the boundary for the max size, and the `-110k` specifies to look for files that are less than 110 kilobytes. After I executed the command, the result was:
 
 ![](../images/Linux-101-part-24.png)
 
@@ -254,11 +256,13 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-19.jpg)
 
-Note include explanation later
+The `ps` command is used to display current running processes. However, the `ps` command also has additional flags that can be used to expand or narrow the search. Using this information, I typed:
 
 ```txt
 ps -ef
 ```
+
+I chained the `-e` and `-f` flags together to create `-ef`. The `e` flag specifies **all** processes, not just the current running ones. The `-f` flag provides basically all the details about the process, like the parent-child relationship. The `-f` flag is very helpful for identifiying the specific commands or programs that are associated with each process, which is great if you want to find out the root cause of why a process is running. After I executed the command, the result was:
 
 ![](../images/Linux-101-part-25.png)
 
@@ -266,11 +270,12 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-20.jpg)
 
-Note include explanation later
+Since we need to display information surrounding networking, we need to use the `netstat` command. The netstat command in Linux is used to basically just display information about networking and network-related activities on the system. However, since we only want to display only active TCP listening ports, we will have to use the chained flag `-ntl`. The `-n` flag displays ip addresses and port numbers in a numeric form instead of resolving them to hostnames, which helps with speed and clarity. Also because I think it looks nicer. The `-t` flag filters the output of `netstat` to display only TCP connections. Finally, the `-l` flag filters the output of `netstat` to display only listening ports. When we combine the flags together we get `-ntl`. So I typed:
 
 ```txt
 netstat -ntl
 ```
+Which outputted:
 
 ![](../images/Linux-101-part-26.png)
 
