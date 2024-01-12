@@ -214,6 +214,34 @@ cd opt
 cd troll_den
 ```
 
+Since I needed to "find" a file that is a troll somewhere, I typed:
+
+```txt
+find -iname troll*
+```
+
+The `find` command in Linux is used to locate files. The `-iname` flag is used in `find` to specify that the casing of the word doesn't matter. As long as the characters are the same, count a file that contains the word as a match. Finally, the `troll*` portion looks for a file with the word "troll" in it, with the `*` being a wildcard (bascially any character or characters) that come after "troll". After I executed the command, the result was:
+
+![](../images/Linux-101-Extra-Screenshot.jpg)
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-17.jpg)
+
+Now I need to "find" the file in troll_den that is owned by the "user" troll. To do this, I typed:
+
+```txt
+find . -user troll
+```
+
+The `find` searches for files , the `.` specifies the current directory to be searches, the `-user` tells find to look for files owned by a specfic user, and `troll` specifices that user for which we are looking for their files. After I executed the command, the result was:
+
+![](../images/Linux-101-part-23.png)
+
+I then unlocked the next challenge:
+
+![](../images/Linux-101-Challenge-18.jpg)
+
 
 
 
