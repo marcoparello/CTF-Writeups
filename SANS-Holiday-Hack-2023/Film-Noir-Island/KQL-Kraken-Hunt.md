@@ -47,6 +47,12 @@ The image shows that the `sender` column contains the string "cwombley@gmail.com
 
 `What was the subject line used in the spear phishing email? = [EXTERNAL] Invoice foir reindeer food past due`
 
+I then submitted my answers into the answer column, and the result was:
+
+![](../images/KQL-Kraken-Hunt-part-19.png)
+
+Onto the next case!
+
 ## Someone got phished! Let's dig deeper on the victim...
 ![](../images/KQL-Kraken-Hunt-Challenge-3.jpg)
 
