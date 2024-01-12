@@ -286,7 +286,7 @@ I then unlocked the next challenge:
 Note include explanation later
 
 ```txt
-curl 127.0.0.1:54321
+curl 0.0.0.0:54321
 ```
 
 ![](../images/Linux-101-part-27.png)
