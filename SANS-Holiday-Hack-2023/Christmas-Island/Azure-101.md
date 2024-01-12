@@ -35,3 +35,14 @@ I then unlocked the next challenge:
 
 Since I didn't know anything about Azure, I went to the linked page. There I used "ctrl-f" to search for "list resource groups" and got:
 
+![](../images/Azure-101-part4.jpg)
+
+Using this information, I typed: 
+
+```txt
+az group list
+```
+
+Which displayed:
+
+
