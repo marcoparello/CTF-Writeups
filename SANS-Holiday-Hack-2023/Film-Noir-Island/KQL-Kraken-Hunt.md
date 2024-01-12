@@ -18,4 +18,5 @@ The query looked in the `Employees` table. In the table it looked in the `role` 
 ![](../images/KQL-Kraken-Hunt-part-3.png)
 
 Apparently this is an "NFT" badge (remember those). Not sure why exactly but i'll take it. Anyway since creditionals from Credly can be added to my Linkedin creditionals section, I did what had to be done. 
-## 
+## Welcome to Operation Giftwrap: Defending the Geese Island network
+
