@@ -30,6 +30,12 @@ For this case, I need to find:
 
 `What was the subject line used in the spear phishing email?`
 
+Since `link` is a column in the `Email` table, and the case description gave me a malicious link, I typed this KQL query:
+```txt
+Email
+| where link == 'http://madelvesnorthpole.org/published/search/MonthlyInvoiceForReindeerFood.docx'
+```
+
 ## Someone got phished! Let's dig deeper on the victim...
 ![](../images/KQL-Kraken-Hunt-Challenge-3.jpg)
 
