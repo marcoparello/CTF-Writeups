@@ -205,6 +205,16 @@ Which immediately unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-16.jpg)
 
+Remember earlier when I said at least we don't have to run multiple `cd` or `cd..` commands. Yeah. Anywhere in order to get to /opt/troll_den, I typed:
+```txt
+cd ..
+cd ..
+cd ..
+cd opt
+cd troll_den
+```
+
+
 
 
 
