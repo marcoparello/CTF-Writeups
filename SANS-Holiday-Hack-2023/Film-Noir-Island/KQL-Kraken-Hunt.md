@@ -48,6 +48,41 @@ For this case, I need to find:
 
 `What file is dropped to Alabaster's machine shortly after he downloads the malicious file?`
 
+## A compromised host! Time for a deep dive.
+
+For this case, I need to find:
+
+`The attacker created an reverse tunnel connection with the compromised machine. What IP was the connection forwarded to?`
+
+`What is the timestamp when the attackers enumerated network shares on the machine?`
+
+`What was the hostname of the system the attacker moved laterally to?`
+
+## A hidden message
+
+For this case, I need to find:
+
+`When was the attacker's first base64 encoded PowerShell command executed on Alabaster's machine?`
+
+`What was the name of the file the attacker copied from the fileshare? (This might require some additional decoding)`
+
+`The attacker has likely exfiltrated data from the file share. What domain name was the data exfiltrated to?`
+
+## The final step!
+
+For this case, I need to find:
+
+`What is the name of the executable the attackers used in the final malicious command?`
+
+`What was the command line flag used alongside this executable?`
+
+## Congratulations!
+
+For this "case", I need to enter:
+
+`print base64_decode_tostring('QmV3YXJlIHRoZSBDdWJlIHRoYXQgV29tYmxlcw==')`
+
+
 
 
 
