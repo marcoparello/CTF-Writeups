@@ -31,6 +31,7 @@ For this case, I need to find:
 `What was the subject line used in the spear phishing email?`
 
 ## Someone got phished! Let's dig deeper on the victim...
+![](../images/KQL-Kraken-Hunt-Challenge-3.jpg)
 
 For this case, I need to find:
 
@@ -41,6 +42,7 @@ For this case, I need to find:
 `What is the source IP linked to the victim?`
 
 ## That's not good. What happened next?
+![](../images/KQL-Kraken-Hunt-Challenge-4.jpg)
 
 For this case, I need to find:
 
@@ -49,6 +51,7 @@ For this case, I need to find:
 `What file is dropped to Alabaster's machine shortly after he downloads the malicious file?`
 
 ## A compromised host! Time for a deep dive.
+![](../images/KQL-Kraken-Hunt-Challenge-5.jpg)
 
 For this case, I need to find:
 
@@ -59,6 +62,7 @@ For this case, I need to find:
 `What was the hostname of the system the attacker moved laterally to?`
 
 ## A hidden message
+![](../images/KQL-Kraken-Hunt-Challenge-6.jpg)
 
 For this case, I need to find:
 
@@ -69,6 +73,7 @@ For this case, I need to find:
 `The attacker has likely exfiltrated data from the file share. What domain name was the data exfiltrated to?`
 
 ## The final step!
+![](../images/KQL-Kraken-Hunt-Challenge-7.jpg)
 
 For this case, I need to find:
 
@@ -77,6 +82,7 @@ For this case, I need to find:
 `What was the command line flag used alongside this executable?`
 
 ## Congratulations!
+![](../images/KQL-Kraken-Hunt-Challenge-8.jpg)
 
 For this "case", I need to enter:
 
