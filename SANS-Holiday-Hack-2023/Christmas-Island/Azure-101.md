@@ -47,4 +47,53 @@ Which displayed:
 
 ![](../images/Azure-101-output3.jpg)
 
+I then unlocked the next challenge:
+
+![](../images/Azure-101-part-5.png)
+
+I didn't find a command that worked, so I asked ChatGPT:
+
+![](../images/Azure-101-part-7.png)
+
+It responded with
+
+![](../images/Azure-101-part-8.png)
+
+Using this information I typed:
+
+```txt
+az functionapp list --resource-group northpole-rg2
+```
+Which was denied. So I changed my command to be:
+```txt
+az functionapp list --resource-group northpole-rg1
+```
+Which resulted in:
+
+![](../images/Azure-101-output4.jpg)
+
+I then unlocked the next challenge:
+
+![](../images/Azure-101-part-9.png)
+
+I then looked at the Azure documentation, where I found this command:
+
+![](../images/Azure-101-part-13.png)
+
+So I modified that command to be:
+```txt
+az vm run-command invoke -g northpole-rg2 -n NP-VM1 --command-id RunShellScript --scripts 'ls'
+```
+Which resulted in:
+
+![](../images/Azure-101-part-15.png)
+
+I then got:
+
+![](../images/Azure-101-part-16.png)
+
+Done.
+
+
+
 
