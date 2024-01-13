@@ -71,7 +71,7 @@ Employees
 | where name has "alabaster"
 ```
 The result obtained by the query was:
-![](../images/KQL-Kraken-Hunt-part-20.png)
+![](../images/KQL-Kraken-Hunt-part-10.png)
 
 ## That's not good. What happened next?
 ![](../images/KQL-Kraken-Hunt-Challenge-4.jpg)
