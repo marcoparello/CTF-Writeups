@@ -64,6 +64,15 @@ For this case, I need to find:
 
 `What is the source IP linked to the victim?`
 
+Since I know that the name of the employee is "alabaster" and the table `Employees` has a name column, I typed this KQL query:
+
+```txt
+Employees
+| where name has "alabaster"
+```
+The result obtained by the query was:
+![](../images/KQL-Kraken-Hunt-part-20.png)
+
 ## That's not good. What happened next?
 ![](../images/KQL-Kraken-Hunt-Challenge-4.jpg)
 
