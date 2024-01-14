@@ -216,6 +216,24 @@ I noticed that some of the text looked backwards. So I added the `Reverse` optio
 
 The attackers are copying the NaughtyNiceList! That's not good. Well at least I now have my answers for two of the questions.
 
+`When was the attacker's first base64 encoded PowerShell command executed on Alabaster's machine? = 2023-12-24T16:07:47Z`
+
+`What was the name of the file the attacker copied from the fileshare? (This might require some additional decoding) = NaughtyNiceList.txt`
+
+I then decoded the remaining powershell commands, but none of them came up with a domain. So I went back to the drawing board. I realized two things: 
+1. I should refine my search to be after the first powershell command was executed by the attackers. In the event that two commands were somehow executed at the same time, I should also include the timestamp when the attackers executed the first powershell command.
+2. Since using "powershell" as the process_name isn't finding the domain name, why not use cmd?
+I then proceeded to type a new KQL query
+
+```txt
+ProcessEvents
+| where timestamp >= datetime(2023-12-15T11:20:14Z)
+| where process_name has "cmd.exe"
+| where hostname has "Y1US-DESKTOP"
+```
+
+
+
 
 
 
