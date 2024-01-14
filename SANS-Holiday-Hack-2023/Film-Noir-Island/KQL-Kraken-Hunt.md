@@ -49,7 +49,7 @@ The image shows that the `sender` column contains the string "cwombley@gmail.com
 
 I then submitted my answers into the answer column, and the result was:
 
-![](../images/KQL-Kraken-Hunt-part-19.png)
+![](../images/KQL-Kraken-Hunt-part-12.png)
 
 Onto the next case!
 
@@ -83,7 +83,7 @@ Looking at the entry, I saw that the in the `role` column contains the string "H
 
 I then submitted my answers into the answer column, and the result was:
 
-![](../images/KQL-Kraken-Hunt-part-19.png)
+![](../images/KQL-Kraken-Hunt-part-12.png)
 
 Onto the next case!
 
