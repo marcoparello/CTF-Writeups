@@ -96,6 +96,18 @@ For this case, I need to find:
 
 `What file is dropped to Alabaster's machine shortly after he downloads the malicious file?`
 
+To solve this, I first needed to figure out which table would contain the event when Alabaster clicked the malicious link. After thinking for a couple minutes, I realized that clicking a link to download a file would send a request to a server *outside* of the network. The server's response would then be sent *to* the network. With that realization, I typed the KQL query:
+
+```txt
+OutboundNetworkEvents
+| where src_ip has "10.10.0.4"
+```
+This query searches entries in the `OutboundNetworkEvents` table that have the string "10.10.0.4" in their `src_ip` column. After the entire table has been read, the result is then returned. Of course, since there were multiple entries, I had to scroll through the data for a bit before I encounted this entry:
+
+![](../images/KQL-Kraken-Hunt-part-15.png)
+
+Looking at the entry, I see that this was a GET request to a server. A GET request
+
 ## A compromised host! Time for a deep dive.
 ![](../images/KQL-Kraken-Hunt-Challenge-5.jpg)
 
