@@ -106,8 +106,19 @@ This query searches entries in the `OutboundNetworkEvents` table that have the s
 
 ![](../images/KQL-Kraken-Hunt-part-15.png)
 
-Looking at the entry, I see that this was a GET request to a server. A GET request
+Looking at the entry, I see that this was a GET request to a server. A GET request is used to request data from the server. From examination, I see that the link shows the phishing file `MonthlyInvoiceForReindeerFood.docx`. Since the phishing file is being requested by Alabster's ip_address to the server, I concluded that the timestamp shown in this entry must be the timestamp when Alabaster clicked on the malicious link. I then copied and pasted the timestamp into the answer box, which then displayed
 
+`What time did Alabaster click on the malicious link? Make sure to copy the exact timestamp from the logs! = 2023-12-02T10:12:42Z`
+
+I still had one question left to answer. Since there was a table named `FileCreationEvents`, I concluded that since after clicking a malicious link that would "drop" (create) a file on his machine, the answer must be in an entry in that table. So I typed the KQL query:
+
+```txt
+FileCreationEvents
+| where username has "alsnowball"
+```
+This query searches the `FileCreationEvents` table for entries that have the string "alsnowball" in the `username` column. After all of the entries have been searched, the result is displayed. Since there were a lot of matching entries, I had to look through the data for a bit before I encounted this entry:
+
+![](../images/KQL-Kraken-Hunt-part-17.png)
 ## A compromised host! Time for a deep dive.
 ![](../images/KQL-Kraken-Hunt-Challenge-5.jpg)
 
