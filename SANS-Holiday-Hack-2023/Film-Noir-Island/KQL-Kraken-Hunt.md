@@ -119,6 +119,16 @@ FileCreationEvents
 This query searches the `FileCreationEvents` table for entries that have the string "alsnowball" in the `username` column. After all of the entries have been searched, the result is displayed. Since there were a lot of matching entries, I had to look through the data for a bit before I encounted this entry:
 
 ![](../images/KQL-Kraken-Hunt-part-17.png)
+
+Looking at the entry, I saw that the file `giftwrap.exe` was created by `explorer.exe`. Since `giftwrap.exe` sounds like a malicious file, and all the other entries had non-malicious files (like word documents and what not), I concluded that `giftwrap.exe` was the malicious file that was "dropped" to Alabaster's machine after he clicked the malicious link. Therefore:
+
+`What file is dropped to Alabaster's machine shortly after he downloads the malicious file? = giftwrap.exe`
+
+I then submitted my answers, and the result was:
+
+![](../images/KQL-Kraken-Hunt-part-12.png)
+
+Onto the next case!
 ## A compromised host! Time for a deep dive.
 ![](../images/KQL-Kraken-Hunt-Challenge-5.jpg)
 
