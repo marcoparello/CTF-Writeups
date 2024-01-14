@@ -263,7 +263,33 @@ For this case, I need to find:
 
 Using my last query, I continued to decode the powershell commands until I came across:
 
-![](../imagexz
+![](../images/KQL-Kraken-Hunt-part-50.png)
+
+Which I copied and pasted into cyberchef with the `From Base64` option:
+
+![](../images/KQL-Kraken-Hunt-part-51.png)
+
+Let's try a closer look 
+
+![](../images/KQL-Kraken-Hunt-part-52.png)
+
+Oh no. 
+
+On the bright side I got the answers to the questions (yay?):
+
+`What is the name of the executable the attackers used in the final malicious command? = downwithsanta.exe`
+
+`What was the command line flag used alongside this executable? = --wipeall`
+
+I submitted my answers, and the result was:
+
+![](../images/KQL-Kraken-Hunt-part-54.png)
+
+Hey another NFT Credly badge! Hopefully the market doesn't crash before the challenge becomes available. That would suck wouldn't it? Anyway I put my entire life savings into NFT's let me check their value right now. Oh no. 
+
+Note - Hopefully Santa Claus has working backups because those files are *GONE*
+
+
 
 
 ## Congratulations!
