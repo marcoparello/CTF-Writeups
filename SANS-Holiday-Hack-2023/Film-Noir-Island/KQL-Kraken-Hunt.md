@@ -154,12 +154,34 @@ When I expanded the command, I saw that a source address was being forwarded to 
 
 `The attacker created an reverse tunnel connection with the compromised machine. What IP was the connection forwarded to? = 113.37.9.17`
 
-I still have two questions left. Since this entry was when the attackers used a reverse tunnel connection, they must have enumerated network shares later. Therefore I used the timestamp from the entry to create this KQL query:
+I still have two questions left. Since this entry was when the attackers used a reverse tunnel connection, they must have enumerated network shares later. I also know that the cmd command `net share` enumerates network shares. Therefore I used the timestamp from the entry to create this KQL query:
 
 ```txt
 ProcessEvents
 | where timestamp > datetime(2023-12-02T11:11:29Z)
 ```
+This query looks for entries in the `ProcessEvents` table that have a timestamp in the `timestamp` column that is greater than "2023-12-02T11:11:29Z". Again, since there were a lot of entries, (looking back it was probably better to make more specific entries) I had to do some digging through the data before this entry came up:
+
+![](../images/KQL-Kraken-Hunt-part-26.png)
+
+Since this entry was the only usage of the `net share` command from the filtered data, I had my answer:
+
+`What is the timestamp when the attackers enumerated network shares on the machine? = 2023-12-02T16:51:44Z`
+
+One question left. Now I just need to find the hostname of the system the attacker moved laterally to. I looked through the data. But nothing came up. Any hostname that I entered was inccorect. Then I realized something: a server is a hostname. I remembered this entry that I found while I was searching using the same KQL query as before:
+
+![](../images/KQL-Kraken-Hunt-part-27.png)
+
+The usage of the cmd commands to access (move to)  `NorthPolefileshare` gave it away. The hostname that I was looking for wasn't in the `hostname` column of the entry. Instead, it was hiding in plain sight the whole time. The attackers are using Alabaster's computer to access the NorthPolefileshare server. Therefore:
+
+`What was the hostname of the system the attacker moved laterally to? = NorthPolefileshare`
+
+I submitted my answers, and the result was:
+
+![](../images/KQL-Kraken-Hunt-part-12.png)
+
+Onto the next case!
+
 
 
 ## A hidden message
@@ -173,6 +195,14 @@ For this case, I need to find:
 
 `The attacker has likely exfiltrated data from the file share. What domain name was the data exfiltrated to?`
 
+Using my knowledge that "cmd.exe" was in the "ProcessEvents" table, the computer that is being used by the attackers is "Y1US-DESKTOP", and powershell can encode commands, I typed the KQL query:
+
+```txt
+ProcessEvents
+| where hostname has "Y1US-DESKTOP"
+| where process_name has "powershell.exe"
+```
+
 ## The final step!
 ![](../images/KQL-Kraken-Hunt-Challenge-7.jpg)
 
@@ -181,6 +211,7 @@ For this case, I need to find:
 `What is the name of the executable the attackers used in the final malicious command?`
 
 `What was the command line flag used alongside this executable?`
+
 
 ## Congratulations!
 ![](../images/KQL-Kraken-Hunt-Challenge-8.jpg)
