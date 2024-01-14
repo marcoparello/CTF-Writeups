@@ -73,6 +73,20 @@ Employees
 The result obtained by the query was:
 ![](../images/KQL-Kraken-Hunt-part-10.png)
 
+Looking at the entry, I saw that the in the `role` column contains the string "Head Elf". Additionally, the `hostname` column contains the string "Y1US-DESKTOP". Finally, the `ip_addr` column contains the address "10.10.0.4". With this information, we now can answer the questions asked:
+
+`What is the role of our victim in the organization? = Head Elf`
+
+`What is the hostname of the victim's machine? = Y1US-DESKTOP`
+
+`What is the source IP linked to the victim? = 10.10.0.4`
+
+I then submitted my answers into the answer column, and the result was:
+
+![](../images/KQL-Kraken-Hunt-part-19.png)
+
+Onto the next case!
+
 ## That's not good. What happened next?
 ![](../images/KQL-Kraken-Hunt-Challenge-4.jpg)
 
