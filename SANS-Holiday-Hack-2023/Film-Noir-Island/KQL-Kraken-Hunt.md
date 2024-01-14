@@ -140,6 +140,28 @@ For this case, I need to find:
 
 `What was the hostname of the system the attacker moved laterally to?`
 
+From past experience, I know that the `cmd` process can be used to create a reverse tunnel connection. Additonally, the reverse tunnel connection was made using Alabaster's machine, so the hostname would be `Y1US-DESKTOP`. I then typed the KQL query:
+
+```txt
+ProcessEvents
+| where hostname has "Y1US-DESKTOP"
+```
+This query looks at the entries in the `ProcessEvents` table which have the string "Y1US-DESKTOP" in their `hostname` column. After all the entires in the table are checked, the result is returned. Looking at the entires that were returned, I came across this "interesting" entry:
+
+![](../images/KQL-Kraken-Hunt-part-22.png)
+
+When I expanded the command, I saw that a source address was being forwarded to `113.37.9.17`. To make sure that this was the correct answer, I skimmed through all of the other entries. I couldn't find any other similar command in the entires that were returned by my query, so I inputted this answer:
+
+`The attacker created an reverse tunnel connection with the compromised machine. What IP was the connection forwarded to? = 113.37.9.17`
+
+I still have two questions left. Since this entry was when the attackers used a reverse tunnel connection, they must have enumerated network shares later. Therefore I used the timestamp from the entry to create this KQL query:
+
+```txt
+ProcessEvents
+| where timestamp > datetime(2023-12-02T11:11:29Z)
+```
+
+
 ## A hidden message
 ![](../images/KQL-Kraken-Hunt-Challenge-6.jpg)
 
