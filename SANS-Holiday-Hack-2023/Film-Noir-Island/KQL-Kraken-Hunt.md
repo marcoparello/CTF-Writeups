@@ -231,13 +231,27 @@ ProcessEvents
 | where process_name has "cmd.exe"
 | where hostname has "Y1US-DESKTOP"
 ```
+This query searches the `ProcessEvents` table for entries that have a timestamp in the `timestamp` column that is greater than or equal to the timestamp (basically at or after the time) 2023-12-15T11:20:14Z. Additionally, the entry must contain the string "cmd.exe" in the process_name column. Finally, the `hostname` column must contain the string "Y1US-DESKTOP". After all entries in the table have been searched, the results are returned. This is a great example of a more specific KQL query. Interestingly, this query returned some powershell commands, which I decoded. When I came across this powershell command:
 
+![](../images/KQL-Kraken-Hunt-part-41.png)
 
+The string of text looked interesting. So I copied and pasted it into cyberchef with the `From Base64` option, which resulted in:
 
+![](../images/KQL-Kraken-Hunt-part-42.png)
 
+Which is an ASCII array. Interesting. Since `decode.fr` can convert ASCII characters to text, I decided to go there. So I then copied and pasted the array into decode's ASCII converter, which resulted in:
 
+![](../images/KQL-Kraken-Hunt-part-43.png)
 
+Ladies and gentlemen, we got him. I now have the answer to the last question:
 
+`The attacker has likely exfiltrated data from the file share. What domain name was the data exfiltrated to? = giftbox.com`
+
+I then submitted my answers, and the result was:
+
+![](../images/KQL-Kraken-Hunt-part-12.png)
+
+Onto the last case!
 ## The final step!
 ![](../images/KQL-Kraken-Hunt-Challenge-7.jpg)
 
@@ -246,6 +260,10 @@ For this case, I need to find:
 `What is the name of the executable the attackers used in the final malicious command?`
 
 `What was the command line flag used alongside this executable?`
+
+Using my last query, I continued to decode the powershell commands until I came across:
+
+![](../imagexz
 
 
 ## Congratulations!
