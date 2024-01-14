@@ -96,7 +96,7 @@ For this case, I need to find:
 
 `What file is dropped to Alabaster's machine shortly after he downloads the malicious file?`
 
-To solve this, I first needed to figure out which table would contain the event when Alabaster clicked the malicious link. After thinking for a couple minutes, I realized that clicking a link to download a file would send a request to a server *outside* of the network. The server's response would then be sent *to* the network. With that realization, I typed the KQL query:
+To solve this, I first needed to figure out which table would contain the event when Alabaster clicked the malicious link. After thinking for a couple minutes, I realized that clicking a link to download a file would send a request to a server **outside** of the network. The server's response would then be sent **to** the network. With that realization, I typed the KQL query:
 
 ```txt
 OutboundNetworkEvents
@@ -287,7 +287,7 @@ I submitted my answers, and the result was:
 
 Hey another NFT Credly badge! Hopefully the market doesn't crash before the challenge becomes available. That would suck wouldn't it? Anyway I put my entire life savings into NFT's let me check their value right now. Oh no. 
 
-Note - Hopefully Santa Claus has working backups because those files are *GONE*
+Note - Hopefully Santa Claus has working backups because those files are **GONE**
 
 
 
@@ -298,6 +298,20 @@ Note - Hopefully Santa Claus has working backups because those files are *GONE*
 For this "case", I need to enter:
 
 `print base64_decode_tostring('QmV3YXJlIHRoZSBDdWJlIHRoYXQgV29tYmxlcw==')`
+
+As a KQL query. So I did, and the result was:
+
+![](../images/KQL-Kraken-Hunt-part-57.png)
+
+I then went to the objectives page, and entered 
+
+`Beware the Cube that Wombles`
+
+I then submitted it, and the result was:
+
+![](../images/KQL-Kraken-Hunt-part-58.png)
+
+Done
 
 
 
