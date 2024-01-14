@@ -202,6 +202,23 @@ ProcessEvents
 | where hostname has "Y1US-DESKTOP"
 | where process_name has "powershell.exe"
 ```
+This query looks in the `ProcessEvents` table to search for entries where the `hostname` column contains the string "Y1US-DESKTOP" and the `process_name` column contains the string "powershell.exe". The entire table is then searched. Once the last entry is searched, the results are displayed. There were a couple of Base64 encoded powershell commands as the results. To decode them, I used the website `cyberchef.com` with the option of `From Base64`. Most were red herrings, as they were non-malicious commands. Therefore they weren't done by the *attackers*. However, when I came across:
+
+![](../images/KQL-Kraken-Hunt-part-37.png)
+
+and put it into cyberchef
+
+![](../images/KQL-Kraken-Hunt-part-38.png)
+
+I noticed that some of the text looked backwards. So I added the `Reverse` option, which resulted in:
+
+![](../images/KQL-Kraken-Hunt-part-39.png)
+
+The attackers are copying the NaughtyNiceList! That's not good. Well at least I now have my answers for two of the questions.
+
+
+
+
 
 ## The final step!
 ![](../images/KQL-Kraken-Hunt-Challenge-7.jpg)
