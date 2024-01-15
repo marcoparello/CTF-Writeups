@@ -1,3 +1,12 @@
+# Preface
+![](../images/Faster-Lock.jpg)
+
+Challenge Description: Over on Steampunk Island, Bow Ninecandle is having trouble opening a padlock. Do some research and see if you can help open it!
+
+Location: Steampunk Island - Brass Bouy Port
+
+Difficulty: 2 out of 5 trees
+
 # Faster Lock Combination
 When I started the challenge, I noticed that the "Faster Lock"
 
