@@ -91,7 +91,7 @@ I then input `IluvC4ndyC4nes!`, and the result is:
 
 ![](../images/Hashcat-part-4.png)
 
-Done
+Done!
 
 
 
