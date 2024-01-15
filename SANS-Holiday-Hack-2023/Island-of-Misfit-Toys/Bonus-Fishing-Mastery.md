@@ -10,3 +10,11 @@ After "raging against the machine" for around an hour, I finally got a working s
 ![](../images/Bonus-Fishing-Mastery-part-2.png)
 
 [Autofishing script](../scripts/fishing-mastery.js)
+
+I then copied and pasted the script into the console (setting it to the window where the overworld is). I then executed the script, and sat back and relaxed. I let it run for a couple of hours, which I didn't mind as I went to a Christmas dinner at my uncle's house. Here is an example of the script in action:
+
+![](../images/Bonus-Fishing-Mastery-part-4.png)
+
+When I got home I checked my computer to see that I only needed to catch one more fish. The only issue was that this fish was the Piscis Cybernectus Skodo, which only spawns in **one** teeny tiny spot on the map. So I downlaoded the heatmap for the Pisics Cybernectus Skodo and the minimap. I then went to `imageonline.com` to overlay the minimap with the heatmap, seen here:
+
+![](../images/Bonus-Fishing-Mastery-part-10.png)
