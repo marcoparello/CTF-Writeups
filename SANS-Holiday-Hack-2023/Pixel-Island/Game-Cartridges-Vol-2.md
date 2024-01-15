@@ -35,5 +35,11 @@ It actually worked. I was actually surprised. I believe that the reason why I co
 
 ![](../images/Game-Cartridges-Vol-2-part-9.png)
 
-The radio played a noise that was **very** similar to morse code. So I used Sameboy's record feature to record the noise. I then edited it in ClipChamp so only the part where the morse code was playing would be in the video. I then converted the video to an mp3 file using
+The radio played a noise that was **very** similar to morse code. So I used Sameboy's record feature to record the noise. I then edited it in ClipChamp so only the part where the morse code was playing would be in recording. By using ClipChamp I made my recording a video, so I had to convert it into in audio format. I chose the MP3 audio format as it is widely used. I then converted the video to an mp3 file using the website `FreeConvert` and clicking on the link that said `MP4 to MP3 converter`. I then uploaded my modified MP4 file and then once that was converted to an MP3, downloaded it. I then went to the website `morsecode.world` that had a morse code decoder which would decode morse code from an audio file. I then uploaded my file and started the process. When the decoder finished decoding, the result was:
+
+![](../images/Game-Cartridges-Vol-2-part-10.png)
+
+Which is `GL0RY`.
+
+I then went to the challenge in my `Objectives` tab and entered `GL0RY` as my answer, which was correct!
 
