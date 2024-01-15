@@ -93,10 +93,14 @@ I then looked at the Azure documentation, where I found this command:
 
 ![](../images/Azure-101-part-13.png)
 
+This command allows for Azure to run commands via scripts.
+
 So I modified that command to be:
 ```txt
 az vm run-command invoke -g northpole-rg2 -n NP-VM1 --command-id RunShellScript --scripts 'ls'
 ```
+This command is instructing Azure to run the 'ls' command on the virtual machine named 'NP-VM1' in the resource group 'northpole-rg2' using the Azure CLI. I then executed the command.
+
 Which resulted in:
 
 ![](../images/Azure-101-part-15.png)
