@@ -7,5 +7,8 @@ I then went to the Hashcat wiki's "example hashes" page and found this hash:
 
 ![](../images/hashcat-example-hash.jpg)
 
-The example hash seems similar to the hash from `hash.txt`. 
+The example hash seems similar to the hash from `hash.txt`. So I then typed the command into the termianl:
+
+```txt
+hashcat -w 
 
