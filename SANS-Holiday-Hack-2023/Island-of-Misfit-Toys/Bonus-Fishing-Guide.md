@@ -17,4 +17,5 @@ This page is a "heatmap" that shows the spawn points of all the 171 fish. Each f
 
 ![](../images/Film-Noir-Head.jpg)
 
+So I directed my ship to the area circled in red, and kept casting and reeling until I caught 20 distinct fish. I then went back to the elf that gave me the challenge, and upon talking to him, completed the challenge. I then unlocked the next challenge, "Bonus! Fishing Mastery".
 
