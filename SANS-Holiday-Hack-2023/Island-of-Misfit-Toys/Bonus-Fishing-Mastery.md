@@ -23,10 +23,20 @@ I then went to the white spot on the minimap, and procceded to catch the Piscis 
 
 ![](../images/Bonus-Fishing-Mastery-part-5.png)
 
+My favorite. Yes all the fish were generated with AI how can you tell? I love the little alligator/iguana/winged/frog/snake "fish". It goes so hard.
+
 ![](../images/Bonus-Fishing-Mastery-part-6.png)
+
+Nightmare fuel - The fish
 
 ![](../images/Bonus-Fishing-Mastery-part-7.png)
 
+Kinda looks like those things from the Last of Us but with RGB gamer lighting (I say as I type from my Razer mechanical keyboard that is currently doing the rainbow effect). 
+
 ![](../images/Bonus-Fishing-Mastery-part-8.png)
 
+This one makes me feel happy. Like something from Candyland.
+
 ![](../images/Bonus-Fishing-Mastery-part-9.png)
+
+This one is the cutest. It looks like something I'd see at an amusement park gift shop. Or something that is very popular online to buy as a plush toy.
