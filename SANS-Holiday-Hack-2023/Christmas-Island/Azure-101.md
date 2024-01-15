@@ -1,11 +1,11 @@
 # Preface
 ![](../images/Azure-101.jpg)
 
-Challenge description: Help Sparkle Redberry with some Azure command line skills. Find the elf and the terminal on Christmas Island.
+Challenge Description: Help Sparkle Redberry with some Azure command line skills. Find the elf and the terminal on Christmas Island.
 
-Location : Christmas Island - Rudolph's Rest Resort
+Location: Christmas Island - Rudolph's Rest Resort
 
-Difficulty : 2 out of 5 trees
+Difficulty: 2 out of 5 trees
 
 
 
