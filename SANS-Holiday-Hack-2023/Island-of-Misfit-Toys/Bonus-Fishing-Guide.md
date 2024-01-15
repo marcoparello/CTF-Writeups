@@ -1,3 +1,13 @@
+# Preface
+![](../images/Fishing-Guide.jpg)
+
+Challenge Description: Catch twenty different species of fish that live around Geese Islands. When you're done, report your findings to Poinsettia McMittens on the Island of Misfit Toys.
+
+Location: Island of Misfit Toys - Squarewheel Yard
+
+Difficulty: 1 out of 5 trees
+
+
 # Bonus! Fishing Guide
 The first thing I did after I unlocked this challenge was to open up the Edge dev tools while sailing in the overworld. I then saw this in the elements tab:
 
