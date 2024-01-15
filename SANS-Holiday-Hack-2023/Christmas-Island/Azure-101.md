@@ -1,3 +1,16 @@
+# Preface
+![](../images/Azure-101.jpg)
+
+Challenge description: Help Sparkle Redberry with some Azure command line skills. Find the elf and the terminal on Christmas Island.
+
+Location : Christmas Island - Rudolph's Rest Resort
+
+Difficulty : 2 out of 5 trees
+
+
+
+
+
 # Azure 101
 Hey another 101 challenge. This time it is about Azure. Unfortunately for me, I don't know anything about Azure. But isn't that what CTF's are about, learning? Hopefully it doesn't take as long as Linux 101! Let's go.
 
