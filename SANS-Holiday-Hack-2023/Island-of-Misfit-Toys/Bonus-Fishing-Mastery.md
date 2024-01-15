@@ -9,4 +9,4 @@ After "raging against the machine" for around an hour, I finally got a working s
 
 ![](../images/Bonus-Fishing-Mastery-part-2.png)
 
-[Autofishing script](../scripts/
+[Autofishing script](../scripts/fishing-mastery.js)
