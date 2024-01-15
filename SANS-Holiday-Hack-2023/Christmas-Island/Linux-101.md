@@ -119,7 +119,7 @@ Anyway with the abomination out of the way, I unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-9.jpg)
 
-I now need directories. In order to change directories in Linux, use the `cd` command. For example, if I wanted to change from the "moo" directory to the "moomoo" directory, and the "moomoo" directory was in the same working directory as the current directory, I would use the command 
+I now need to change directories. In order to change directories in Linux, use the `cd` command. For example, if I wanted to change from the "moo" directory to the "moomoo" directory, and the "moomoo" directory was in the same working directory as the current directory, I would use the command 
 
 ```txt
 cd moomoo
@@ -131,7 +131,7 @@ I am now in the "moomoo" directory. If I wanted to go back on the directory chai
 cd ..
 ```
 
-Which would move you back one directory
+Which would move you back one directory.
 
 Using this information, I typed
 
@@ -142,7 +142,7 @@ I then used the `ls` command, as ls'ing after entering a new directory is like a
 
 ![](../images/Linux-101-Challenge-10-Wall.jpg)
 
-Oh boy. Thats a lot of toolboxes
+Oh boy. Thats a lot of toolboxes.
 
 I then unlocked the next challenge (well I did unlock it after I typed `cd workshop` )
 
@@ -216,7 +216,7 @@ Which immediately unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-16.jpg)
 
-Remember earlier when I said at least I don't have to run multiple `cd` or `cd..` commands. Yeah. Anywhere in order to get to /opt/troll_den, I typed:
+Remember what I said earlier about not having to do multiple `cd` or `cd ..` commands? Yeah. Anyway in order to get to /opt/troll_den, I typed:
 ```txt
 cd ..
 cd ..
