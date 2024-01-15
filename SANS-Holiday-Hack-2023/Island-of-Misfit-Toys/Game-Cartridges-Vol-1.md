@@ -12,5 +12,3 @@ Everyone knows that scanning random QR codes is safe. So I scanned it from my ph
 `santaconfusedgivingplanetsqrcode`
 
 I then inputted it into the challenge box, and completed the challenge. 
-
-Note- if that flag doesn't work try `flag:santaconfusedgivingplanetsqrcode`. 
