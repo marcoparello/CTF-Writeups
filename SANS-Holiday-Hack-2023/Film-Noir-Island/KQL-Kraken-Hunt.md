@@ -3,7 +3,7 @@
 
 Challenge Description: Use Azure Data Explorer to uncover misdeeds in Santa's IT enterprise. Go to Film Noir Island and talk to Tangle Coalbox for more information.
 
-Location : Film Noir Island - Gumshoe Alley PI Office
+Location: Film Noir Island - Gumshoe Alley PI Office
 
 Difficulty: 2 out of 5 trees
 
