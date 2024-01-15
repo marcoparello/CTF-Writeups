@@ -1,3 +1,12 @@
+# Preface
+![](../images/Naan.jpg)
+
+ Challenge Description: Shifty McShuffles is hustling cards on Film Noir Island. Outwit that meddling elf and win!
+
+ Location: Film Noir Island - Chiaroscuro City
+
+ Difficulty: 2 out of 5 trees
+ 
  # Na'an
  NaN in computing is basically not a valid number. In this challenge I am competing in a rigged game. Shifty the elf will always change his cards during the game so he **always** wins. Luckily for me, I have an ace up my sleeve..
 
