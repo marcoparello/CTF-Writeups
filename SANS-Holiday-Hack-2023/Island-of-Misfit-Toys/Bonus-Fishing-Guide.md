@@ -8,3 +8,9 @@ The "[DEV ONLY] Fish Density Reference" looks interesting. Since it is an `href`
 ```txt
 window.location.href = 'fishdensityref.html'
 ```
+
+I then executed the command, which resulted in:
+
+![](../images/Bonus-Fishing-Guide-part-5.png)
+
+This page is a "heatmap" that shows the spawn points of all the 171 fish.
