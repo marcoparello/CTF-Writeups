@@ -15,6 +15,6 @@ I then executed the command, which resulted in:
 
 This page is a "heatmap" that shows the spawn points of all the 171 fish. Each fish has an entry, where the white parts show where the fish spawns, and the black parts show where the fish doesn't spawn. Looking at the heat map of each of the fish, I noticed a pattern: the vast majority spawn at the head of "Film Noir Island", shown here:
 
-![](../images/minimap.png)
+![](../images/Film-Noir-Head.jpg)
 
 
