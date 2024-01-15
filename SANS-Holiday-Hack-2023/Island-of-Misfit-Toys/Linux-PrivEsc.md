@@ -1,3 +1,7 @@
+# Preface
+![](../images/Linux-Priv-Esc.jpg)
+
+
 # Linux PrivESC:
 When I first started the challenge, I was greeted with:
 
