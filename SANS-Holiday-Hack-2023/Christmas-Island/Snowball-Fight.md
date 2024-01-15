@@ -3,9 +3,9 @@
 
 Challenge Description: Visit Christmas Island and talk to Morcel Nougat about this great new game. Team up with another player and show Morcel how to win against Santa!
 
-Location : Christmas Island - Frosty's Beach
+Location: Christmas Island - Frosty's Beach
 
-Difficulty : 2 out of 5 trees
+Difficulty: 2 out of 5 trees
 
 
 
