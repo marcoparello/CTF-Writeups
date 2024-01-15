@@ -19,7 +19,7 @@ The game hints that there is a single-player mode. Of course, the game is curren
 
 ![](../images/Snowball-fight-part-2.jpg)
 
-Before you click the big red start button, open up the console in your browser devtools, and make sure that it is set to "\room" (I made this mistake way too often before I realized what I was doing wrong). Then, type 
+Before you click the big red start button, open up the console in your browser devtools, and make sure that it is set to "\room" (I made this mistake way too often before I realized what I was doing wrong). Then, type:
 ```txt
 window.location.href  
 ```
@@ -27,7 +27,7 @@ And you should get this output:
 
 ![](../images/Snowball-fight-part-1.jpg)
 
-notice how at the end of the line the variable `singlePlayer` is set to `false`. We want to change that if we want to access single-player mode. So copy and paste the entire text, then type 
+Notice how at the end of the line the variable `singlePlayer` is set to `false`. We want to change that if we want to access single-player mode. So copy and paste the entire text, then type:
 ```txt
 window.location.href =
 ```
