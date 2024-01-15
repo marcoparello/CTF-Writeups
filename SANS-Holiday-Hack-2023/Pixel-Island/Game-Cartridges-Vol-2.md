@@ -12,11 +12,11 @@ The second game cartridge game be found in Pixel Island, more specifically, Drif
 
 ![](../images/Game-Cartridges-Vol-2-part-1.png)
 
-Once you click where I am, the second game cartridge will be available for you to access in your inventory. I then started the game. I played through normally, but reached a roadblock where the character T-Wizz won't let you pass to the next area below hiim:
+Once you click where I am, the second game cartridge will be available for you to access in your inventory. I then started the game. I played through normally, but reached a roadblock where the character T-Wiz won't let you pass to the next area below hiim:
 
 ![](../images/Game-Cartridges-Vol-2-part-2.png)
 
-I then exited out of the game to see if anything changed if I played a new game. It did! While T-Wizz still won't let me pass, it is not to the area below. Instead, it is now in the area above:
+I then exited out of the game to see if anything changed if I played a new game. It did! While T-Wiz still won't let me pass, it is not to the area below. Instead, it is now in the area above:
 
 ![](../images/Game-Cartridges-Vol-2-part-3.png)
 
@@ -28,7 +28,7 @@ I had one of the two versions of that game. However it took a couple of refreshe
 
 ![](../images/Game-Cartridges-Vol-2-part-5.png)
 
-Got it. I then hopped onto my Kali Linux VM and installed the GhidraBoy plugin to enable Ghidra to reverse engineer the game boy roms. I then used to Ghidra to analyze `game0.gb`. While looking at the output, I found something that caught my attention:
+Got it. I then hopped onto my Kali Linux VM and installed the GhidraBoy plugin to enable Ghidra to reverse engineer the gameboy roms. I then used to Ghidra to analyze `game0.gb`. While looking at the output, I found something that caught my attention:
 
 ![](../images/Game-Cartridges-Vol-2-part-6.png)
 
@@ -40,7 +40,7 @@ I then saved the modified code as `game0mod.gb`, and proceeded to run it in `Sam
 
 ![](../images/Game-Cartridges-Vol-2-part-8.png)
 
-It actually worked. I was actually surprised. I believe that the reason why I could pass him is because when I changed the test in the game from "You shall not pass!!!" to "You shall pass!!!" it somehow broke his code so that he wouldn't display his text. When he displayed the text the game would force me to walk back. Now that the text isn't being displayed anymore, I now am able to access the next area. In the next area there was a building that I could access. I went there and inside of it was a radio and a robot named "ChatNPT"
+It actually worked. I was actually surprised. I believe that the reason why I could pass him is because when I changed the test in the game from "You shall not pass!!!" to "You shall pass!!!" it somehow broke his code so that he wouldn't display his text. When he displayed the text the game would force me to walk back. Now that the text isn't being displayed anymore, I now am able to access the next area. In the next area there was a building that I could access. I went there and inside of it was a radio and a robot named "ChatNPT":
 
 ![](../images/Game-Cartridges-Vol-2-part-9.png)
 
