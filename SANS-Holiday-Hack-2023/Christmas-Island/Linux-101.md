@@ -18,7 +18,7 @@ To start the gauntlet, I must type `yes` on my keyboard and hit the `enter` key.
 
 ![](../images/Linux-101-Challenge-2.jpg)
 
-In Linux, the `ls` command lists all the files in a directory. Since the task is to perform a directory listing of the home directory, I can assume that the `ls` command is the answer. For example, if I was in a directory called dummy and wanted to see all the files in dummy, I would execute 
+In Linux, the `ls` command lists all the files in a directory. Since the task is to perform a directory listing of the home directory, I can assume that the `ls` command is the answer. For example, if I was in a directory called dummy and wanted to see all the files in dummy, I would execute:
 ```txt
 ls dummy
 ```
@@ -40,13 +40,13 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-4.jpg)
 
-In order to remove a file in Linux, the `rm` command is used. The `rm` command only works if the file that is to be removed is in the current working directory. Let's say that I had a file named "notavirusiswear.exe" and I wanted to remove it from my system. I would execute the command
+In order to remove a file in Linux, the `rm` command is used. The `rm` command only works if the file that is to be removed is in the current working directory. Let's say that I had a file named "notavirusiswear.exe" and I wanted to remove it from my system. I would execute the command:
 ```txt
 rm notavirusiswear.exe
 ```
 which would remove the file. If I had used the `ls` command before, it would show that the "notavirusiswear.exe" is still in the directory. However, after I executed the `rm notavirusiswear.exe` and then executed the `ls` command, "notavirusiswear.exe" would be gone.
 
-With my understanding of the `rm` command, I typed
+With my understanding of the `rm` command, I typed:
 
 ```txt
 rm troll_19315479765589239
@@ -69,20 +69,20 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-6.jpg)
 
-In order to display hidden files in Linux, use the `ls` command with the `-a` flag. The `-a` includes hidden files and directories in the output of the `ls` command. For example, lets say I had 2 files in the "cow" directory. One of them is named "moo1.jpg" while the other is named "moo2.jpg". The file "moo1.jpg" is a non-hidden file, while "moo2.jpg" is a hidden file. If I executed the `ls` command, only moo1.jpg will be displayed in the output despite the existence of moo2. However, if I executed 
+In order to display hidden files in Linux, use the `ls` command with the `-a` flag. The `-a` includes hidden files and directories in the output of the `ls` command. For example, lets say I had 2 files in the "cow" directory. One of them is named "moo1.jpg" while the other is named "moo2.jpg". The file "moo1.jpg" is a non-hidden file, while "moo2.jpg" is a hidden file. If I executed the `ls` command, only moo1.jpg will be displayed in the output despite the existence of moo2. However, if I executed :
 
 ```txt
 ls -a
 ```
 
-The output would include both "moo1.jpg" and "moo2.jpg"
+The output would include both "moo1.jpg" and "moo2.jpg".
 
-Therefore, I typed
+Therefore, I typed:
 
 ```txt
 ls -a
 ```
-After I executed the command, the result was
+After I executed the command, the result was:
 
 ![](../images/Linux-101-part-12.png)
 
@@ -90,12 +90,12 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-7.jpg)
 
-In Linux, your command history is stored in the `.bash_history` file. `bash_history` is a hidden file so it has a `.` at the start. As a result, it can only be seen with `ls -a` command if the user usese `ls` to list files on their system. Since the `.bash_history` file in the system I am currently working on is in the same working directory as I am, I simply type:
+In Linux, your command history is stored in the `.bash_history` file. `bash_history` is a hidden file so it has a `.` at the start. As a result, it can only be seen with `ls -a` command if the user usese `ls` to list files on their system. Since the `.bash_history` file in the system I am currently working on is in the same working directory as that I currently am in, I simply type:
 
 ```txt
 cat .bash_history
 ```
-After I executed the command, the result was
+After I executed the command, the result was:
 
 ![](../images/Linux-101-part-13.png)
 
@@ -125,7 +125,7 @@ I now need to change directories. In order to change directories in Linux, use t
 cd moomoo
 ```
 
-I am now in the "moomoo" directory. If I wanted to go back on the directory chain, I would use
+I am now in the "moomoo" directory. If I wanted to go back on the directory chain, I would use:
 
 ```txt
 cd ..
@@ -133,18 +133,18 @@ cd ..
 
 Which would move you back one directory.
 
-Using this information, I typed
+Using this information, I typed:
 
 ```txt
 cd workshop
 ```
-I then used the `ls` command, as ls'ing after entering a new directory is like a second nature to me. I was greeted with
+I then used the `ls` command, as ls'ing after entering a new directory is like a second nature to me. I was greeted with:
 
 ![](../images/Linux-101-Challenge-10-Wall.jpg)
 
 Oh boy. Thats a lot of toolboxes.
 
-I then unlocked the next challenge (well I did unlock it after I typed `cd workshop` )
+I then unlocked the next challenge (well I did unlock it after I typed `cd workshop`):
 
 ![](../images/Linux-101-Challenge-10.jpg)
 
@@ -169,7 +169,7 @@ The `chmod` command changes permissions for files. The `+x` flag adds the "execu
 
 `./present_engine`
 
-The `./` command in Linux is used to run executable files from the current directory. Since `present_engine` is in the `/usr/local/bin` directory, I can run it from any location in my system. Because I want to run `present_engine` from the current directory, I used the aformentioned command. After I ran `./present_engine` command, I unlocked the next challenge:
+The `./` command in Linux is used to run executable files from the current directory. Since `present_engine` is in the `/usr/local/bin` directory, I can run it from any location in my system. Because I want to run `present_engine` from the current directory, I used the aforementioned command. After I ran `./present_engine` command, I unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-12.jpg)
 
@@ -179,7 +179,7 @@ To solve this, I first typed:
 cd electrical
 ```
 
-The `mv` command in linux is used for moving files and directories, but it also can be used to rename files. The syntax for renaming files is as follows: `mv <oldname> <newname>`. Using this information, I typed:
+The `mv` command in Linux is used for moving files and directories, but it also can be used to rename files. The syntax for renaming files is as follows: `mv <oldname> <newname>`. Using this information, I typed:
 
 ```txt
 mv blown_fuse0 fuse0
@@ -231,7 +231,7 @@ Since I needed to "find" a file that is a troll somewhere, I typed:
 find -iname troll*
 ```
 
-The `find` command in Linux is used to locate files. The `-iname` flag is used in `find` to specify that the casing of the word doesn't matter. As long as the characters are the same, count a file that contains the word as a match. Finally, the `troll*` portion looks for a file with the word "troll" in it, with the `*` being a wildcard (bascially any character or characters) that come after "troll". After I executed the command, the result was:
+The `find` command in Linux is used to locate files. The `-iname` flag is used in `find` to specify that the casing of the word doesn't matter. As long as the characters are the same, count a file that contains the word as a match. Finally, the `troll*` portion looks for a file with the word "troll" in it, with the `*` being a wildcard (basically any character or characters) that come after "troll". After I executed the command, the result was:
 
 ![](../images/Linux-101-Extra-Screenshot.jpg)
 
