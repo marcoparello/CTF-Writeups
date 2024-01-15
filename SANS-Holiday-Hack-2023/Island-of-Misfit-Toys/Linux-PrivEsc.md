@@ -74,6 +74,16 @@ su root2
 ```
 When asked for the password for the `su` user root2, I typed `mrcake` (WVLY0mgH0RtUI is mrcake encrypted as mentioned by the article that root2's password is mrcake). I then gained root access. Since I had to run the binary that was in the `/root` folder, I typed:
 
+```txt
+cd ..
+cd ..
+cd root
+ls
+```
+
+The output of the `ls` command showed me that binary in `/root` was named `runmetoanswer`. 
+
+
 
 
 
