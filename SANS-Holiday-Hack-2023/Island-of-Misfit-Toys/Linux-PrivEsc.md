@@ -33,4 +33,8 @@ After I executed the command, the result was:
 
 ![](../images/Linux-PrivEsc-part-4.png)
 
+Simplecopy has root read and write permissions. I then read the article *Linux Privilege Esclation using the SUID bit* by Rangeforce, where I found this interesting bit:
+
+
+
 
