@@ -58,7 +58,7 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-6.jpg)
 
-In order to display hidden files in Linux, use the `ls` command with the `-a` flag. The `-a` includes hidden files and directories in the output of the `ls` command. For example, lets say I had 2 files in the "cow" directory. One of them is named "moo1.jpg" while the other is named "moo2.jpg". The file "moo1.jpg" is a non-hidden file, while "moo2.jpg" is a hidden file. If we execute the `ls` command, only moo1.jpg will be displayed in the output despite the existence of moo2. However, if we executed 
+In order to display hidden files in Linux, use the `ls` command with the `-a` flag. The `-a` includes hidden files and directories in the output of the `ls` command. For example, lets say I had 2 files in the "cow" directory. One of them is named "moo1.jpg" while the other is named "moo2.jpg". The file "moo1.jpg" is a non-hidden file, while "moo2.jpg" is a hidden file. If I executed the `ls` command, only moo1.jpg will be displayed in the output despite the existence of moo2. However, if I executed 
 
 ```txt
 ls -a
@@ -79,7 +79,7 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-7.jpg)
 
-In Linux, your command history is stored in the `.bash_history` file. `bash_history` is a hidden file so it has a `.` at the start. As a result, it can only be seen with `ls -a` command if the user usese `ls` to list files on their system. Since the `.bash_history` file in the system we are currently working on is in the same working directory as we are, I simply type:
+In Linux, your command history is stored in the `.bash_history` file. `bash_history` is a hidden file so it has a `.` at the start. As a result, it can only be seen with `ls -a` command if the user usese `ls` to list files on their system. Since the `.bash_history` file in the system I am currently working on is in the same working directory as I am, I simply type:
 
 ```txt
 cat .bash_history
@@ -108,13 +108,13 @@ Anyway with the abomination out of the way, I unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-9.jpg)
 
-We are now going to challenge directories. In order to change directories in Linux, use the `cd` command. For example, if you wanted to change from the "moo" directory to the "moomoo" directory, and the "moomoo" directory was in the same working directory as the current directory, you would use the command 
+I now need directories. In order to change directories in Linux, use the `cd` command. For example, if I wanted to change from the "moo" directory to the "moomoo" directory, and the "moomoo" directory was in the same working directory as the current directory, I would use the command 
 
 ```txt
 cd moomoo
 ```
 
-You are now in the "moomoo" directory. If you wanted to go back on the directory chain, you would use
+I am now in the "moomoo" directory. If I wanted to go back on the directory chain, I would use
 
 ```txt
 cd ..
@@ -150,7 +150,7 @@ Which unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-11.jpg)
 
-Since the `present_engine` binary file is already in our `/usr/local/bin` directory (I checked it before while trying to solve this challenge originally), we don't have to do multiple `cd ..` or `cd` commands to go the directory where `present_engine` is located. Since binary files almost always never have execute permissions by default, I typed:
+Since the `present_engine` binary file is already in my `/usr/local/bin` directory (I checked it before while trying to solve this challenge originally), I don't have to do multiple `cd ..` or `cd` commands to go the directory where `present_engine` is located. Since binary files almost always never have execute permissions by default, I typed:
 
 `chmod +x present_engine`
 
@@ -158,7 +158,7 @@ The `chmod` command changes permissions for files. The `+x` flag adds the "execu
 
 `./present_engine`
 
-The `./` command in Linux is used to run executable files from the current directory. Since `present_engine` is in the `/usr/local/bin` directory, we can run it from any location in our system. Because we want to run `present_engine` from the current directory, we use the aformentioned command. After I ran `./present_engine` command, I unlocked the next challenge:
+The `./` command in Linux is used to run executable files from the current directory. Since `present_engine` is in the `/usr/local/bin` directory, I can run it from any location in my system. Because I want to run `present_engine` from the current directory, I used the aformentioned command. After I ran `./present_engine` command, I unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-12.jpg)
 
@@ -178,7 +178,7 @@ Which immediately unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-13.jpg)
 
-A symlink in Linux is basically a shortcut in Windows. In order to create a symlink, we must use the `ln -s` command. The `ln` command creates links to files in Linux, while the `-s` flag tells `ln` to make the link a symlink. Using this information, I typed the command:
+A symlink in Linux is basically a shortcut in Windows. In order to create a symlink, I must use the `ln -s` command. The `ln` command creates links to files in Linux, while the `-s` flag tells `ln` to make the link a symlink. Using this information, I typed the command:
 
 ```txt
 ln -s fuse0 fuse1
@@ -205,7 +205,7 @@ Which immediately unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-16.jpg)
 
-Remember earlier when I said at least we don't have to run multiple `cd` or `cd..` commands. Yeah. Anywhere in order to get to /opt/troll_den, I typed:
+Remember earlier when I said at least I don't have to run multiple `cd` or `cd..` commands. Yeah. Anywhere in order to get to /opt/troll_den, I typed:
 ```txt
 cd ..
 cd ..
@@ -270,7 +270,7 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-20.jpg)
 
-Since we need to display information surrounding networking, we need to use the `netstat` command. The netstat command in Linux is used to basically just display information about networking and network-related activities on the system. However, since we only want to display only active TCP listening ports, we will have to use the chained flag `-ntl`. The `-n` flag displays ip addresses and port numbers in a numeric form instead of resolving them to hostnames, which helps with speed and clarity. Also because I think it looks nicer. The `-t` flag filters the output of `netstat` to display only TCP connections. Finally, the `-l` flag filters the output of `netstat` to display only listening ports. When we combine the flags together we get `-ntl`. So I typed:
+Since I need to display information surrounding networking, I need to use the `netstat` command. The netstat command in Linux is used to basically just display information about networking and network-related activities on the system. However, since we only want to display only active TCP listening ports, we will have to use the chained flag `-ntl`. The `-n` flag displays ip addresses and port numbers in a numeric form instead of resolving them to hostnames, which helps with speed and clarity. Also because I think it looks nicer. The `-t` flag filters the output of `netstat` to display only TCP connections. Finally, the `-l` flag filters the output of `netstat` to display only listening ports. When we combine the flags together we get `-ntl`. So I typed:
 
 ```txt
 netstat -ntl
@@ -297,7 +297,7 @@ I then unlocked the next challenge:
 
 ![](../images/Linux-101-Challenge-22.jpg)
 
-Since we only know the name of the `14516_troll` processes and not it's process id, we will use the `pkill` command. The `pkill` command in Linux is used to stop (kill) a process by specifying it's name, not it's PID. So I typed:
+Since I only know the name of the `14516_troll` processes and not it's process id, I will use the `pkill` command. The `pkill` command in Linux is used to stop (kill) a process by specifying it's name, not it's PID. So I typed:
 
 ```txt
 pkill 14516_troll
