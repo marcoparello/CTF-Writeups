@@ -1,11 +1,11 @@
 # Preface
 ![](../images/Orientation.jpg)
 
-Challenge description: Talk to Jingle Ringford on Christmas Island and get your bearings at Geese Islands
+Challenge Description: Talk to Jingle Ringford on Christmas Island and get your bearings at Geese Islands
 
 Location: Christmas Island - Orientation
 
-Difficulty : 1 out of 5 trees
+Difficulty: 1 out of 5 trees
 
 
 
