@@ -1,3 +1,14 @@
+# Preface
+![](../images/Linux-101.jpg)
+
+Challenge description: Visit Ginger Breddie in Santa's Shack on Christmas Island to help him with some basic Linux tasks. It's in the southwest corner of Frosty's Beach.
+
+Location : Christmas Island - Santa's Surf Shack
+
+Difficulty : 1 out of 5 trees
+
+
+
 # Linux 101
 Oh boy this was a long one. With 22 tasks to complete (23 if you can't the exit task), it is a gauntlet. But without further to do, lets go!
 
