@@ -1,3 +1,13 @@
+# Preface
+![](../images/KQL-Kraken-Hunt.jpg)
+
+Challenge Description: Use Azure Data Explorer to uncover misdeeds in Santa's IT enterprise. Go to Film Noir Island and talk to Tangle Coalbox for more information.
+
+Location : Film Noir Island - Gumshoe Alley PI Office
+
+Difficulty: 2 out of 5 trees
+
+
 # KQL Kraken Hunt
 This had to be the challenge that took the longest for me to complete. It took a couple days. It is basically 5 challenges. Here we go
 
