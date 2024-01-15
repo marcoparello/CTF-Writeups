@@ -1,3 +1,14 @@
+# Preface
+![](../images/Fishing-Guide.jpg)
+
+Challenge Description: Catch at least one of each species of fish that live around Geese islands. When you're done, report your findings to Poinsettia McMittens.
+
+Location: Island of Misfit Toys - Squarewheel Yard
+
+Difficulty: 4 out of 5 trees
+
+
+
 # Bonus! Fishing Mastery
 Like in Pokemon, I now gotta catch them all (Nintendo please don't sue me)! Since there are 171 fish, it wouldn't be efficient for me to manually click the "cast" button and wait for "reel it in" button to turn red (indicating that a fish took the bait). Additonally, while fishing, the game is programmed to give duplicate catches. Therefore having to manually fish all 171 fish would take "only" 171 tries in the **best case** scenario. So, I went to my friend ChatGPT and gave them this prompt:
 
