@@ -5,7 +5,7 @@ Challenge Description: Noel Boetie used ChatNPT to write a pentest report. Go to
 
 Location: Christmas Island - Rudolph's Rest Resort
 
-Difficulty : 2 out of 5 trees
+Difficulty: 2 out of 5 trees
 
 
 # Reportinator
