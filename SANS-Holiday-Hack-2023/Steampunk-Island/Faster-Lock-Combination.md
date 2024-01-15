@@ -21,4 +21,10 @@ ChatGPT then wrote a script:
 
 [Unlock Script](../scripts/faster-lock.js)
 
+I then set the console to be in the window where the Faster-Lock-Combination challenge was operating, and then copied and pasted the script. I then executed the script, which:
+
+![](../images/Faster-Lock-Combination-part-6.png)
+
+Immediately unlocked the lock for me. With that, I completed the challenge.
+
 
