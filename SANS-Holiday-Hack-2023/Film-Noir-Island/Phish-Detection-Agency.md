@@ -1,3 +1,13 @@
+# Preface
+![](../images/Phish-Detection-Agency.jpg)
+
+Challenge Description: Fitzy Shortstack on Film Noir Island needs help battling dastardly phishers. Help sort the good from the bad!
+
+Location: Film Noir Island - The Blacklight District
+
+Difficulty: 2 out of 5 trees
+
+
 # Phish Detection Agency
 I first took screenshots of the DNS page:
 ![](../images/Phish-Detection-Agency-part-2.png)
