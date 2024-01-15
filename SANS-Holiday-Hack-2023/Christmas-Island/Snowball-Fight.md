@@ -1,5 +1,5 @@
 # Preface
-![](../images/Snowball-Hero.jpg)
+![](../images/Snowball-hero.jpg)
 
 Challenge Description: Visit Christmas Island and talk to Morcel Nougat about this great new game. Team up with another player and show Morcel how to win against Santa!
 
