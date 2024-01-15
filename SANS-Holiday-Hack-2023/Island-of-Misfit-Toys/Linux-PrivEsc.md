@@ -13,5 +13,24 @@ After I executed the command, the result was:
 
 ![](../images/Linux-PrivEsc-part-2.png)
 
+The simplecopy command seemed interesting. Since it had a sudo attribute set, I could theoretically use it to perform a linux privelege escalation attack by overwrititng the password file to give me root access. But first I needed to check if simplecopy had was an actual file copier, so I ran:
+
+```txt
+simplecopy
+```
+
+After I executed the command, the result was:
+
+`Usage: simplecopy <source> <destination>`
+
+So simplecopy is basically the `cp` command but with a SUID bit set. Now I only need to check if simplecopy has root read and write permissons. In order to do this, I typed:
+
+```txt
+ls -la /usr/bin/simplecopy
+```
+
+After I executed the command, the result was:
+
+![](../images/Linux-PrivEsc-part-4.png)
 
 
