@@ -1,5 +1,11 @@
 # Preface
-![](../images/Linux-Priv-Esc.jpg)
+![](../images/Linux-PrivEsc.jpg)
+
+Challenge Description: Rosemold is in Ostrich Saloon on the Island of Misfit Toys. Give her a hand with escalation for a tip about hidden islands.
+
+Location: Island of Misfit Toys - Ostrich Saloon
+
+Difficulty: 3 out of 5 trees
 
 
 # Linux PrivESC:
