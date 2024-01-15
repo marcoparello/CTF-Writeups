@@ -1,5 +1,14 @@
+# Preface
+Challenge Description: Find the second Gamegosling cartridge and beat the game
+
+Location: Pixel Island - Driftbit Grotto
+
+Difficulty: 3 out of 5 trees
+
+
+
 # Game Cartridges: Vol 2
-The second game cartridge game be found in Pixel Island, more specifically, DriftbitGrotto. In DriftbitGrotto, the location of the game cartridge is here:
+The second game cartridge game be found in Pixel Island, more specifically, Driftbit Grotto. In Driftbit Grotto, the location of the game cartridge is here:
 
 ![](../images/Game-Cartridges-Vol-2-part-1.png)
 
