@@ -1,3 +1,11 @@
+# Preface
+Challenge Description: Find the first Gamegosling cartridge and beat the game
+
+Location: Island of Misfit Toys - Tarnished Trove
+
+Difficulty: 1 out of 5 trees
+
+
 # Game Cartridges : Vol 1
 After talking to the elf that tells of "buried" treasure, he gives you a "game cartridge detector". There are 3 game cartridges hidden throughout the islands. Unfortuantely I only completed Vol 1 and Vol 2 before the competition period ended. Anyway, the first game cartridge can be found here:
 
