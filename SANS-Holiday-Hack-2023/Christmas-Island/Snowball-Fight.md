@@ -1,3 +1,15 @@
+# Preface
+![](../images/Snowball-Hero.jpg)
+
+Challenge Description: Visit Christmas Island and talk to Morcel Nougat about this great new game. Team up with another player and show Morcel how to win against Santa!
+
+Location : Christmas Island - Frosty's Beach
+
+Difficulty : 2 out of 5 trees
+
+
+
+
 # Snowball Fight
 In order to beat this challenge, you simply have to defeat Santa in a snowball fight with another player. No challenge here, simply play the game and win. Luckily, since I had around 350 hours in Monster Hunter World, I was very good at dodging the snowballs thrown by Santa. It was hard to take him down, but eventually, I was able to accomplish the task with another player. Turns out "git gud" is actually pretty good advice. 
 
