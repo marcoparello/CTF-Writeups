@@ -35,6 +35,19 @@ After I executed the command, the result was:
 
 Simplecopy has root read and write permissions. I then read the article *Linux Privilege Esclation using the SUID bit* by Rangeforce, where I found this interesting bit:
 
+![](../images/Linux-PrivEsc-part-5.png)
+
+Simplecopy can read and write. This could be the solution. I then continued to read:
+
+![](../images/Linux-PrivEsc-part-6.png)
+
+I then followed the instructions, and typed:
+
+```txt
+mkdir source
+cp /etc/passwd source/passwd
+echo 'root2:pass:
+
 
 
 
