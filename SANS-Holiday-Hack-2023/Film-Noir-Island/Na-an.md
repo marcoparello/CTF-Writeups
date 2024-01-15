@@ -18,7 +18,7 @@
 
  ![](../images/Naanpart2.png)
 
- This is where I have an ace up my sleeve. The program only checks if the number is a valid number **while** it is being entered. It doesn't check when the game actually starts to see if the number has changed. Also the game is stored on the client-side. Remember Snowball Fight? Since a NaN is not a number, we will **immediately** gain points, as the game isn't programmed to react correctly if the number input is NaN **during** the game. It will automatically default to the player win condition for the match. Since `play_card_selection(array_of_choices_as_csv)` stores the card value as a list, and there are 5 cards, we simple input in the console (as usual, make sure the console is set to the window where Na'an is being played or else this won't work):
+ This is where I have an ace up my sleeve. The program only checks if the number is a valid number **while** it is being entered. It doesn't check when the game actually starts to see if the number has changed. Also the game is stored on the client-side. Remember Snowball Fight? Since a NaN is not a number, we will **immediately** gain points, as the game isn't programmed to react correctly if the number input is NaN **during** the game. It will automatically default to the player win condition for the match. Since `play_card_selection(array_of_choices_as_csv)` stores the card value as a list, and there are 5 cards, I simpley input in the console (as usual, make sure the console is set to the window where Na'an is being played or else this won't work):
 
  ```
 play_card_selection([NaN,NaN,NaN,NaN,NaN])
