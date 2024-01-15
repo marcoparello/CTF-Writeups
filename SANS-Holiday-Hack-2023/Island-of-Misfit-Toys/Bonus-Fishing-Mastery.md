@@ -38,7 +38,7 @@ My favorite. Yes all the fish were generated with AI how can you tell? I love th
 
 ![](../images/Bonus-Fishing-Mastery-part-6.png)
 
-Nightmare fuel - The fish
+Nightmare fuel - The fish.
 
 ![](../images/Bonus-Fishing-Mastery-part-7.png)
 
