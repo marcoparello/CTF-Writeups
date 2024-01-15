@@ -25,4 +25,15 @@ Got it. I then hopped onto my Kali Linux VM and installed the GhidraBoy plugin t
 
 This is the code for the text that appears in game0 when you attempt to cross T-Wiz. Since it was "You shall not pass!!!", I wondered what would happen if I changed it to 
 
-![]
+![](../images/Game-Cartridges-Vol-2-part-7.png)
+
+I then saved the modified code as `game0mod.gb`, and proceeded to run it in `SameBoy`. Would this simple modification work?
+
+![](../images/Game-Cartridges-Vol-2-part-8.png)
+
+It actually worked. I was actually surprised. I believe that the reason why I could pass him is because when I changed the test in the game from "You shall not pass!!!" to "You shall pass!!!" it somehow broke his code so that he wouldn't display his text. When he displayed the text the game would force me to walk back. Now that the text isn't being displayed anymore, I now am able to access the next area. In the next area there was a building that I could access. I went there and inside of it was a radio and a robot named "ChatNPT"
+
+![](../images/Game-Cartridges-Vol-2-part-9.png)
+
+The radio played a noise that was **very** similar to morse code. So I used Sameboy's record feature to record the noise. I then edited it in ClipChamp so only the part where the morse code was playing would be in the video. I then converted the video to an mp3 file using
+
