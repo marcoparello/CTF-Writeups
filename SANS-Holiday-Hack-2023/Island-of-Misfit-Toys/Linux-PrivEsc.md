@@ -81,7 +81,24 @@ cd root
 ls
 ```
 
-The output of the `ls` command showed me that binary in `/root` was named `runmetoanswer`. 
+The output of the `ls` command showed me that binary in `/root` was named `runmetoanswer`. To run the binary, I typed:
+
+```txt
+./runmetoanswer
+```
+
+Which resulted in this prompt:
+
+```txt
+Who delivers Christmas presents?
+
+>
+```
+I first typed `Santa` as my answer, which was incorrect. So I reran the binary and entered `santa` as my answer, and the result was:
+
+![](../images/Linux-PrivEsc-part-10.png)
+
+Done.
 
 
 
