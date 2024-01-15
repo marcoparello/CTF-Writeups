@@ -18,3 +18,15 @@ I then copied and pasted the script into the console (setting it to the window w
 When I got home I checked my computer to see that I only needed to catch one more fish. The only issue was that this fish was the Piscis Cybernectus Skodo, which only spawns in **one** teeny tiny spot on the map. So I downlaoded the heatmap for the Pisics Cybernectus Skodo and the minimap. I then went to `imageonline.com` to overlay the minimap with the heatmap, seen here:
 
 ![](../images/Bonus-Fishing-Mastery-part-10.png)
+
+I then went to the white spot on the minimap, and procceded to catch the Piscis Cybernectus Skodo in 10 minutes. I then went back to the elf that gave me the challenge, and upon talking to him, completed it. Here are some of my favorite fish that I caught:
+
+![](../images/Bonus-Fishing-Mastery-part-5.png)
+
+![](../images/Bonus-Fishing-Mastery-part-6.png)
+
+![](../images/Bonus-Fishing-Mastery-part-7.png)
+
+![](../images/Bonus-Fishing-Mastery-part-8.png)
+
+![](../images/Bonus-Fishing-Mastery-part-9.png)
