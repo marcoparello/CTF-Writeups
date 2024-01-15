@@ -9,11 +9,11 @@ Difficulty: 2 out of 5 trees
 
 
 # KQL Kraken Hunt
-This had to be the challenge that took the longest for me to complete. It took a couple days. It is basically 5 challenges. Here we go
+This had to be the challenge that took the longest for me to complete. It took a couple days. It is basically 5 challenges. Here we go!
 
 ## Welcome to SANS Holiday Hack 2023!
 ![](../images/KQL-Kraken-Hunt-Challenge-1.jpg)
-To begin the challenge, I had to complete the onboarding portion. This meant I had to make an azure account, get a free cluster, and then type the commands instructed to me to set up the challenge. I didn't screenshot this for privacy concerns. After I finished the onboarding portion, the first task was to find: 
+To begin the challenge, I had to complete the onboarding portion. This meant I had to make an Azure account, get a free cluster, and then type the commands instructed to me to set up the challenge. I didn't screenshot this for privacy concerns. After I finished the onboarding portion, the first task was to find: 
 
 `How many Craftperson Elf's are working from laptops?`
 
@@ -24,7 +24,7 @@ Employees
 | where hostname has "LAPTOP"
 | summarize dcount(hostname)
 ```
-The query looked in the `Employees` table. In the table it looked in the `role` column for values that were equal to the string "Craftsperson Elf". Once that was done, it then sorted through that data to find values in the `hostname` column that contained the string "LAPTOP". Finally, it then summarized the amount of data by the unique hostname (dcount is distinct count. Only unique entries are counted). After this was done, the number 25 was outputted to me in the console. I then inputted 25 as my answer, and got a credly badge:
+The query looked in the `Employees` table. In the table it looked in the `role` column for values that were equal to the string "Craftsperson Elf". Once that was done, it then sorted through that data to find values in the `hostname` column that contained the string "LAPTOP". Finally, it then summarized the amount of data by the unique hostname (dcount is distinct count. Only unique entries are counted). After this was done, the number 25 was outputted to me in the console. I then inputted 25 as my answer, and got a Credly badge:
 
 ![](../images/KQL-Kraken-Hunt-part-3.png)
 
@@ -279,7 +279,7 @@ Which I copied and pasted into cyberchef with the `From Base64` option:
 
 ![](../images/KQL-Kraken-Hunt-part-51.png)
 
-Let's try a closer look 
+Let's try a closer look:
 
 ![](../images/KQL-Kraken-Hunt-part-52.png)
 
@@ -297,7 +297,7 @@ I submitted my answers, and the result was:
 
 Hey another NFT Credly badge! Hopefully the market doesn't crash before the challenge becomes available. That would suck wouldn't it? Anyway I put my entire life savings into NFT's let me check their value right now. Oh no. 
 
-Note - Hopefully Santa Claus has working backups because those files are **GONE**
+Note - Hopefully Santa Claus has working backups because those files are **GONE**.
 
 
 
