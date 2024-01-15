@@ -13,4 +13,4 @@ I then executed the command, which resulted in:
 
 ![](../images/Bonus-Fishing-Guide-part-5.png)
 
-This page is a "heatmap" that shows the spawn points of all the 171 fish.
+This page is a "heatmap" that shows the spawn points of all the 171 fish. Each fish has an entry, where the white parts show where the fish spawns, and the black parts show where the fish doesn't spawn.
