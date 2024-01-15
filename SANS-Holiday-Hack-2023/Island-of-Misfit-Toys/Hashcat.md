@@ -1,3 +1,14 @@
+# Preface
+![](../images/Hashcat.jpg)
+
+Challenge Description: Eve Snowshoes is trying to recover a password. Head to the Island of Misfit Toys and take a crack at it!
+
+Location: Island of Misfit Toys - Scaredy Kite Heights
+
+Difficulty: 2 out of 5 trees
+
+
+
 # Hashcat
 When I ran the challenge, I am greeted with:
 ```txt
