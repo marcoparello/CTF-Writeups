@@ -71,9 +71,17 @@ I then execute the modified command, and the result is:
 
 ![](../images/Hashcat-part-3.png)
 
-Hashcat has cracked the hash! The password is `IluvC4ndyC4nes`. However, I need to execute `\bin\runtoanswer` in order to submit my answer in order to complete the challenge. So I type:
+Hashcat has cracked the hash! The password is `IluvC4ndyC4nes!`. However, I need to execute `\bin\runtoanswer` in order to submit my answer in order to complete the challenge. So I type:
 
 ```txt
+\bin\runtoanswer\
+```
+I then input `IluvC4ndyC4nes!`, and the result is:
+
+![](../images/Hashcat-part-4.png)
+
+Done
+
 
 
 
