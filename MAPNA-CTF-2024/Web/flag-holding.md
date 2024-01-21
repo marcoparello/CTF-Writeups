@@ -39,7 +39,7 @@ Seems like I needed to be **Referred** from `http://flagland.internal/`. Therefo
 ```txt
 curl -H "Referer: http://flagland.internal/" http://18.184.219.56:8080/
 ```
-Simply put, this command is like asking a website for information but pretending you came from another website. The `-H "Referer: http://flagland.internal/"` infroms the server that the curl command is coming from the referring website `http://flagland.internal/`. The output of the command was:
+Simply put, this command is like asking a website for information but pretending you came from another website. The `-H "Referer: http://flagland.internal/"` informs the server that the curl command is coming from the referring website `http://flagland.internal/`. The output of the command was:
 ```txt
 <!DOCTYPE html>
 <html>
@@ -70,7 +70,7 @@ Looks like I need a secret to continue, so I typed:
 ```txt
 curl -H "Referer: http://flagland.internal/" http://18.184.219.56:8080?secret  
 ```
-The `?secret` portion sends the paramter `secret` to the server without any value. I did this to see if the server would give me anything if the secret was nothing. After I executed the command, the output was:
+The `?secret` portion sends the paramater `secret` to the server without any value. I did this to see if the server would give me anything if the value for the secret parameter was nothing. After I executed the command, the output was:
 ```txt
 <!DOCTYPE html>
 <html>
@@ -129,7 +129,7 @@ The `secret=HTTP` sends to the server the parameter `secret` with the value `HTT
 </body>
 </html>
 ```
-Since `GET` is an HTTP request method, I would need to use `curl` with the `-X` method, which specifies a request method. Request methods are **always** in full caps. Since `FLAG` is in all caps, I typed:
+Since `GET` is an HTTP request method, I would need to use `curl` with the `-X` method, which specifies a request method. Request methods are **always** in all caps. Since `FLAG` is in all caps, I typed:
 ```txt
 curl -X FLAG  -H "Referer: http://flagland.internal/" http://18.184.219.56:8080?secret=HTTP
 ```
@@ -160,7 +160,7 @@ After I executed the command, the output was:
 </body>
 </html>
 ```
-Theres the flag. I then entered:
+Theres the flag! I then entered:
 ```txt
 MAPNA{533m5-l1k3-y0u-kn0w-h77p-1836a2f}
 ```
