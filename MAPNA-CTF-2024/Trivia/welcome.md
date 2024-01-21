@@ -7,4 +7,4 @@ In order to solve this challenge, I simply inputted the flag:
 MAPNA{🚩_CTF_infoS3cV1ct0rY_@_MECO_MAPNA}
 ```
 
-Into the answer box.
+into the answer box.
