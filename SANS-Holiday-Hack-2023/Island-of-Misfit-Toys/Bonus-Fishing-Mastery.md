@@ -26,7 +26,7 @@ I then copied and pasted the script into the console (setting it to the window w
 
 ![](../images/Bonus-Fishing-Mastery-part-4.png)
 
-When I got home I checked my computer to see that I only needed to catch one more fish. The only issue was that this fish was the Piscis Cybernectus Skodo, which only spawns in **one** teeny tiny spot on the map. So I downlaoded the heatmap for the Pisics Cybernectus Skodo and the minimap. I then went to `imageonline.com` to overlay the minimap with the heatmap, seen here:
+When I got home I checked my computer to see that I only needed to catch one more fish. The only issue was that this fish was the Piscis Cybernectus Skodo, which only spawns in **one** teeny tiny spot on the map. So I downloaded the heatmap for the Pisics Cybernectus Skodo and the minimap. I then went to `imageonline.com` to overlay the minimap with the heatmap, seen here:
 
 ![](../images/Bonus-Fishing-Mastery-part-10.png)
 
