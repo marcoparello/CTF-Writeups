@@ -11,7 +11,7 @@ def main():
     print("your decrypted text:", plaintext)
 ```
 
-When we run the program, it asks us for what we think the key is, and then outputs a message that uses emojis. Therefore in order to solve this challenge we must reverse engineer the code so that we are able to obtain the flag from the encrypted message. Using chatgpt, I was able to create a script that reversed engineered the orginial code which took the encrypted text, the partial key and then outputed the actual key:
+When we run the program, it asks us for what we think the key is, and then outputs a message that uses emojis. Therefore in order to solve this challenge we must reverse engineer the code so that we are able to obtain the flag from the encrypted message. Using chatgpt, I was able to reverse engineere the orginial code to create a script that took the encrypted text, the partial key and then outputed the actual key:
 ```txt
 def decrypt_with_partial_key(encrypted, partial_key):
     decrypted = ''.join([chr(ord(c) ^ ord(partial_key[i % len(partial_key)])) for i, c in enumerate(encrypted)])
