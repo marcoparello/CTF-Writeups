@@ -4,4 +4,4 @@
 I only solved one challenge, but hey something is better than nothing
 
 ## Rev
-![](rev/emojis.md)
+[emoji](rev/emojis.md)
