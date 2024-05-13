@@ -1,7 +1,3 @@
-
-
-
-
 def decrypt_with_partial_key(encrypted, partial_key):
     decrypted = ''.join([chr(ord(c) ^ ord(partial_key[i % len(partial_key)])) for i, c in enumerate(encrypted)])
     return decrypted
