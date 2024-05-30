@@ -18,4 +18,4 @@ Yeah. Interesting fellow. Anyway the quote in particular has become a copypasta,
 
 ![](../images/copypasta-part-3.png)
 
-The flag is `flag{1f68e019b29650f6e8ea15a7808f76fd}`.
+The flag is `flag{1f68e019b29650f6e8ea15a7808f76fd}`. I then submitted the flag and completed the challenge. 
