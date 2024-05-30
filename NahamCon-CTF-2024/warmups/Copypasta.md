@@ -8,9 +8,14 @@ which is a netcat command (netcat is a tool that allows the user to read from an
 
 ![](../images/copypasta-part-2.png)
 
-This is a famous blog post by Richard Stallman, who acccording to Know Your Meme:
+on the command line.
 
-```txt
-Richard Stallman, often referred to by his webhandle rms, is the head and founder of the GNU Project, an online mass collaboration from which most Linux distributions draw their userspace from.
-Stallman is known for his fanatical dedication to free software, to the point that he accuses other contributors of being "traitorous",[5] and vehemently insists that people refer to all Linux distributions as "GNU/Linux".[6] Because of this, in many online communities, Stallman is often depicted as having a personality similar to a drug addict or a conspiracy theorist
-```
+This is a famous quote by Richard Stallman, who acccording to Know Your Meme:
+
+"Richard Stallman, often referred to by his webhandle rms, is the head and founder of the GNU Project, an online mass collaboration from which most Linux distributions draw their userspace from. Stallman is known for his fanatical dedication to free software, to the point that he accuses other contributors of being "traitorous", and vehemently insists that people refer to all Linux distributions as "GNU/Linux"."
+
+Yeah. Interesting fellow. Anyway the quote in particular has become a copypasta, which is a block of text that is copied and pasted on the internet for humor. Since this is a copypasta, I copied and pasted the text from the command line to an online notepad, which resulted in:
+
+![](../images/copypasta-part-3.png)
+
+The flag is `flag{1f68e019b29650f6e8ea15a7808f76fd}`.
