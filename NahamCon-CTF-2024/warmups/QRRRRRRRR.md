@@ -9,4 +9,4 @@ That is a long QR code. Longest I've ever seen. So I did some research on the in
 
 `flag{a44557e380e3baae9c21c738664c6142}`
 
-
+I then submitted the flag and solved the challenge.
