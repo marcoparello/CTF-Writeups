@@ -26,4 +26,4 @@ In retrospect I could've just used
 ```txt
 strings twine.jpg | grep "flag"
 ```
-As that would have immediatley printed out any printible characters within `twine.jpg` that contained the words `flag`, versus having to search through the entire output of the printable characters in the hopes of finding a flag. By using the `grep` command, I would have found the flag faster. If the flag wasn't in the strings output, I wouldn't have spent time analyzing the entire output, as if no matches to the word `flag` occured, nothing would be outputted. 
+As that would have immediateley printed out any printible characters within `twine.jpg` that contained the words `flag`, versus having to search through the entire output of the printable characters in the hopes of finding a flag. By using the `grep` command, I would have found the flag faster. If the flag wasn't in the strings output, I wouldn't have spent time analyzing the entire output, as if no matches to the word `flag` occured, nothing would be outputted. 
