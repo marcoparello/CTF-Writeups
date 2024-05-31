@@ -6,7 +6,7 @@ I first tried to decode `F#S<YRXdP0Fd=,%J4c$Ph7XV(gF/*]%C4B<qlH+%3xGHo)\` using 
 
 [BaseCrack](https://github.com/mufeedvh/basecrack?tab=readme-ov-file#installation)
 
-After I installed it I ran
+After I installed it I ran:
 ```txt
 python3 basecrack.py -m
 ```
