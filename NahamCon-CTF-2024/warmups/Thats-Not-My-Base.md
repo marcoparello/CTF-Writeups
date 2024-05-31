@@ -10,7 +10,13 @@ After I installed it I ran
 ```txt
 python3 basecrack.py -m
 ```
-In the folder where basecrack was installed. The `python3` command runs python scripts, which basecrack is. The `-m` flag is to set basecrack in `magic` mode, where it will automatically decode multi-encoded bases in one shot. I wasn't sure if the text was encoded multiple times, so 
+In the folder where basecrack was installed. The `python3` command runs python scripts, which basecrack is. The `-m` flag is to set basecrack in `magic` mode, where it will automatically decode multi-encoded bases in one shot. I wasn't sure if the text was encoded multiple times, so I decided that it would be best to run basecrack with the `-m` flag just in case. Basecrack then prompted me to enter the encoded base text, so I typed:
 
+```txt
+F#S<YRXdP0Fd=,%J4c$Ph7XV(gF/*]%C4B<qlH+%3xGHo)\
+```
+And executed. Basecrack than attempted to decode the string, and the result was:
 
 ![](../images/thats-not-my-base-part-2.png)
+
+I then submitted `flag{784454a9509196a33dba242c423c057a}` into the challenge box and solved the challenge.
