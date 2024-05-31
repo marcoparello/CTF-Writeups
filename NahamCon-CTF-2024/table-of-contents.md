@@ -11,11 +11,11 @@
 - [Twine](warmups/Twine.md)
 - [Uriel](warmups/Uriel.md)
 
-  ## Web
+## Web
   - [All About Robots](web/All-About-Robots.md)
   - [iDoor](web/iDoor.md)
 
-  ## Scripting
+## Scripting
   - [Base 3200](scripting/Base-3200.md)
 
 
