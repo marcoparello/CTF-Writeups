@@ -4,12 +4,12 @@ The file in question:
 
 ![](../images/twine-part-2.png)
 
-Since the file is an image, I can reasonably assume that this is an image steganography challenge. Steganography is the practice of hiding data in images. In a steganography challenge in a CTF, the hidden data is almost always the flag, or something that leads toward progressing deeper into the challenge, ulitimately leading toward the flag. In steganographyy challenges, I almost always use the 
+Since the file is an image, I can reasonably assume that this is an image steganography challenge. Steganography is the practice of hiding data in images. In a steganography challenge in a CTF, the hidden data is almost always the flag, or something that leads toward progressing deeper into the challenge, ulitimately leading toward the flag. In steganography challenges, I almost always use the: 
 
 ```txt
 strings
 ```
-command to see if the flag is hidden in the printable character output of the file. So I executed:
+command first to see if the flag is hidden in the printable character output of the file. So I executed:
 
 ```txt
 strings twine.jpg
@@ -22,7 +22,7 @@ The flag is:
 
 `flag{4ac54e3ba5f8f09049f3ad62403abb25}`
 
-In retrospect I could've just used 
+In retrospect I could've just used:
 
 ```txt
 strings twine.jpg | grep "flag"
