@@ -4,13 +4,13 @@ I clicked the link, which led me to a webpage that displayed:
 
 ![](../images/idoor-part-2.png)
 
-I tried looking through the source code and pressed all the buttons to see if anything would reveal the flag, but nothing came up. I then noticed something interesting in the url
+I tried looking through the source code and pressed all the buttons to see if anything would reveal the flag, but nothing came up. I then noticed something interesting in the URL:
 
 ![](../images/idoor-part-3.png)
 
 The challenge description mentioned the use of SHA256 hashing. So I put it into a SHA256 decoder online and got a decoded message of 11, which lines up with the customer id. I then wondered if I could “snoop” on different cameras by putting in different hashes?
 
-I inserted `4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5` (the SHA256 hash for 10) in the url where the SHA256 hash for 11 and pressed enter:
+I inserted `4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5` (the SHA256 hash for 10) in the URL where the SHA256 hash for 11 was and pressed enter:
 
 ![](../images/idoor-part-5.png)
 
