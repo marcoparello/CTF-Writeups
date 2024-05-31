@@ -12,6 +12,11 @@
 - [Uriel](warmups/Uriel.md)
 
   ## Web
+  - [All About Robots](web/All-About-Robots.md)
+  - [iDoor](web/iDoor.md)
+
+  ## Scripting
+  - [Base 3200](scripting/Base-3200.md)
 
 
 
