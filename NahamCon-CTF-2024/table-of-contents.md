@@ -1,3 +1,9 @@
 # NahamCon CTF 2024
-![](../images/nahamcon-certificate.png)
+![](images/nahamcon-certificate.png)
+
+## Warmups
+
+
+
+
 
