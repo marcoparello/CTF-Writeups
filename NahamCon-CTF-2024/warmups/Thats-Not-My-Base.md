@@ -7,6 +7,10 @@ I first tried to decode `F#S<YRXdP0Fd=,%J4c$Ph7XV(gF/*]%C4B<qlH+%3xGHo)\` using 
 [BaseCrack](https://github.com/mufeedvh/basecrack?tab=readme-ov-file#installation)
 
 After I installed it I ran
+```txt
+python3 basecrack.py -m
+```
+In the folder where basecrack was installed. The `python3` command runs python scripts, which basecrack is. The `-m` flag is to set basecrack in `magic` mode, where it will automatically decode multi-encoded bases in one shot. I wasn't sure if the text was encoded multiple times, so 
 
 
-![](../images/thats-not-may-base-part-2.png)
+![](../images/thats-not-my-base-part-2.png)
