@@ -5,4 +5,4 @@ My writeups for CTFs. I started doing writeups as of 1/5/24 so any CTF that I di
 - [Iris CTF 2024](Iris-CTF-2024/Table-of-Contents.md)
 - [Mapna CTF 2024](MAPNA-CTF-2024/Table-of-Contents.md)
 - [SDCTF 2024](SDCTF-2024/description.md)
-- [NahamCon CTF
+- [NahamCon CTF 2024](NahamCon-CTF-2024/table-of-contents.md)
