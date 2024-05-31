@@ -1,4 +1,4 @@
-#Technical Support
+# Technical Support
 ![](../images/technical-support-part-1.png)
 
 I joined the discord, and navigated to the ctf-open-ticket channel, which displayed:
