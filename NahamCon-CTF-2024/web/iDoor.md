@@ -29,3 +29,33 @@ Now knowing how to "snoop" on different cameras, I then decided to enter differe
 ![](../images/idoor-part-8.png)
 
 `4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a` (SHA256 hash value for 4):
+
+![](../images/idoor-part-9.png)
+
+`ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d` (SHA256 hash value for 5):
+
+![](../images/idoor-part-10.png)
+
+`e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683` (SHA256 hash value for 6):
+
+![](../images/idoor-part-11.png)
+
+`7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451` (SHA256 hash value for 7):
+
+![](../images/idoor-part-12.png)
+
+`2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3` (SHA256 hash value for 8):
+
+Displayed an error
+
+`19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7` (SHA256 hash value for 9):
+
+![](../images/idoor-part-13.png)
+
+Nothing came up. I was then stumped for quite a bit. I then realized I never tried inputting the SHA256 hash for 0, so:
+
+`5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9` (SHA256 hash value for 0)
+
+![](../images/idoor-part-14.png)
+
+I then submitted `flag{770a058a80a9bca0a87c3e2ebe1ee9b2}` into the challenge box and solved the challenge.
