@@ -1,7 +1,7 @@
 # Where Am I 1/3
 ![](../images/where-am-i-part-1.png)
 
-I downloaded the file, which displays this image:
+I downloaded the file, which displayed this image:
 
 ![](../images/where-am-i-part-2.png)
 
@@ -9,7 +9,7 @@ I used an online Exif viewer to see if the Exif location data was still in the i
 
 ![](../images/where-am-i-part-3.png)
 
-I clicked on one of the similar photos and found that that photo was taken in Lisbon, Portgual. However, I needed to find the name of the place in Lisbon so I searched 
+I clicked on one of the similar photos and found that that photo was taken in Lisbon, Portgual. However, I needed to find the name of the place in Lisbon so I searched:
 ```txt
 Lisbon Square with white lines
 ```
