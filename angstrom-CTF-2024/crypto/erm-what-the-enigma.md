@@ -7,7 +7,7 @@ This is the flag that needs to be decoded:
 brht{d_imhw_cexhrmwyy_lbvkvqcf_ldcz}
 ```
 
-Since the challenge name has the word `engima` in it, and it is a crypto challenge, I can reasonbly assume that in order to decode the flag I will have to use an engima decoder. However the engima machine has many settings that need to be tuned in order to work. If I accidentially set something wrong, I would get an incorrect decoding. So I scanned the the challenge text for clues, and came across this interesting snippet:
+Since the challenge name has the word `engima` in it, and it is a crypto challenge, I can reasonably assume that in order to decode the flag I will have to use an engima decoder. However the engima machine has many settings that need to be tuned in order to work. If I accidentially set something wrong, I would get an incorrect decoding. So I scanned the the challenge text for clues, and came across this interesting snippet:
 
 ![](../images/erm-what-the-enigma-part-2.png)
 
@@ -28,7 +28,7 @@ I then pasted
 ```txt
 brht{d_imhw_cexhrmwyy_lbvkvqcf_ldcz}
 ```
-in the decode section, which was automatically decoded to be:
+into the decode section, which was automatically decoded to be:
 
 ![](../images/erm-what-the-enigma-part-4.png)
 
