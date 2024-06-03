@@ -1,7 +1,7 @@
 # Web Cook
 ![](../images/web-cook-part-1.png)
 
-I click on the link, which takes me to this page:
+I clicked on the link, which took me to this page:
 
 ![](../images/web-cook-part-2.png)
 
@@ -23,7 +23,7 @@ After messing around with the website for a bit, I noticed that trying to resubm
 
 ![](../images/web-cook-part-4.png)
 
-But if you delete the website cookie and refresh the page, the message goes away and the page is displayed as normal. This points to the website using client-side validation, where the client computer is responsible for the validation of creditionals for the website. I opened up Burpsuite and used the Burpsuite browser to collect more information about the page. After some time I came across something interesting:
+But if you delete the website cookie and refresh the page, the message goes away and the page is displayed normally. This points to the website using client-side validation, where the client computer is responsible for the validation of creditionals for the website. I opened up Burpsuite and used the Burpsuite browser to collect more information about the page. After some time I came across something interesting:
 
 ![](../images/web-cook-part-5.png)
 
