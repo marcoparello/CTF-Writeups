@@ -1,7 +1,7 @@
 # Just Read
 ![](../images/just-read-part-1.png)
 
-I downloaded the file and opened it in Ghidra. While browersing through the reverse-engineered code, I noticed:
+I downloaded the file and opened it in Ghidra. While browsing through the reverse-engineered code, I noticed:
 
 ![](../images/just-read-part-2.png)
 
