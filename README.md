@@ -7,4 +7,4 @@ My writeups for CTFs. I started doing writeups as of 1/5/24 so any CTF that I di
 - [SDCTF 2024](SDCTF-2024/description.md)
 - [NahamCon CTF 2024](NahamCon-CTF-2024/table-of-contents.md)
 - [ångstromCTF](angstrom-CTF-2024/Table-Of-Contents.md)
-- [N0PSctf)](N0PSctf/table-of-contents.md)
+- [N0PSctf](N0PSctf/table-of-contents.md)
