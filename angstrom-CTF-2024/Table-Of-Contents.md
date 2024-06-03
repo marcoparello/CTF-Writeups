@@ -1,5 +1,7 @@
 # ångstromCTF
 
+![](images/angstromCTFbanner.png)
+
 ## misc
 
 ## web
