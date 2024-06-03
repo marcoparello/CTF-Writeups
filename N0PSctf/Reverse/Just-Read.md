@@ -5,7 +5,7 @@ I downloaded the file and opened it in Ghidra. While browersing through the reve
 
 ![](../images/just-read-part-2.png)
 
-The `{ }` point to this potentially being the flag, however everything is jumbled. So I copied and pasted the section of the code into an online notepad, and manually put together the text:
+The `{ }` points to this potentially being the flag, however everything is jumbled. So I copied and pasted the section of the code into an online notepad, and manually put together the text:
 
 ![](../images/just-read-part-3.png)
 
