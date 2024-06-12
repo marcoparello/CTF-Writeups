@@ -54,3 +54,5 @@ Burpsuite is a great tool for seeing all the traffic going in and out of a websi
 The inclusion of the word "sources" was a dead giveaway to check the sources tab in DevTools:
 
 ![](../images/sea-scavenger-part-14.png)
+
+Now with everything found, I submitted `bcactf{b3t_y0u_d1dnt_f1nd_th3_tre4sur3_t336e3}` and solved the challenge.
