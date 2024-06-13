@@ -3,19 +3,19 @@
 ![](../images/vinegar-times-3-part-1.png)
 
 
-Mentions French, so I looked up French cipher, which came up to be Vingenere Cipher. Using the key of vinegar, I was able to decrypt:
+Mentions French, so I looked up French cipher, which came up to be Vingenere Cipher. Using the key of vinegar, I was able to decrypt `mmqaonv` to:
 
 ```txt
 redwine
 ```
 
-I then used “redwine” as the key for Cipher 1, which resulted in: 
+I then used “redwine” as the key for Cipher 1 to decrypt `seooizmt`, which resulted in: 
 
 ```txt
 balsamic
 ```
 
-I then used “balsamic” as the key for Cipher 2, which resulted in: 
+I then used “balsamic” as the key for Cipher 2 to decrypt `bdoloeinbdjmmyg`, which resulted in: 
 
 ```txt
 addtosaladyummy
