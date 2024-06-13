@@ -46,6 +46,8 @@ Here is the full interaction:
 
 ![](../images/tic-tac-toe-part-12.png)
 
+I then submitted `bcactf{7h3_m4st3r_0f_t1ct4ct0e_678d52c8}` as the flag and solved the challenge.
+
 
 
 
