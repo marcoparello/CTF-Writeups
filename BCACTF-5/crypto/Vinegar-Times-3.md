@@ -9,13 +9,13 @@ Mentions French, so I looked up French cipher, which came up to be Vingenere Cip
 redwine
 ```
 
-I then used “redwine” as the key for Cipher 1 to decrypt `seooizmt`, which resulted in: 
+I then used “redwine” as the key to decrypt `seooizmt`, which resulted in: 
 
 ```txt
 balsamic
 ```
 
-I then used “balsamic” as the key for Cipher 2 to decrypt `bdoloeinbdjmmyg`, which resulted in: 
+I then used “balsamic” as the key to decrypt `bdoloeinbdjmmyg`, which resulted in: 
 
 ```txt
 addtosaladyummy
