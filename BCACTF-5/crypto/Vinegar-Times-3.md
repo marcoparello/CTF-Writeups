@@ -15,7 +15,7 @@ When I tried to use  `vinegar` again as the key to decrypt `seooizmt`, I only go
 balsamic
 ```
 
-I then used “balsamic” as the key to decrypt `bdoloeinbdjmmyg`, which resulted in: 
+Seems like I have to "chain" the decrypted message as the key for the following encrypted message. So, I used “balsamic” as the key to decrypt `bdoloeinbdjmmyg`, which resulted in: 
 
 ```txt
 addtosaladyummy
