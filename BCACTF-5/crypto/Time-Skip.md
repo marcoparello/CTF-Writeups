@@ -6,7 +6,7 @@ I downloaded the file and opened it:
 
 ![](../images/time-skip-part-2.png)
 
-I put the text into a cipher identifier, which identified that a scytale cipher was used to encode the text. I then put the text into a scytale cipher decoder:
+I put the text into a cipher identifier, which identified that a scytale cipher was used to encode the text. I then put the text into `dcode.fr`'s scytale cipher decoder:
 
 ![](../images/time-skip-part-3.png)
 
