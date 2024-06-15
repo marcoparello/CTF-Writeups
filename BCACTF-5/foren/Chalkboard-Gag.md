@@ -10,11 +10,11 @@ It’s 100001 lines of: "I WILL NOT BE SNEAKY". Anyway something is most likely 
 
 ![](../images/chalkboard-gag-part-3.png)
 
-So I used grep -v:
+So I used `grep -v "I WILL NOT BE SNEAKY" chalkboardgag.txt`. The `-v` flag tells `grep` to return what doesn't match, which is useful for finding small differences in a massive wall of text like the one shown in this challenge:
 
 ![](../images/chalkboard-gag-part-4.png)
 
-Theres the flag. Now lets manually extract it:
+Now I just have to clean it up a bit:
 
 ![](../images/chalkboard-gag-part-5.png)
 
