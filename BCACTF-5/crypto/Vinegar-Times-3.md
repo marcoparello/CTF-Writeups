@@ -3,13 +3,13 @@
 ![](../images/vinegar-times-3-part-1.png)
 
 
-Mentions French, so I looked up French cipher, which came up to be Vingenere Cipher, which led me to dcode.fr's vingenere cipher decoder. Using the key of vinegar, I was able to decrypt `mmqaonv` to:
+Mentions French, so I looked up French cipher, which came up to be Vingenere Cipher, which led me to `dcode.fr`'s vingenere cipher decoder. Using the key of vinegar, I was able to decrypt `mmqaonv` to:
 
 ```txt
 redwine
 ```
 
-I then used “redwine” as the key to decrypt `seooizmt`, which resulted in: 
+When I tried to use  `vinegar` again as the key to decrypt `seooizmt`, I only got gibberish as the result. So, I wondered what would happen if I used `redwine` as the key to decrypt `seooizmt`, which resulted in: 
 
 ```txt
 balsamic
