@@ -93,7 +93,7 @@ function performMouseSimulation(cycles, distance) {
 // Start the simulation with the desired number of iterations and radius
 performMouseSimulation(10000, 100000000000000000000000); // modified this part, changed from 100 to 100000000000000000000000. 
 ```
-I then copied and pasted the modified script to the console in DevTools, and then executed it. I then sat back and relaxed. When the spinner finally reached over 9999 spins, this popped up:
+I then copied and pasted the modified script to the console in DevTools, and then executed it. I then sat back and relaxed. When the spinner finally reached 10,000 spins, this popped up:
 
 ![](../images/spinner-part-5.png)
 
