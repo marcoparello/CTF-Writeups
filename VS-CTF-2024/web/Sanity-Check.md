@@ -13,4 +13,4 @@ I then open DevTools, and look through the webpage's source code, where I notice
 
 ![](../images/sanity-check-part-4.png)
 
-I then submit `vsctf{c0ngratulati0ns_y0u_viewed_the_s0urc3!...welcome_to_vsctf_2024!}` and solve the challenge.
+I then submitted `vsctf{c0ngratulati0ns_y0u_viewed_the_s0urc3!...welcome_to_vsctf_2024!}` and solved the challenge.
