@@ -1,4 +1,4 @@
-## US Cyber Games Beginner Game Room
+## Season 4 US Cyber Games Beginner Game Room
 ![](images/season-4-us-cyber-games-banner.png)
 
 ## Forensics
