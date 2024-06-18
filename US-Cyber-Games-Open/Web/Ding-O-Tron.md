@@ -37,5 +37,10 @@ in the console, which resulted in:
 
 ![](../images/ding-o-tron-part-6.png)
 
+The page itself displayed:
+
+![](../images/ding-o-tron-part-7.png)
+
+I then submitted `SIVUSCG{d1ng_d1ng_d1ng_d1ng}` and solved the challenge.
 
 
