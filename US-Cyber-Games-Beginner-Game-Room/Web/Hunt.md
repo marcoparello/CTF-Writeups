@@ -1,7 +1,7 @@
 # Hunt
 ![](../images/hunt-part-1.png)
 
-I click on the link and it takes me to this website:
+I click on the link, and it takes me to this website:
 
 ![](../images/hunt-part-2.png)
 
@@ -17,7 +17,7 @@ Now I have the first and second part of the flag. The `/secret-robot-spot` seems
 
 ![](../images/hunt-part-5.png)
 
-The robot moves around the web page. However, I do not see a flag. So I open Edge DevTools again to see if there is any flag hidden in the sources of the website. I notice `robot.js` on the sources page of DevTools, so I click on it and scroll through it when I notice:
+The robot moves around the web page. However, I do not see a flag. So I open Edge DevTools again to see if there is any flag hidden in the sources of the website. I notice `robot.js` on the sources page of DevTools, so, I click on it and scroll through it when I notice:
 
 ![](../images/hunt-part-6.png)
 
