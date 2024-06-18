@@ -42,7 +42,7 @@ Which then resulted in this websocket:
 
 ![](../images/tic-tac-toe-part-11.png)
 
-Here is the full interaction:
+This was the full interaction:
 
 ![](../images/tic-tac-toe-part-12.png)
 
