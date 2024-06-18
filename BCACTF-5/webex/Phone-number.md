@@ -1,4 +1,4 @@
-# Phone Number
+# Phone number
 ![](../images/phone-number-part-1.png)
 
 I click on the link, which takes me to this webpage:
