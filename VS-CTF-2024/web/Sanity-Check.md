@@ -5,7 +5,7 @@ I click on the link and it takes me to this webpage:
 
 ![](../images/sanity-check-part-2.png)
 
-However, when I try to right-click on the page to inspect element, nothing happens. I then try hitting F12 to open DevTools, but again nothing happens. Seems like the website blocks all user input. In order to get around this limitation, I click on the 3 dots located in the top right of Microsoft Edge's toolbar, from there I navigate to DevTools:
+However, when I try to right-click on the page to inspect element, nothing happens. I then try hitting F12 to open DevTools, but again nothing happens. Seems like the website blocks all user input. In order to get around this limitation, I click on the 3 dots located in the top right of Microsoft Edge's toolbar, and from there I navigate to DevTools:
 
 ![](../images/sanity-check-part-3.png)
 
