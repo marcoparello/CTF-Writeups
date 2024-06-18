@@ -6,4 +6,6 @@ I downloaded the included pcap file and opened it up in wireshark for analysis. 
 
 ![](../images/certified-part-4.png)
 
-The RSA private key in TLS is responsible.
+Know that I know the RSA private key, I can decrypt the TLS encrypted packets. I extracted the RSA private key and made it a `.pem` file, which I then imported as one of my RSA keys in Wireshark.
+
+![](../images/certified-part-6.png)
