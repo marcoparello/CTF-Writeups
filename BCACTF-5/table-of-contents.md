@@ -7,3 +7,9 @@
 ## foren
 - [23-719](foren/23-719.md)
 - [Chalkboard Gag](foren/Chalkboard-Gag.md)
+## misc
+- [This is NOT the flag](misc/This-is-NOT-the-flag.md)
+## webex
+- [Phone Number](webex/Phone-number.md)
+- [Sea Scavenger](webex/Sea-Scavenger.md)
+- [Tic Tac Toe](webex/Tic-Tac-Toe.md)
