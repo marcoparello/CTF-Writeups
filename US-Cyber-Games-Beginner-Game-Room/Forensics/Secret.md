@@ -2,7 +2,7 @@
 
 ![](../images/secret-part-1.png)  
 
-I download `secret.pdf` and open it using my Kali Linux vm's pdf viewer: 
+I download `secret.pdf` and open it using my Kali Linux VM's PDF viewer: 
 
 ![](../images/secret-part-2.png) 
 
