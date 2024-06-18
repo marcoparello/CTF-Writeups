@@ -6,7 +6,7 @@ I downloaded the file and opened it:
 
 ![](../images/this-is-not-the-flag-part-2.png)
 
-That kind of looks like Base64, so I used `dcode.fr`’s Base64 decoder with the brute force option turned on:
+From past experiences with text encodings in CTF's, I recognized that the text looked similar to the Base64 encoding. So, I used `dcode.fr`’s Base64 decoder with the brute force option turned on:
 
 ![](../images/this-is-not-the-flag-part-3.png)
 
