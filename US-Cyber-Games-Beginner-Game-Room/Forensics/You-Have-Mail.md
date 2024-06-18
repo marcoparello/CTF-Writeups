@@ -44,3 +44,4 @@ Into `dcode.fr`'s cipher identifier, which identifies the text to be ASCII encod
 
 ![](../images/you-have-mail-part-4.png)
 
+I then attempt to open evidence.zip again, and when it asks for a password, I enter `Secure_Code:Order_66`, which unlocks the file. Inside 
