@@ -7,7 +7,7 @@ I downloaded the files and then clicked on the link, which took me to this webpa
 
 Moving the mouse in a clockwise direction would increase the "spin" count by one. After playing around for a bit, I decided to take a look at the included files:
 
-In index.js, I noticed:
+In `index.js`, I noticed:
 
 ![](../images/spinner-part-3.png)
 
