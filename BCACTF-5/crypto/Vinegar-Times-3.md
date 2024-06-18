@@ -3,7 +3,7 @@
 ![](../images/vinegar-times-3-part-1.png)
 
 
-Mentions French, so I looked up French cipher, which came up to be Vingenere Cipher, which led me to `dcode.fr`'s vingenere cipher decoder. Using the key of vinegar, I was able to decrypt `mmqaonv` to:
+The challenge description mentions French, so I looked up "French cipher" on Google, which returned "Vingenere cipher". I then searched for a Vingenere cipher decoder, which led me to `dcode.fr`'s Vingenere cipher decoder. Using the key of vinegar, I was able to decrypt `mmqaonv` to:
 
 ```txt
 redwine
