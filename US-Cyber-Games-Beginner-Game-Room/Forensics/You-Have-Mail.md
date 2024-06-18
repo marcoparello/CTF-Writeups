@@ -36,7 +36,7 @@ protect the file. The password is 53 65 63 75 72 65 5f 43 6f 64 65 3a
 
 Utilize a common number system to decrypt that password.
 ```
-There is an `evidence.zip` file which I can download, so I download it. When I try to open it I find that it is password protected. The email has the password, however I must use a common number system to decrypt the password. So I copy and paste:
+There is an `evidence.zip` file which I can download, so I download it. I open it up, and see that it contains a file called `evidence.txt`. However, when I try to open `evidence.txt`, I am prompted for a password. The email has the password for the file, however I must use a common number system to decrypt the password. So I copy and paste:
 
 `53 65 63 75 72 65 5f 43 6f 64 65 3a 4f 72 64 65 72 5f 36 36`
 
@@ -44,4 +44,6 @@ Into `dcode.fr`'s cipher identifier, which identifies the text to be ASCII encod
 
 ![](../images/you-have-mail-part-4.png)
 
-I then attempt to open evidence.zip again, and when it asks for a password, I enter `Secure_Code:Order_66`, which unlocks the file. Inside 
+I then attempt to open `evidence.txt` again, and when it asks for a password, I enter `Secure_Code:Order_66`, which unlocks the file, revealing:
+
+![](../images/you-have-mail-part-5.png)
