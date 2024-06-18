@@ -93,3 +93,8 @@ function performMouseSimulation(cycles, distance) {
 // Start the simulation with the desired number of iterations and radius
 performMouseSimulation(10000, 100000000000000000000000); // modified this part, changed from 100 to 100000000000000000000000. 
 ```
+I then copied and pasted the modified script to the console in DevTools, and then executed it. I then sat back and relaxed, until:
+
+![](../images/spinner-part-5.png)
+
+I then submitted `vsctf{i_ran_out_of_flag_ideas_so_have_this_random_string_2CSJzbfeWqVBnwU5q8}` and solved the challenge.
