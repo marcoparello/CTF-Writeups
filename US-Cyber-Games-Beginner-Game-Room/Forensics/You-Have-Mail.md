@@ -48,4 +48,4 @@ I then attempt to open `evidence.txt` again, and when it asks for a password, I 
 
 ![](../images/you-have-mail-part-5.png)
 
-I then submit `SIVBGR{th3_ev1d3nc3_1s_h3r3}` and solve the challenge.
+I then submitted `SIVBGR{th3_ev1d3nc3_1s_h3r3}` and solved the challenge.
