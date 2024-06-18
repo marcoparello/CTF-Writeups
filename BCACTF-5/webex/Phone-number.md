@@ -9,7 +9,7 @@ I first try to type the phone number directly into the box, but I am unable to d
 
 ![](../images/phone-number-part-3.png)
 
-I wondered what would happen if I changed `1244` to `1234567890`? So I changed the request to Burpsuite:
+I wondered what would happen if I changed `1244` to `1234567890`? So I changed the request in Burpsuite:
 
 ![](../images/phone-number-part-4.png)
 
