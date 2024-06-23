@@ -33,4 +33,8 @@ enc = b'\x16\x97,\xa7\xfb_\xf3\x15.\x87jKRaF&"\xb6\xc4x\xf4.K\xd77j\xe5MLI_y\xd9
 flag_hash = 6a96111d69e015a07e96dcd141d31e7fc81c4420dbbef75aef5201809093210e
 ```
 
-My strategy for any challenge that requires scripting (often crypto and web challenges) is to prompt ChatGPT to create a solve script for the challenge. If that doesn't work, I then use the solve script as a template to manually adjust as needed in order to solve the challenge. This saves me time while also causing my prompting skills to improve. Since AI is the future, being able to effectly write prompts that will return answers that actually work is paramount. However, this doesn't mean that ChatGPT can immediately solve any CTF challenge. It just means that the prompter must have the knowledge necessary to correctly tell ChatGPT what to do. ChatGPT is just another tool in my toolbox, and like any tool, it can either be effectively used or not. 
+My strategy for any challenge that requires scripting (often crypto and web challenges) is to prompt ChatGPT to create a solve script for the challenge. If that doesn't work, I then use the solve script as a template to manually adjust as needed in order to solve the challenge. This saves me time while also causing my prompting skills to improve. Since AI is the future, being able to effectly write prompts that will return answers that actually work is paramount. However, this doesn't mean that ChatGPT can immediately solve any CTF challenge. It just means that the prompter must have the knowledge necessary to correctly tell ChatGPT what to do. ChatGPT is just another tool in my toolbox, and like any tool, it can either be effectively used or not. So I create a ChatGPT prompt:
+
+![](../images/beginners-aes-part-4.png)
+
+Notice how I explicity state the code and the given values. 
