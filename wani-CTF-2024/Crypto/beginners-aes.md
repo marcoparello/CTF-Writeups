@@ -37,4 +37,48 @@ My strategy for any challenge that requires scripting (often crypto and web chal
 
 ![](../images/beginners-aes-part-4.png)
 
-Notice how I explicity state the code and the given values. 
+Notice how I explicity state the code and the given values. After I executed my prompt, I recieved this script:
+
+```txt
+from Crypto.Util.Padding import unpad
+from Crypto.Cipher import AES
+import hashlib
+import itertools
+
+# Given values
+enc = b'\x16\x97,\xa7\xfb_\xf3\x15.\x87jKRaF&"\xb6\xc4x\xf4.K\xd77j\xe5MLI_y\xd96\xf1$\xc5\xa3\x03\x990Q^\xc0\x17M2\x18'
+flag_hash = "6a96111d69e015a07e96dcd141d31e7fc81c4420dbbef75aef5201809093210e"
+
+# Known parts of key and IV
+known_key_part = b'the_enc_key_is_'
+known_iv_part = b'my_great_iv_is_'
+
+# Function to decrypt with a given key and IV
+def decrypt(enc, key, iv):
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    decrypted = cipher.decrypt(enc)
+    try:
+        return unpad(decrypted, AES.block_size)
+    except ValueError:
+        return None
+
+# Brute-force the last byte of the key and IV
+for key_byte in range(256):
+    for iv_byte in range(256):
+        key = known_key_part + bytes([key_byte])
+        iv = known_iv_part + bytes([iv_byte])
+        decrypted_flag = decrypt(enc, key, iv)
+        if decrypted_flag:
+            flag_hash_check = hashlib.sha256(decrypted_flag).hexdigest()
+            if flag_hash_check == flag_hash:
+                print(f"Decrypted FLAG: {decrypted_flag.decode()}")
+                break
+    else:
+        continue
+    break
+```
+I then copied and pasted the script into a python file, which I called `solve.py`. I then ran `solve.py`:
+
+![](../images/beginners-aes-part-6.png)
+
+I then submitted `FLAG{7h3_f1r57_5t3p_t0_Crypt0!!}` and solved the challenge.
