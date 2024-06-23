@@ -1,7 +1,7 @@
 # beginners_aes
 ![](../images/beginners-aes-part-1.png)
 
-I download `cry-beginners-aes.zip` onto my Kali Linux VM. After downloading it, I unzip it. Inside the unzipped `cry-beginners-aes.zip` are two files: chall.py and output.txt. chall.py contains:
+I download `cry-beginners-aes.zip` onto my Kali Linux VM. After downloading it, I unzip it. Inside the unzipped `cry-beginners-aes.zip` are two files: `chall.py` and `output.txt`. `chall.py` contains:
 
 ```txt
 # https://pycryptodome.readthedocs.io/en/latest/src/cipher/aes.html
@@ -26,7 +26,7 @@ print(f'enc = {enc}') # bytes object
 print(f'flag_hash = {flag_hash}') # str object
 ```
 
-While output.txt contains:
+While `output.txt` contains:
 
 ```txt
 enc = b'\x16\x97,\xa7\xfb_\xf3\x15.\x87jKRaF&"\xb6\xc4x\xf4.K\xd77j\xe5MLI_y\xd96\xf1$\xc5\xa3\x03\x990Q^\xc0\x17M2\x18'
