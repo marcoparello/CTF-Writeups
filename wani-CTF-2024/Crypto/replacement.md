@@ -59,10 +59,10 @@ print(original_string)
 
 I name the python file that I copied and pasted the ChatGPT code into `solve.py`. I have named other solve-scripts `solve.py`, but because I put each `solve.py` in their respective challenge folder, I am able to have python files that have the same name. I then run `solve.py`, which prints out this text onto my terminal:
 
-```txt
-Wednesday, 11/8, clear skies. This morning, I had breakfast at my favorite cafe. Drinking the freshly breed coffee and savoring the arm buttery toast is the best. Changing the subject, I received an email today ith something rather peculiar in it. It contained a mysterious message that said "This is a secret code, so please don't tell anyone. FLAG{13epl4cem3nt}". Ho strange!
 
-Gureisya
-```
+`Wednesday, 11/8, clear skies. This morning, I had breakfast at my favorite cafe. Drinking the freshly breed coffee and savoring the arm buttery toast is the best. Changing the subject, I received an email today ith something rather peculiar in it. It contained a mysterious message that said "This is a secret code, so please don't tell anyone. FLAG{13epl4cem3nt}". Ho strange!`
+
+`Gureisya`
+       
 
 I then submit `FLAG{13epl4cem3nt}` and solve the challenge.
