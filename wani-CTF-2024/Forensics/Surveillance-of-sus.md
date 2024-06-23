@@ -65,12 +65,12 @@ o8A>
 O9-?
 ```
 
-The `RDP8bmp` at the top indicates that `Cache_chal.bin` is a `bmp` file that has been outputted to be a `.bin` file. In order to extract the images from the `.bin` file, I use `bmc-tools` created by ANSSI-FR. I then type: 
+The `RDP8bmp` at the top indicates that `Cache_chal.bin` is a `bmp` cache file . In order to extract the bitmaps from the `.bin` file, I use `bmc-tools` created by ANSSI-FR. I then type: 
 
 ```txt
 python3 bmc-tools.py -s Cache_chal.bin -d .
 ```
-Which instructs bmc-tools.py to extract images from Cache_chal.bin and output them in the current directory, represented by `.`. I then run the command, which results in:
+Which instructs bmc-tools.py to extract bitmaps from Cache_chal.bin and output them in the current directory, represented by `.`. I then run the command, which results in:
 
 ![](../images/surveillance-of-sus-part-4.png)
 
@@ -80,4 +80,16 @@ Which instructs bmc-tools.py to extract images from Cache_chal.bin and output th
 python3 bmc-tools.py -s Cache_chal.bin -d . -b
 ```
 
-Which instructs bmc-tools.py to output the extracted images, while also
+Which instructs bmc-tools.py to output the extracted bitmpas, while also outputting a combined collage of all the extract bitmaps. I then run the command, which results in:
+
+![](../images/surveillance-of-sus-part-5.png)
+
+I then open the collage file:
+
+![](../images/surveillance-of-sus-part-6.png)
+
+The images in the top left of the collage seem like a flag, so I take a closer look:
+
+![](../images/surveillance-of-sus-part-7.png)
+
+It has the flag format, which is `FLAG{}`. I then try to extract the characters of the flag, with the result being `FLAG{RDP_is_useful_yipeee}`. I then submit `FLAG{RDP_is_useful_yipeee}` and solve the challenge.
