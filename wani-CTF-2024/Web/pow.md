@@ -18,11 +18,11 @@ I resend `pow` again, which results in:
 
 ![](../images/pow-part-6.png)
 
-I then interecept the `pow` request in Burpsuite (by running the Burpsuite browser and waiting). I then go to `Intruder` and set the request to run 1,000,000 times. I then launch my intruder, which works for a couple requests until:
+I then interecept the `pow` request in Burpsuite (by running the Burpsuite browser and waiting). I then go to `Intruder` and set the request to run 1,000,000 times. I then execute Intruder, which works for a couple requests until:
 
 ![](../images/pow-part-8.png)
 
-Oh. So I clear the website cookies and try again. I wait until I have 3/1,000,000
+Oh. So I clear the website cookies and try again. I wait until I have 3/1,000,000:
 
 ![](../images/pow-part-9.png)
 
@@ -51,7 +51,7 @@ repeat_string_to_file(string, times, filename)
 print(f"Output written to {filename}")
 ```
 
-Which I name `repeater.py`. I set times to 50,000 and run `repeater.py`, which outputs `output.txt`. I then copy and paste the text in `output.txt` into my Burpsuite request:
+Which I name `repeater.py`. I set `times` to 50,000 and run `repeater.py`, which outputs `output.txt`. I then copy and paste the text in `output.txt` into my Burpsuite request:
 
 ![](../images/pow-part-13.png)
 
