@@ -83,5 +83,5 @@ I then run `solve.py`:
 
 ![](../images/beginners-rsa-part-6.png)
 
-I then submit `FLAG{S0_3a5y_1254!!}` and solve the challenge. This challenge was almost exactly the same as `beginners_aes`, with the only difference being that the encryption scheme is rsa instead of aes. 
+I then submit `FLAG{S0_3a5y_1254!!}` and solve the challenge. This challenge was almost exactly the same as `beginners_aes`, with the only difference being that the encryption scheme is RSA instead of AES. 
 
