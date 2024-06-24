@@ -77,7 +77,7 @@ for key_byte in range(256):
         continue
     break
 ```
-I then copied and pasted the script into a python file, which I called `solve.py`. I then ran `solve.py`:
+I then copied and pasted the script into a python file, which I named `solve.py`. I then ran `solve.py`:
 
 ![](../images/beginners-aes-part-6.png)
 
