@@ -15,5 +15,5 @@
 ## Reversing
 - [lambda](Reversing/lambda.md)
 ## Web
-- [Bad_worker](Web/Bad-Worker.md)
+- [Bad_Worker](Web/Bad-Worker.md)
 - [pow](Web/pow.md)
