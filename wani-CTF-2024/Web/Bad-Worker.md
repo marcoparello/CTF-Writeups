@@ -18,7 +18,7 @@ I then click `Fetch FLAG.txt`, which reveals:
 
 ![](../images/bad-worker-part-5.png)
 
-Aw man! A fake flag. So I then open DevTools and navigate to the sources tab, where I notice:
+Aw man! A fake flag. So I open DevTools and navigate to the sources tab, where I notice:
 
 ![](../images/bad-worker-part-6.png)
 
