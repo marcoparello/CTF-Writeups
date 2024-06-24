@@ -12,3 +12,8 @@
 - [tiny_usb](Forensics/tiny-usb.md)
 ## Pwnable
 - [nc](Pwnable/nc.md)
+## Reversing
+- [lambda](Reversing/lambda.md)
+## Web
+- [Bad_worker](Web/Bad-Worker.md)
+- [pow](Web/pow.md)
