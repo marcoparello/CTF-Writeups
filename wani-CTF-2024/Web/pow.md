@@ -26,7 +26,7 @@ Oh. So I clear the website cookies and try again. I wait until I have 3/1,000,00
 
 ![](../images/pow-part-9.png)
 
-When I wonder to myself "what would happen if I duplicated the number inside of the `pow` request 2 times?" So, I copy and paste `7844289` two times to make an array of 3 items:
+I think to myself "what would happen if I duplicated the number inside of the `pow` request 2 times?" So, I copy and paste `7844289` two times to make an array of 3 items:
 
 ![](../images/pow-part-10.png)
 
