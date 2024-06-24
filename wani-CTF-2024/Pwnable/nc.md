@@ -28,7 +28,7 @@ Turns out 0x10 is hex for 16. 15 + 1 = 16 so thats whay 0x10 was the answer. How
 nc chal-lz56g6.wanictf.org 9003
 ```
 
-which connects to the server. When the same prompt comes up, I enter 10, which results in:
+Which connects to the server. When the same prompt comes up, I enter 10, which results in:
 
 ![](../images/nc-part-7.png)
 
