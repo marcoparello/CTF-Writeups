@@ -9,3 +9,6 @@
 - [Night](OSINT/Night.md)
 - [Chunky Boi](OSINT/Chunky-Boi.md)
 ## Cryptography
+- [X Marked the Spot](Cryptography/X-Marked-the-Spot.md)
+## Miscellaneous
+- [Feedback Survey](Miscellaneous/Feedback-Survey.md)
