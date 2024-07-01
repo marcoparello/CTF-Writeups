@@ -69,3 +69,5 @@ print("Key not found. Try adjusting the approach or assumptions.")
 Which I copied and pasted into a python file I had named `solve.py`. I then ran `solve.py`:
 
 ![](../images/x-marked-the-spot-part-3.png)
+
+I then submitted `uiuctf{n0t_ju5t_th3_st4rt_but_4l50_th3_3nd!!!!!}` and solved the challenge.
