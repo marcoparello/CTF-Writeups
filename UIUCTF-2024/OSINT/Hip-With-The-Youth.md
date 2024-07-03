@@ -10,7 +10,7 @@ I then clicked on the Instagram link, which led me to:
 
 ![](../images/hip-with-the-youth-part-3.png)
 
-I navigated across the Instagram page, but couldn't find a flag. So I then clicked the Threads link:
+I navigated across the Instagram page, but couldn't find a flag. So, I then clicked the Threads link:
 
 ![](../images/hip-with-the-youth-part-4.png)
 
