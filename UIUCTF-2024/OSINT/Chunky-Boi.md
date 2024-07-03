@@ -10,7 +10,7 @@ I immediately recognized the airport as the Seattle-Tacoma International Airport
 
 ![](../images/chunky-boi-part-3.png) 
 
-I then searched `C17 plane` on Google, which returned `Boeing C-17 Globemaster III`. Now knowing the plane and the airport, I only had to find the coordinates of the plane. So I went to Google Earth and started "walking" through the runway:
+I then searched `C17 plane` on Google, which returned `Boeing C-17 Globemaster III`. Now knowing the plane and the airport, I only had to find the coordinates of the plane. So, I went to Google Earth and started "walking" through the runway:
 
 ![](../images/chunky-boi-part-4.png)
 
@@ -22,9 +22,7 @@ That plane seems to be in the same location as the Chunky Boi, so I then exited 
 
 ![](../images/chunky-boi-part-6.png)
 
-The third digit in the first coordinate was even, and the last digit in the second coordinate was odd, so I then crafted:
+The third digit in the first coordinate was even, and the last digit in the second coordinate was odd, so I was pretty sure that these were the coordinates for the flag. So, using the challenge description, I submitted
+`uiuctf{Boeing C-17 Globemaster III, 47.462, -122.303}` and solved the challenge.
 
-`uiuctf{Boeing C-17 Globemaster III, 47.462, -122.303}`
-
-I then submitted `uiuctf{Boeing C-17 Globemaster III, 47.462, -122.303}` and solved the challenge.
 
