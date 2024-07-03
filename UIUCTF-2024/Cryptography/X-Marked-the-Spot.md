@@ -66,7 +66,7 @@ for c1 in string.printable.encode():
 print("Key not found. Try adjusting the approach or assumptions.")
 ```
 
-Which I copied and pasted into a python file I had named `solve.py`. I then ran `solve.py`:
+I then copied and pasted into a python file I had named `solve.py`. I then executed `solve.py`:
 
 ![](../images/x-marked-the-spot-part-3.png)
 
