@@ -13,3 +13,4 @@ My writeups for CTFs. I started doing writeups as of 1/5/24 so any CTF that I di
 - [BCACTF 5.0](BCACTF-5/table-of-contents.md)
 - [vsCTF 2024](VS-CTF-2024/table-of-contents.md)
 - [WaniCTF 2024](wani-CTF-2024/table-of-contents.md)
+- [UIUCTF 2024](UIUCTF-2024/table-of-contents.md)
