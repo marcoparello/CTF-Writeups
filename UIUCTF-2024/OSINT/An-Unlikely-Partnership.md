@@ -6,11 +6,11 @@ Navigating back to the Threads page for `longislandsubwayauthority`:
 
 ![](../images/an-unlikely-partnership-part-2.png)
 
-I noticed that `longislandsubwayauthority`'s Linkedin was linked. So I clicked on the Linkedin link and browsed through their profile. When I got to the Skills page, I noticed:
+I noticed that `longislandsubwayauthority`'s Linkedin was linked. So I clicked on the Linkedin link and browsed through their profile. When I got to the Skills section of their profile, I noticed:
 
 ![](../images/an-unlikely-partnership-part-3.png)
 
-I wonder who endorsed them? Curious, I clicked on the endorsement:
+I wonder who endorsed them? In order to find out, I clicked on the endorsement:
 
 ![](../images/an-unlikely-partnership-part-4.png)
 
