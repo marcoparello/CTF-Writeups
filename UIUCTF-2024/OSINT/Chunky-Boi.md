@@ -10,7 +10,7 @@ I immediately recognized the airport as the Seattle-Tacoma International Airport
 
 ![](../images/chunky-boi-part-3.png) 
 
-I then searched `C17 plane` on Google, which returned `Boeing C-17 Globemaster III`. Now knowing the plane and the airport, I only had to find the coordinates of the plane. So, I went to Google Earth and started "walking" through the runway:
+I then searched `C17 plane` on Google, which returned `Boeing C-17 Globemaster III`. Now, knowing the plane and the airport, I only had to find the coordinates of the plane. So, I went to Google Earth and started "walking" through the runway:
 
 ![](../images/chunky-boi-part-4.png)
 
