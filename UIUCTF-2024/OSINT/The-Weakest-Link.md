@@ -6,15 +6,15 @@ Going back to UIUC-Chan's Linkedin profile, I navigated to the description:
 
 ![](../images/the-weakest-link-part-2.png)
 
-I wonder if their spotify is on their Linkedin, so I looked at their contact info:
+I wonder if their Spotify is on their Linkedin? so I looked at their contact info, hoping to get a link to UIUC Chan's Spotify:
 
 ![](../images/the-weakest-link-part-3.png)
 
-Nice! I then navigate to UIUC-Chan's Spotify page:
+Nice! I then navigated to UIUC Chan's Spotify page:
 
 ![](../images/the-weakest-link-part-4.png)
 
-Here is their playist:
+I then went to their playist:
 
 ![](../images/the-weakest-link-part-5.png)
 
