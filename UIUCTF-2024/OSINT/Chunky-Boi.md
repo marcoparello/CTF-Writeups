@@ -2,7 +2,7 @@
 
 ![](../images/chunky-boi-part-1.png)
 
-I downloaded `chall.jpg` and opened it using my computer's image viewer:
+I downloaded `chal.jpg` and opened it using my computer's image viewer:
 
 ![](../images/chunky-boi-part-2.png)
 
