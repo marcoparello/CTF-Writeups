@@ -26,7 +26,7 @@ with open("ct", "wb") as ct_file:
     ct_file.write(ct)
 ```
 
-I then crafted a Chat-GPT prompt:
+I then crafted a ChatGPT prompt:
 
 ![](../images/x-marked-the-spot-part-2.png)
 
