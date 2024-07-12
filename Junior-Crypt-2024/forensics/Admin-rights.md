@@ -510,5 +510,5 @@ sudo chntpw -l SAM
 | 01f5 | Гость                     |        | dis/lock |
 ```
 
-`user_7565` is listed as ADMIN, so I submit `grodno{user_7565}`, which solves the challenge.
+`user_7565` is listed as ADMIN, so I submitted `grodno{user_7565}`, which solved the challenge.
 
