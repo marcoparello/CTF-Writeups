@@ -158,49 +158,61 @@ I noticed random `_` throughout the document, which is what seperates words in t
 
 ![](../images/stego-with-errors-1.png)
 
-`morr` should be `more`. Therefore, the error character is `r`. The current flag is:
+`morr` should be `more`, so, the error character is `r`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_str}`
+```txt
+grodno{mistakes_make_us_str}
+```
 
 ## 18th Error
 
 ![](../images/stego-with-errors-2.png)
 
-`otalic` should be `italic`. Therefore, the error character is `o`. The current flag is:
+`otalic` should be `italic`, so, the error character is `o`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_stro}`
+```txt
+grodno{mistakes_make_us_stro}
+```
 
 ## 19th Error
 
 ![](../images/stego-with-errors-part-18.png)
 
-`nicrodots` should be `microdots`. Therefore, the error character is `n`. The current flag is:
+`nicrodots` should be `microdots`, so, the error character is `n`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_stron}`
+```txt
+grodno{mistakes_make_us_stron}
+```
 
 ## 20th Error
 
 ![](../images/stego-with-errors-part-19.png)
 
-`reglective` should be `reflective`. Therefore, the error character is `g`. The current flag is:
+`reglective` should be `reflective`, so, the error character is `g`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_strong}`
+```txt
+grodno{mistakes_make_us_strong}
+```
 
 ## 21st Error
 
 ![](../images/stego-with-errors-part-20.png)
 
-`techneques` should be `techniques`. Therefore, the error character is `e`. The current flag is:
+`techneques` should be `techniques`, so, the error character is `e`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_stronge}`
+```txt
+grodno{mistakes_make_us_stronge}
+```
 
 ## 22nd Error
 
 ![](../images/stego-with-errors-part-21.png)
 
-`posrcards` should be `postcards`. Therefore, the error character is `r`. The current flag is:
+`posrcards.` should be `postcards.`, so, the error character is `r`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_stronger}`
+```txt
+grodno{mistakes_make_us_stronger}
+```
 
 With all the errors identified, I submitted `grodno{mistakes_make_us_stronger}`, and solved the challenge.
 
