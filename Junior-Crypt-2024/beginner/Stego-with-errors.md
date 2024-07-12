@@ -86,7 +86,7 @@ I noticed random `_` throughout the document, which is what seperates words in t
 
 ![](../images/stego-with-errors-part-9.png)
 
-`heas` should be `hear`. Therefore, the error character is `s`. Additionally, there is also a `_` we need to add. The current flag is:
+`heas,_` should be `hear, `. Therefore, the error characters are `s` and `_`. The current flag is:
 
 `grodno{mistakes_}`
 
@@ -122,7 +122,45 @@ I noticed random `_` throughout the document, which is what seperates words in t
 
 `grodno{mistakes_make_}`
 
-##
+## 13th Error
+
+![](../images/stego-with-errors-part-14.png)
+
+`widelu` should be `widely`. Therefore, the error character is `u`. The current flag is:
+
+`grodno{mistakes_make_u}`
+
+## 14th Error
+
+![](../images/stego-with-errors-part-15.png)
+
+`sistributed,_` should be `distributed, `. Therefore, the error characters are `s` and `_`. The current flag is:
+
+`grodno{mistakes_make_us_}`
+
+## 15th Error
+
+![](../images/stego-with-errors-part-16.png)
+
+`sifferent` should be `different`. Therefore, the error character is `s`. The current flag is:
+
+`grodno{mistakes_make_us_s}`
+
+## 16th Error
+
+![](../images/stego-with-errors-part-17.png)
+
+`enouth` should be `enough`. Therefore, the error character is `t`. The current flag is:
+
+`grodno{mistakes_make_us_st}`
+
+## 17th Error
+
+![](../images/stego-with-errors-part-18.png)
+
+`nicrodots` should be `microdots`. Therefore, the error character is `n`. The current flag is:
+
+`grodno{mistakes_make_us_stn
 
 
 
