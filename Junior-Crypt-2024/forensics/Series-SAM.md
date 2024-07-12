@@ -2,7 +2,7 @@
 
 ![](../images/series-sam-part-1.png)
 
-I clicked on the link, which took me to a Google drive folder that contained two files: `ntds.dit` and `SYSTEM`. Since I had a `dit` and `SYSTEM` file, I used `impacket-secretsdump` to extract the hashed password of Tilen2000. So, I typed:
+I clicked on the link, which took me to a Google drive folder that contained a RAR file titled `Tilen.RAR`. I downloaded `Tilen.RAR` and placed it on my Kali Linux VM. I then extracted the archive, which revealed two files: `ntds.dit` and `SYSTEM`. Since I had a `ntds` and `SYSTEM` file, I used `impacket-secretsdump` to extract the hashed password of Tilen2000. So, I typed:
 
 ```txt
 impacket-secretsdump -ntds ntds.dit -system SYSTEM local | grep Tilen
