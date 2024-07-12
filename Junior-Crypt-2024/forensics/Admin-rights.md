@@ -8,7 +8,7 @@ I downloaded `SAM` onto my Kali Linux VM. Since I needed to find an account that
 sudo chntpw -l SAM
 ```
 
-`sudo` runs the program `chntpw` with administrator privileges. The `-l` flag for `chntpw` lists all of the users in the specified SAM file. I then executed the command, which resulted in:
+`sudo` runs the program `chntpw` with administrator privileges. `chntpw` is a program that acts as a SAM file viewer and editor. It can edit passwords, view users, and even delete data! Anyway, The `-l` flag for `chntpw` lists all of the users in the specified SAM file. I then executed the command, which resulted in:
 
 ```txt
 | RID -|---------- Username ------------| Admin? |- Lock? --|
