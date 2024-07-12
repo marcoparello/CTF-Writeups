@@ -2,7 +2,7 @@
 
 ![](../images/deep-stego-in-the-office-part-1.png)
 
-I download `Borges-04.zip` onto my Kali Linux VM, and unzip it. The unzipped `Borges-04.zip` contains `Borges-04.docx`. The contents of `Borges-04.docx` are:
+I downloaded `Borges-04.zip` onto my Kali Linux VM, and unzipped it. The unzipped `Borges-04.zip` contained `Borges-04.docx`. The contents of `Borges-04.docx` were:
 
 ```txt
 Хорхе Луис Борхес. 
