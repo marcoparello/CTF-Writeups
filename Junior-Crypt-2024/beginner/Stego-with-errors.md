@@ -30,7 +30,7 @@ I noticed random `_` throughout the document, which is what seperates words in t
 
 ![](../images/stego-with-errors-part-2.png)
 
-`combimes` should be `combines`, so, the error character is `m`. Therefore, the current flag is:
+`combimes` should be `combines`, so, the error character is `m`. Therefore, the flag is currently:
 
 ```txt
 grodno{m}
@@ -40,7 +40,7 @@ grodno{m}
 
 ![](../images/stego-with-errors-part-3.png)
 
-`cryptigraphy` should be `cryptography`, so, the error character is `i`. Therefore, the current flag is:
+`cryptigraphy` should be `cryptography`, so, the error character is `i`. Therefore, the flag is currently:
 
 ```txt
 grodno{mi}
@@ -50,7 +50,7 @@ grodno{mi}
 
 ![](../images/stego-with-errors-part-4.png)
 
-`esample` should be `example`, so, the error character is `s`. Therefore, the current flag is:
+`esample` should be `example`, so, the error character is `s`. Therefore, the flag is currently:
 
 ```txt
 grodno{mis}
@@ -60,7 +60,7 @@ grodno{mis}
 
 ![](../images/stego-with-errors-part-5.png)
 
-`adhete` should be `adhere`, so, the error character is `t`. Therefore, the current flag is:
+`adhete` should be `adhere`, so, the error character is `t`. Therefore, the flag is currently:
 
 ```txt
 grodno{mist}
@@ -70,7 +70,7 @@ grodno{mist}
 
 ![](../images/stego-with-errors-part-6.png)
 
-`mesaage` should be `message`, so, the error character is `a`. Therefore, the current flag is:
+`mesaage` should be `message`, so, the error character is `a`. Therefore, the flag is currently:
 
 ```txt
 grodno{mista}
@@ -80,7 +80,7 @@ grodno{mista}
 
 ![](../images/stego-with-errors-part-7.png)
 
-`adkust` should be `adjust`, so, the error character is `k`. Therefore, the current flag is:
+`adkust` should be `adjust`, so, the error character is `k`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistak}
@@ -90,7 +90,7 @@ grodno{mistak}
 
 ![](../images/stego-with-errors-part-8.png)
 
-`teusted` should be `trusted`, so, the error character is `e`. Therefore, the current flag is:
+`teusted` should be `trusted`, so, the error character is `e`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistake}
@@ -100,7 +100,7 @@ grodno{mistake}
 
 ![](../images/stego-with-errors-part-9.png)
 
-`heas,_` should be `hear, `, so, the error characters are `s` and `_`. Therefore, the current flag is:
+`heas,_` should be `hear, `, so, the error characters are `s` and `_`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_}
@@ -110,7 +110,7 @@ grodno{mistakes_}
 
 ![](../images/stego-with-errors-part-10.png)
 
-`forthcomimg` should be `forthcoming`, so, the error character is `m`. Therefore, the current flag is:
+`forthcomimg` should be `forthcoming`, so, the error character is `m`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_m}
@@ -120,7 +120,7 @@ grodno{mistakes_m}
 
 ![](../images/stego-with-errors-part-11.png)
 
-`ita` should be `its`, so, the error character is `a`. Therefore, the current flag is:
+`ita` should be `its`, so, the error character is `a`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_ma}
@@ -130,7 +130,7 @@ grodno{mistakes_ma}
 
 ![](../images/stego-with-errors-part-12.png)
 
-`tabkets` should be `tablets`, so, the error character is `k`. Therefore, the current flag is:
+`tabkets` should be `tablets`, so, the error character is `k`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_mak}
@@ -140,7 +140,7 @@ grodno{mistakes_mak}
 
 ![](../images/stego-with-errors-part-13.png)
 
-`wreting_surfaces` should be `writing surfaces`, so, the error characters are `e` and `_`. Therefore, the current flag is:
+`wreting_surfaces` should be `writing surfaces`, so, the error characters are `e` and `_`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_}
@@ -150,7 +150,7 @@ grodno{mistakes_make_}
 
 ![](../images/stego-with-errors-part-14.png)
 
-`widelu` should be `widely`, so, the error character is `u`. Therefore, the current flag is:
+`widelu` should be `widely`, so, the error character is `u`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_u}
@@ -160,7 +160,7 @@ grodno{mistakes_make_u}
 
 ![](../images/stego-with-errors-part-15.png)
 
-`sistributed,_` should be `distributed, `, so, the error characters are `s` and `_`. Therefore, the current flag is:
+`sistributed,_` should be `distributed, `, so, the error characters are `s` and `_`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_}
@@ -170,7 +170,7 @@ grodno{mistakes_make_us_}
 
 ![](../images/stego-with-errors-part-16.png)
 
-`sifferent` should be `different`, so, the error character is `s`. Therefore, the current flag is:
+`sifferent` should be `different`, so, the error character is `s`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_s}
@@ -180,7 +180,7 @@ grodno{mistakes_make_us_s}
 
 ![](../images/stego-with-errors-part-17.png)
 
-`enouth` should be `enough`, so, the error character is `t`. Therefore, the current flag is:
+`enouth` should be `enough`, so, the error character is `t`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_st}
@@ -190,7 +190,7 @@ grodno{mistakes_make_us_st}
 
 ![](../images/stego-with-errors-1.png)
 
-`morr` should be `more`, so, the error character is `r`. Therefore, the current flag is:
+`morr` should be `more`, so, the error character is `r`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_str}
@@ -200,7 +200,7 @@ grodno{mistakes_make_us_str}
 
 ![](../images/stego-with-errors-2.png)
 
-`otalic.` should be `italic.`, so, the error character is `o`. Therefore, the current flag is:
+`otalic.` should be `italic.`, so, the error character is `o`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_stro}
@@ -210,7 +210,7 @@ grodno{mistakes_make_us_stro}
 
 ![](../images/stego-with-errors-part-18.png)
 
-`nicrodots` should be `microdots`, so, the error character is `n`. Therefore, the current flag is:
+`nicrodots` should be `microdots`, so, the error character is `n`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_stron}
@@ -220,7 +220,7 @@ grodno{mistakes_make_us_stron}
 
 ![](../images/stego-with-errors-part-19.png)
 
-`reglective` should be `reflective`, so, the error character is `g`. Therefore, the current flag is:
+`reglective` should be `reflective`, so, the error character is `g`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_strong}
@@ -230,7 +230,7 @@ grodno{mistakes_make_us_strong}
 
 ![](../images/stego-with-errors-part-20.png)
 
-`techneques` should be `techniques`, so, the error character is `e`. Therefore, the current flag is:
+`techneques` should be `techniques`, so, the error character is `e`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_stronge}
@@ -240,7 +240,7 @@ grodno{mistakes_make_us_stronge}
 
 ![](../images/stego-with-errors-part-21.png)
 
-`posrcards.` should be `postcards.`, so, the error character is `r`. Therefore, the current flag is:
+`posrcards.` should be `postcards.`, so, the error character is `r`. Therefore, the flag is currently:
 
 ```txt
 grodno{mistakes_make_us_stronger}
