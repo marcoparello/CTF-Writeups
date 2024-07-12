@@ -2,7 +2,7 @@
 
 ![](../images/rdp-part-1.png)
 
-I clicked on the link, which took me to a Google Drive folder, which contained a zip file. I downloaded the zipped file onto my Windows machine, and unzipped it, revealing that it contained 147 different Windows Event Viewer logs. In Windows Event Viewer, the Event ID for RDP is 1149. So, I searched each log, filtering all Event ID's to be 1149. Eventually, in `Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx`:
+I clicked on the link, which took me to a Google Drive folder, containing a zip file. I downloaded the zip file onto my Windows machine, and unzipped it, revealing that it contained 147 different Windows Event Viewer logs. In Windows Event Viewer, the Event ID for RDP is 1149. So, I searched each log, filtering all Event ID's to be 1149. Eventually, in `Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx`:
 
 ![](../images/rdp-part-2.png)
 
