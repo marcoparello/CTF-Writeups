@@ -6,11 +6,11 @@ I clicked on the link, which took me to this site:
 
 ![](../images/buy-a-cat-part-2.png)
 
-Here is what this upstanding establishment offers for me to buy:
+Here is what I could purchase:
 
 ![](../images/buy-a-cat-part-3.png)
 
-I selected T-shirt and then hit reply. Which took me to a new web page. However, when I looked at the url, I noticed something interesting:
+I selected `T-shirt` and then clicked on `Send Reply`, where I was then sent to a different web page. However, when I looked at the url, I noticed something interesting:
 
 ![](../images/buy-a-cat-part-4.png)
 
