@@ -12,7 +12,7 @@ The `-ntds` flag specifies the ntds file, the `-system` flag specifies the syste
 
 ![](../images/series-sam-part-2.png)
 
-`contoso.com` is the domain, `Tilen2000` is the username, `2649` is the relative identifier for `Tilen2000`, `aad3b435b51404eeaad3b435b51404ee` is the Lan Manager (LM) value (legacy , `c0720d115b8b326aca0d9b95f0eca86e` is the NT hash (basically the password hash), and `:::` are just placeholder values. Since `c0720d115b8b326aca0d9b95f0eca86e` is the password hash, I must decrypt it in order to obtain the plaintext password. To do that, I used `hashes.com` hash decrypter. So, I inputted `c0720d115b8b326aca0d9b95f0eca86e` into the decrypter, and pressed decrypt, which resulted in:
+`contoso.com` is the domain, `Tilen2000` is the username, `2649` is the Relative Identifier (RID) (basically an identifier, think of it like a serial number) for `Tilen2000`, `aad3b435b51404eeaad3b435b51404ee` is the Lan Manager (LM) value (legacy hash function that is insecure, aad3b435b51404eeaad3b435b51404ee is just a placeholder value), `c0720d115b8b326aca0d9b95f0eca86e` is the NT hash (basically the password hash), and `:::` are just placeholder values. Since `c0720d115b8b326aca0d9b95f0eca86e` is the password hash, I must decrypt it in order to obtain the plaintext password. To do that, I used `hashes.com` hash decrypter. So, I inputted `c0720d115b8b326aca0d9b95f0eca86e` into the decrypter, and pressed decrypt, which resulted in:
 
 ![](../images/series-sam-part-3.png)
 
