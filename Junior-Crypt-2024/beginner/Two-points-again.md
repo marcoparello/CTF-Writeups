@@ -45,7 +45,7 @@ print("Private key (d):", d)
 print("Plaintext:", plaintext)
 ```
 
-I copied and pasted the script into a python file, which I then named `two_points_again_solve.py`. I then ran `two_points_again_solve.py`, which resulted in:
+I copied and pasted the script into a python file, which I named `two_points_again_solve.py`. I then ran `two_points_again_solve.py`, which resulted in:
 
 ![](../images/two-points-again-part-3.png)
 
