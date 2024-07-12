@@ -30,9 +30,11 @@ I noticed random `_` throughout the document, which is what seperates words in t
 
 ![](../images/stego-with-errors-part-2.png)
 
-`combimes` should be `combines`. Therefore, the error character is `m`. The current flag:
+`combimes` should be `combines`, so, the error character is `m`. Therefore, the current flag is:
 
-`grodno{m}`
+```txt
+grodno{m}
+```
 
 ## 2nd Error
 
@@ -40,7 +42,9 @@ I noticed random `_` throughout the document, which is what seperates words in t
 
 `cryptigraphy` should be `cryptography`, so, the error character is `i`. Therefore, the current flag is:
 
-`grodno{mi}`
+```txt
+grodno{mi}
+```
 
 ## 3rd Error
 
