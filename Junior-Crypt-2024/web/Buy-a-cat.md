@@ -10,7 +10,7 @@ Here is what I could purchase:
 
 ![](../images/buy-a-cat-part-3.png)
 
-I selected `T-shirt` and then clicked on `Send Reply`, where I was then sent to a different web page. However, when I looked at the url, I noticed something interesting:
+I selected `T-shirt` and then clicked on `Send Reply`, where I was then sent to a different web page. However, when I looked at the URL, I noticed something interesting:
 
 ![](../images/buy-a-cat-part-4.png)
 
