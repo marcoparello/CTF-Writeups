@@ -38,7 +38,7 @@ I noticed random `_` throughout the document, which is what seperates words in t
 
 ![](../images/stego-with-errors-part-3.png)
 
-`cryptigraphy` should be `cryptography`. Therefore, the error character is `i`. The current flag is:
+`cryptigraphy` should be `cryptography`, so, the error character is `i`. Therefore, the current flag is:
 
 `grodno{mi}`
 
@@ -46,113 +46,141 @@ I noticed random `_` throughout the document, which is what seperates words in t
 
 ![](../images/stego-with-errors-part-4.png)
 
-`esample` should be `example`. Therefore, the error character is `s`. The current flag is:
+`esample` should be `example`, so, the error character is `s`. Therefore, the current flag is:
 
-`grodno{mis}`
+```txt
+grodno{mis}
+```
 
 ## 4th Error
 
 ![](../images/stego-with-errors-part-5.png)
 
-`adhete` should be `adhere`. Therefore, the error character is `t`. The current flag is:
+`adhete` should be `adhere`, so, the error character is `t`. Therefore, the current flag is:
 
-`grodno{mist}`
+```txt
+grodno{mist}
+```
 
 ## 5th Error
 
 ![](../images/stego-with-errors-part-6.png)
 
-`mesaage` should be `message`. Therefore, the error character is `a`. The current flag is:
+`mesaage` should be `message`, so, the error character is `a`. Therefore, the current flag is:
 
-`grodno{mista}`
+```txt
+grodno{mista}
+```
 
 ## 6th Error
 
 ![](../images/stego-with-errors-part-7.png)
 
-`adkust` should be `adjust`. Therefore, the error character is `k`. The current flag is:
+`adkust` should be `adjust`, so, the error character is `k`. Therefore, the current flag is:
 
-`grodno{mistak}`
+```txt
+grodno{mistak}
+```
 
 ## 7th Error
 
 ![](../images/stego-with-errors-part-8.png)
 
-`teusted` should be `trusted`. Therefore, the error character is `e`. The current flag is:
+`teusted` should be `trusted`, so, the error character is `e`. Therefore, the current flag is:
 
-`grodno{mistake}`
+```txt
+grodno{mistake}
+```
 
 ## 8th Error
 
 ![](../images/stego-with-errors-part-9.png)
 
-`heas,_` should be `hear, `. Therefore, the error characters are `s` and `_`. The current flag is:
+`heas,_` should be `hear, `, so, the error characters are `s` and `_`. Therefore, the current flag is:
 
-`grodno{mistakes_}`
+```txt
+grodno{mistakes_}
+```
 
 ## 9th Error
 
 ![](../images/stego-with-errors-part-10.png)
 
-`forthcomimg` should be `forthcoming`. Therefore, the error character is `m`. The current flag is:
+`forthcomimg` should be `forthcoming`, so, the error character is `m`. Therefore, the current flag is:
 
-`grodno{mistakes_m}`
+```txt
+grodno{mistakes_m}
+```
 
 ## 10th Error
 
 ![](../images/stego-with-errors-part-11.png)
 
-`ita` should be `its`. Therefore, the error character is `a`. The current flag is:
+`ita` should be `its`, so, the error character is `a`. Therefore, the current flag is:
 
-`grodno{mistakes_ma}`
+```txt
+grodno{mistakes_ma}
+```
 
 ## 11th Error
 
 ![](../images/stego-with-errors-part-12.png)
 
-`tabkets` should be `tablets`. Therefore, the error character is `k`. The current flag is:
+`tabkets` should be `tablets`, so, the error character is `k`. Therefore, the current flag is:
 
-`grodno{mistakes_mak}`
+```txt
+grodno{mistakes_mak}
+```
 
 ## 12th Error
 
 ![](../images/stego-with-errors-part-13.png)
 
-`wreting_surfaces` should be `writing surfaces`. Therefore, the error characters are `e` and `_`. The current flag is:
+`wreting_surfaces` should be `writing surfaces`, so, the error characters are `e` and `_`. Therefore, the current flag is:
 
-`grodno{mistakes_make_}`
+```txt
+grodno{mistakes_make_}
+```
 
 ## 13th Error
 
 ![](../images/stego-with-errors-part-14.png)
 
-`widelu` should be `widely`. Therefore, the error character is `u`. The current flag is:
+`widelu` should be `widely`, so, the error character is `u`. Therefore, the current flag is:
 
-`grodno{mistakes_make_u}`
+```txt
+grodno{mistakes_make_u}
+```
 
 ## 14th Error
 
 ![](../images/stego-with-errors-part-15.png)
 
-`sistributed,_` should be `distributed, `. Therefore, the error characters are `s` and `_`. The current flag is:
+`sistributed,_` should be `distributed, `, so, the error characters are `s` and `_`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_}`
+```txt
+grodno{mistakes_make_us_}
+```
 
 ## 15th Error
 
 ![](../images/stego-with-errors-part-16.png)
 
-`sifferent` should be `different`. Therefore, the error character is `s`. The current flag is:
+`sifferent` should be `different`, so, the error character is `s`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_s}`
+```txt
+grodno{mistakes_make_us_s}
+```
 
 ## 16th Error
 
 ![](../images/stego-with-errors-part-17.png)
 
-`enouth` should be `enough`. Therefore, the error character is `t`. The current flag is:
+`enouth` should be `enough`, so, the error character is `t`. Therefore, the current flag is:
 
-`grodno{mistakes_make_us_st}`
+```txt
+grodno{mistakes_make_us_st}
+```
 
 ## 17th Error
 
@@ -168,7 +196,7 @@ grodno{mistakes_make_us_str}
 
 ![](../images/stego-with-errors-2.png)
 
-`otalic` should be `italic`, so, the error character is `o`. Therefore, the current flag is:
+`otalic.` should be `italic.`, so, the error character is `o`. Therefore, the current flag is:
 
 ```txt
 grodno{mistakes_make_us_stro}
