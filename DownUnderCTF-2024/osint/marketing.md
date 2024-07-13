@@ -2,7 +2,7 @@
 
 ![](../images/marketing-part-1.png)
 
-Since this challenge was called marketing, I looked up:
+Since the challenge description mentioned `posting stuff online`, I looked up:
 
 ![](../images/marketing-part-2.png)
 
