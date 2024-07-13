@@ -8,3 +8,11 @@
 - [Stego with errors](beginner/Stego-with-errors.md)
 - [Two points again](beginner/Two-points-again.md)
 
+## Forensics_
+- [Admin rights](forensics/Admin-rights.md)
+- [Banishment](forensics/Banishment.md)
+- [RDP](forensics/RDP.md)
+- [Series SAM](forensics/Series-SAM.md)
+- [Videomaker](forensics/Videomaker.md)
+  
+
