@@ -6,7 +6,7 @@ Since this challenge was called marketing, I looked up:
 
 ![](../images/marketing-part-2.png)
 
-In the results of the search there was a link to the DownUnderCtf X.com page. I scrolled through the page, until I came across this post:
+In the results of the search there was a link to the `DownUnderCtf` `x.com` page. I scrolled through the page, until I came across this post:
 
 ![](../images/marketing-part-3.png)
 
