@@ -81,5 +81,66 @@ The `USER` folder contained:
 
 ![](../images/bad-policies-part-11.png)
 
+While the `MACHINE` folder contained:
 
+![](../images/bad-policies-part-12.png)
 
+Inside the `Microsoft` folder was:
+
+![](../images/bad-policies-part-13.png)
+
+Inside the `Windows NT` folder was:
+
+![](../images/bad-policies-part-14.png)
+
+Inside the `SecEdit` folder was:
+
+![](../images/bad-policies-part-15.png)
+
+`GptTmpl.inf` contained:
+
+![](../images/bad-policies-part-16.png)
+
+I then returned to the main `Policies` folder and decided to explore the contents of `{31B2F340-016D-11D2-945F-00C04FB984F9}`:
+
+![](../images/bad-policies-part-17.png)
+
+`GPT.INI` contained:
+
+```txt
+[General]
+Version=52
+```
+
+While the `USER` folder contained:
+
+![](../images/bad-policies-part-18.png)
+
+The `MACHINE` folder contained:
+
+![](../images/bad-policies-part-19.png)
+
+`Registry.pol` contained:
+
+![](../images/bad-policies-part-20.png)
+
+`comment.cmtx` contained:
+
+```txt
+<?xml version='1.0' encoding='utf-8'?>
+<policyComments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/CommentDefinitions">
+  <policyNamespaces>
+    <using prefix="ns0" namespace="Microsoft.Policies.PowerShell"></using>
+  </policyNamespaces>
+  <comments>
+    <admTemplate></admTemplate>
+  </comments>
+  <resources minRequiredRevision="1.0">
+    <stringTable></stringTable>
+  </resources>
+</policyComments>
+```
+
+The `Scripts` folder contained:
+
+![](../images/bad-policies-part-21.png)
