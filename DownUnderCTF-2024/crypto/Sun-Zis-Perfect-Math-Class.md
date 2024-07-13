@@ -66,6 +66,6 @@ Recovered message: 1156402592286752287178291281512321163047865032775909159379299
 
 I then inputted `11564025922867522871782912815123211630478650327759091593792994457296772521676766420142199669845768991886967888274582504750347133` into the answer box, and submitted my answer, which resulted in:
 
-![](../images/sun-zis-math-class-part-8.png)
+![](../images/sun-zis-perfect-math-class-part-8.png)
 
 I then submitted  `DUCTF{btw_y0u_c4n_als0_us3_CRT_f0r_p4rt14l_fr4ct10ns}` and solved the challenge.
