@@ -13,5 +13,7 @@
 - [survey](misc/survey.md)
 - [tldr please summarise](misc/tldr-please-summarise.md)
 ## web
-
+- [parrot the emu](web/parrot-the-emu.md)
+- [zoo feedback form](web/zoo-feedback-form.md)
+## osint
 
