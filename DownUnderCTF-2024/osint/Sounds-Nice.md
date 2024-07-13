@@ -30,7 +30,7 @@ Looking through the photos I found:
 
 ![](../images/sounds-nice-part-8.png)
 
-I then searched `ATS2853` on Google, which returned that it was a Bluetooth chipset, answering the question of `Which bluetooth chipset is used?`. I then proceeded to look through more of the internal photos, and came across:
+I then searched `ATS2853` on Google, which returned that it was a Bluetooth chipset, answering the question of `Which bluetooth chipset is used?`. I now needed to find the answer to `What is wireless audio chipset used?`. So, I proceeded to look through more of the internal photos, and came across:
 
 ![](../images/sounds-nice-part-9.png)
 
@@ -54,7 +54,7 @@ I then opened the document, where I found:
 
 ![](../images/sounds-nice-part-15.png)
 
-I now had the answer to `What is wireless audio chipset used?`. Now I needed to find `What is the value of the coupling capacitor, connected to the audio module's RX antenna?`. So, I continued to look through the document, and came across:
+Now knowing that the answer to `What is wireless audio chipset used?` was ETK51, I needed to find the answer to `What is the value of the coupling capacitor, connected to the audio module's RX antenna?`. So, I continued to look through the document, and came across:
 
  ![](../images/sounds-nice-part-16.png)
 
@@ -66,7 +66,7 @@ I now had the answer to `What is wireless audio chipset used?`. Now I needed to 
 
  ![](../images/sounds-nice-part-18.png)
 
- Now knowing that the answer to `What is the value of the coupling capacitor, connected to the audio module's RX antenna?` was 9, I just needed to find `What is the pin number on the wireless audio chipset for the I2C clock signal?`. So, I looked at the diagram of the main chip:
+Now knowing that the answer to `What is the value of the coupling capacitor, connected to the audio module's RX antenna?` was 9, I just needed to find `What is the pin number on the wireless audio chipset for the I2C clock signal?`. So, I looked at the diagram of the main chip:
 
 ![](../images/sounds-nice-part-19.png)
 
@@ -83,6 +83,10 @@ So, I looked at the diagram of the main chip to find the pin number of `P0.0_I2C
 ![](../images/sounds-nice-part-22.png)
 
 Therefore, the answer to `What is the pin number on the wireless audio chipset for the I2C clock signal?` is 31. Now having answered all of the questions, I submitted `DUCTF{ATS2853_ETK51_9_31}` and solved the challenge.
+
+With the challenge solved, I had solved all of the OSINT challenges in this CTF, which is the first time I have ever done a clean sweep of challenges in a catagory:
+
+![](../images/sounds-nice-part-23.png)
  
 
 
