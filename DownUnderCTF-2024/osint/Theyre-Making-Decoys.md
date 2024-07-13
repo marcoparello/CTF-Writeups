@@ -18,7 +18,7 @@ I then searched `Tailem Drive, Taloumbi` on Google Earth, and "walked" around a 
 
 ![](../images/theyre-making-decoys-part-5.png)
 
-The coordinates were in the URL:
+With the URL containing the coordinates:
 
 ![](../images/theyre-making-decoys-part-6.png)
 
