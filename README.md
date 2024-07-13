@@ -15,3 +15,4 @@
 - [WaniCTF 2024](wani-CTF-2024/table-of-contents.md)
 - [UIUCTF 2024](UIUCTF-2024/table-of-contents.md)
 - [Junior Crypt 2024](Junior-Crypt-2024/table-of-contents.md)
+- [DownUnderCTF 2024](DownUnderCTF-2024/table-of-contents.md)
