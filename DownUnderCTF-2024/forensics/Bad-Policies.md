@@ -208,7 +208,7 @@ The `Groups` folder contained:
 </Groups>
 `
 
-`cpassword` caught my eye, so I decided to research it. I searched `cpassword` on Google and came across this article from `SDM password`
+`cpassword` caught my eye, so I decided to research it. I searched `cpassword` on Google and came across this article from `sdmsoftware.com`
 
 ![](../images/bad-policies-part-35.png)
 
