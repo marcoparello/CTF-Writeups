@@ -8,6 +8,10 @@
 - [Baby's First Forensics](forensics/Babys-First-Forensics.md)
 - [Bad Policies](forensics/Bad-Policies.md)
 - [SAM I AM](forensics/SAM-I-AM.md)
-## 
+## misc
+- [discord](misc/discord.md)
+- [survey](misc/survey.md)
+- [tldr please summarise](misc/tldr-please-summarise.md)
+## web
 
 
