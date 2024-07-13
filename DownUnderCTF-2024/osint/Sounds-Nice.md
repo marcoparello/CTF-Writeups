@@ -58,5 +58,32 @@ I now had the answer to `What is wireless audio chipset used?`. Now I needed to 
 
  ![](../images/sounds-nice-part-16.png)
 
+ I then followed the path from where RFN_RX and RFP_RX (the two components of the RX antenna) intersected:
+
+ ![](../images/sounds-nice-part-17.png)
+
+ Which revealed:
+
+ ![](../images/sounds-nice-part-18.png)
+
+ Now knowing that the answer to `What is the value of the coupling capacitor, connected to the audio module's RX antenna?` was 9, I just needed to find `What is the pin number on the wireless audio chipset for the I2C clock signal?`. So, I looked at the diagram of the main chip:
+
+![](../images/sounds-nice-part-19.png)
+
+I then looked at the table for the main chip:
+
+![](../images/sounds-nice-part-20.png)
+
+I noticed:
+
+![](../images/sounds-nice-part-21.png)
+
+So, I looked at the diagram of the main chip to find the pin number of `P0.0_I2C_SCL`, where I found:
+
+![](../images/sounds-nice-part-22.png)
+
+Therefore, the answer to `What is the pin number on the wireless audio chipset for the I2C clock signal?` is 31. Now having answered all of the questions, I submitted `DUCTF{ATS2853_ETK51_9_31}` and solved the challenge.
+ 
+
 
 
