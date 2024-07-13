@@ -19,3 +19,6 @@
 - [Found on my Windows](misc/Found-on-my-Windows.md)
 - [Last hash](misc/Last-hash.md)
 
+## Web_
+- [Buy a cat](web/Buy-a-cat.md)
+
