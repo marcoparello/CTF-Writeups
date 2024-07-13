@@ -18,7 +18,7 @@ I then searched `Xiaomi Soundbar 3.1 Manual` and found it’s manual page from `
 
 ![](../images/sounds-nice-part-5.png)
 
-Now knowing the name of the model, I searched ‘Xiaomi S26 internal photos`, which led me to `device.report.com`:
+Now knowing the name of the model, I searched `Xiaomi S26 internal photos`, which led me to `device.report.com`:
 
 ![](../images/sounds-nice-part-6.png)
 
