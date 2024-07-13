@@ -12,4 +12,4 @@ samdump2 system.bak sam.balk
 
 ![](../images/sam-i-am-part-2.png)
 
-The last hash for the Administrator account, 476b4dddbbffde29e739b618580adb1e, is the password hash. Since the hash came from a SAM file, it is of the NTLM type. In order to crack the hash, I decided to use hashcat. I typed:
+From the Series SAM challenge in Junior Crypt 2024 ([here is the writeup link](https://github.com/marcoparello/CTF-Writeups/blob/main/Junior-Crypt-2024/forensics/Series-SAM.md))The last hash for the Administrator account, 476b4dddbbffde29e739b618580adb1e, is the password hash. Since the hash came from a SAM file, it is of the NTLM type. In order to crack the hash, I decided to use hashcat. I typed:
