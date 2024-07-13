@@ -14,5 +14,8 @@
 - [RDP](forensics/RDP.md)
 - [Series SAM](forensics/Series-SAM.md)
 - [Videomaker](forensics/Videomaker.md)
-  
+## Misc_
+- [Dogs running in a circle](misc/Dogs-running-in-a-circle.md)
+- [Found on my Windows](misc/Found-on-my-Windows.md)
+- [Last hash](misc/Last-hash.md)
 
