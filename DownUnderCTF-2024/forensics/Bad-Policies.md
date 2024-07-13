@@ -144,3 +144,63 @@ The `MACHINE` folder contained:
 The `Scripts` folder contained:
 
 ![](../images/bad-policies-part-21.png)
+
+Inside the `Startup` folder was:
+
+![](../images/bad-policies-part-22.png)
+
+Inside the `Shutdown` folder was:
+
+![](../images/bad-policies-part-23.png)
+
+I then went back to the `MACHINE` folder, and checked the `Microsoft` folder:
+
+![](../images/bad-policies-part-24.png)
+
+The `Windows NT` folder contained:
+
+![](../images/bad-policies-part-25.png)
+
+The `SecEdit` folder contained:
+
+![](../images/bad-policies-part-26.png)
+
+`GptTmpl.inf` contained:
+
+![](../images/bad-policies-part-27.png)
+
+I then navigated back to the `MACHINE` folder, and looked inside the `Applications` folder:
+
+![](../images/bad-policies-part-28.png)
+
+I then returned to the main `Policies` folder and decided to check the contents of `{B6EF39A3-E84F-4C1D-A032-00F042BE99B5}`:
+
+![](../images/bad-policies-part-29.png)
+
+`GPT.INI` contained:
+
+```txt
+[General]
+Version=10
+displayName=New Group Policy Object
+```
+
+The `User` folder contained:
+
+![](../images/bad-policies-part-30.png)
+
+While the `MACHINE` folder contained:
+
+![](../images/bad-policies-part-31.png)
+
+I looked inside the `Preferences` folder:
+
+![](../images/bad-policies-part-32.png)
+
+The `Groups` folder contained:
+
+![](../images/bad-policies-part-33.png)
+
+`Groups.xml` contained:
+
+![](../images/bad-policies-part-34.png)
