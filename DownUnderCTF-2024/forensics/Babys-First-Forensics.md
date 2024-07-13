@@ -10,4 +10,4 @@ Since it was a mix of HTTP, TCP, and DNS packets, I navigated to `Follow -> HTTP
 
 ![](../images/babys-first-forensics-part-2.png)
 
-Nikto is a web vulnerability scanner that scans webservers for vulnerabilities. So, based off the challenge description, I submitted `DUCTF{Nikto_2.1.6}`, and solved the challenge.
+From this packet, the host belonging to the ip address `172.16.17.135` is using `Nikto 2.1.6`. Nikto is a web vulnerability scanner that scans webservers for vulnerabilities.  So, based off the challenge description, I submitted `DUCTF{Nikto_2.1.6}`, and solved the challenge.
