@@ -84,7 +84,7 @@ So, I looked at the diagram of the main chip to find the pin number of `P0.0_I2C
 
 Therefore, the answer to `What is the pin number on the wireless audio chipset for the I2C clock signal?` is 31. Now having answered all of the questions, I submitted `DUCTF{ATS2853_ETK51_9_31}` and solved the challenge.
 
-With the challenge solved, I had solved all of the OSINT challenges in this CTF, which is the first time I have ever done a clean sweep of challenges in a catagory:
+With the challenge solved, I had solved all of the OSINT challenges in this CTF, which is the first time I have ever completed all of the challenges in a category in a CTF:
 
 ![](../images/sounds-nice-part-23.png)
  
