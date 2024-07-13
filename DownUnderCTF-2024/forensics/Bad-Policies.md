@@ -207,3 +207,19 @@ The `Groups` folder contained:
 <Groups clsid="{3125E937-EB16-4b4c-9934-544FC6D24D26}"><User clsid="{DF5F1855-51E5-4d24-8B1A-D9BDE98BA1D1}" name="Backup" image="2" changed="2024-06-12 14:26:50" uid="{CE475804-94EA-4C12-8B2E-2B3FFF1A05C4}"><Properties action="U" newName="" fullName="" description="" cpassword="B+iL/dnbBHSlVf66R8HOuAiGHAtFOVLZwXu0FYf+jQ6553UUgGNwSZucgdz98klzBuFqKtTpO1bRZIsrF8b4Hu5n6KccA7SBWlbLBWnLXAkPquHFwdC70HXBcRlz38q2" changeLogon="0" noChange="1" neverExpires="1" acctDisabled="0" userName="Backup"/></User>
 </Groups>
 `
+
+`cpassword` caught my eye, so I decided to research it. I searched `cpassword` on Google and came across this article from `SDM password`
+
+![](../images/bad-policies-part-35.png)
+
+I then searched for a tool to crack cpassword, and found gpp-decrypt on Github, made by `SixArm`. I installed it on my machine and typed:
+
+```txt
+python3 gpp-decrypt.py -f Groups.xml
+```
+
+The `-f` flag specifies the file to be decrypted, in this case, `Groups.xml`. I then executed the command, which resulted in:
+
+![](../images/bad-policies-part-36.png)
+
+I then submitted `DUCTF{D0n7_Us3_P4s5w0rds_1n_Gr0up_P0l1cy}` and solved the challenge.
