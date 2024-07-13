@@ -12,4 +12,14 @@ samdump2 system.bak sam.balk
 
 ![](../images/sam-i-am-part-2.png)
 
-From the Series SAM challenge in Junior Crypt 2024 ([here is the writeup link](https://github.com/marcoparello/CTF-Writeups/blob/main/Junior-Crypt-2024/forensics/Series-SAM.md))The last hash for the Administrator account, 476b4dddbbffde29e739b618580adb1e, is the password hash. Since the hash came from a SAM file, it is of the NTLM type. In order to crack the hash, I decided to use hashcat. I typed:
+From the Series SAM challenge in Junior Crypt 2024 ([here is the writeup link](https://github.com/marcoparello/CTF-Writeups/blob/main/Junior-Crypt-2024/forensics/Series-SAM.md)), I know that the password hash is `476b4dddbbffde29e739b618580adb1e`, is the password hash. Since the hash came from a SAM file, it is of the NTLM type. In order to crack the hash, I decided to use hashcat. I typed:
+
+```txt
+hashcat -m 1000  476b4dddbbffde29e739b618580adb1e -w /usr/share/wordlists/rockyou.txt
+```
+
+In hashcat, the 1000 value for the `-m` flag corresponds to NTLM hashes. I then executed the command, which resulted in:
+
+![](../images/sam-i-am-part-3.png)
+
+I then submitted `DUCTF{!checkerboard1}` and solved the challenge.
