@@ -16,4 +16,10 @@
 - [parrot the emu](web/parrot-the-emu.md)
 - [zoo feedback form](web/zoo-feedback-form.md)
 ## osint
-
+- [marketing](osint/marketing.md)
+- [back to the jungle](osint/back-to-the-jungle.md)
+- [offtheramp](osint/offtheramp.md)
+- [cityviews](osint/cityviews.md)
+- [Bridget Lives](osint/Bridget-Lives.md)
+- [They're Making Decoys](osint/Theyre-Making-Decoys.md)
+- [Sounds Nice](osint/Sounds-Nice.md)
