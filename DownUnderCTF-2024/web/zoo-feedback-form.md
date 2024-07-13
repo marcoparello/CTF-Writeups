@@ -14,7 +14,7 @@ I hope the Emus know English. Since this is a web challenge, I opened up the req
 
 ![](../images/zoo-feedback-form-part-4.png)
 
-The feedback form uses XML to process the feedback. XML is basically HTML but without the predefined tags. Because the XML is rendered in the request, not the response, I inserted:
+The feedback form uses XML to process the feedback. XML is basically HTML but without the predefined tags. Because the XML is rendered in the request, not the in the server response, I am able to edit the XML directly. So, I inserted:
 
 ![](../images/zoo-feedback-form-part-5.png)
 
@@ -22,7 +22,7 @@ Which is an XXE attack. The `DOCTYPE foo` declares the document type definition 
 
 ![](../images/zoo-feedback-form-part-6.png)
 
-Which confirms that the web page is vulnerable to XXE attacks. Now I just need to leverage the vulnerability to access the flag. I downloaded `zoo-feedback-form.zip` onto my Kali Linux VM and unzipped it, which revealed it's contents: a folder titled `main-app`, a dockerfile titled `Dockerfile`, and a text document titled `requirements.txt`. The `main-app` folder contained: a folder titled `static`, a folder titled `templates`, a python file titled `app.py`, and a text file named `flag.txt`. I then back and examined the contents of `Dockerfile`:
+Which confirms that the web page is vulnerable to XXE attacks. Now I just need to leverage the vulnerability to access the flag. Since the challenge provided a zip file, I downloaded it onto my Kali Linux VM and unzipped it. The contents of the unzipped file were: a folder titled `main-app`, a dockerfile titled `Dockerfile`, and a text document titled `requirements.txt`. The `main-app` folder contained: a folder titled `static`, a folder titled `templates`, a python file titled `app.py`, and a text file named `flag.txt`. I then went back and examined the contents of `Dockerfile`:
 
 ```txt
 FROM python:3.9-slim
