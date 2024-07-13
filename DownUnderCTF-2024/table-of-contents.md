@@ -4,5 +4,10 @@
 
 ## crypto
 - [Sun Zi's Perfect Math Class](crypto/Sun-Zis-Perfect-Math-Class.md)
+## forensics
+- [Baby's First Forensics](forensics/Babys-First-Forensics.md)
+- [Bad Policies](forensics/Bad-Policies.md)
+- [SAM I AM](forensics/SAM-I-AM.md)
+## 
 
 
