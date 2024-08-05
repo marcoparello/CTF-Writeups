@@ -61,7 +61,7 @@ xxd -r -p raw output4.bin`
 
 
 
-Which results in a pcap titled layer1.pcapng, so I repeat the process again, but binwalk returns nothing. So, I use `strings layer1.pcapng`, where in the output:
+Which results in a pcap titled layer1.pcapng, so I repeat the process again, but binwalk returns nothing. So, I use `strings layer1.pcapng`, which outputs:
 ```txt
 Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz (with SSE4.2)
 64-bit Windows 10 (22H2), build 19045
@@ -305,6 +305,6 @@ USBS j
 USBC 
 USBS
 ```
-Is the flag. I then submit `crew{l00ks_l1ke_y0u_mad3_1t!}`, and solve the challenge.
+I then submit `crew{l00ks_l1ke_y0u_mad3_1t!}`, and solve the challenge.
 
 
