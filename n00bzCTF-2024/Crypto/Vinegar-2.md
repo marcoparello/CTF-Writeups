@@ -100,7 +100,7 @@ decrypted_message = ''.join(decrypted_arr)
 print(decrypted_message)
 ```
 
-I copied and pasted the script into a python file which I named `vinegar2_solve.py`, and then executed the script, which resulted in:
+I copied and pasted the script into a python file which I named `vinegar2_solve.py`. I then executed the script, which resulted in:
 
 ```txt
 n00bz{4lph4num3r1c4l_1s_n0t_4_pr0bl3m}
