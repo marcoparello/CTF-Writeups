@@ -2,21 +2,22 @@
 
 ![](../images/recursion-part-1.png)
 
-Download file onto Kali Linux VM and open wireshark:
+I download `usb.pcapng` onto my Kali Linux VM and open Wireshark:
 
 ![](../images/wireshark.png)
 
-These are Interesting packets, as they contain a lot of data compared to the other packets:
-15, 31, 49, 55, 61, 67, 77
-All the interesting packets had `URB_BULK out`, going to USB Bus 1. So I created a filter:
+I find packets 15, 31, 49, 55, 61, 67, and 77 to be interesting, as they contain a lot more data than the other packets. Additionally, they have text in the packet output. They also all have the header of `URB_BULK out`, and go to USB bus 15. So, I create a filter by inputting:
+
 ```txt
 usb.device_address == 15 && usb.capdata
 ```
-Which resulted in:
+
+As I wanted to make sure that I didn't miss any other "interesting" packets while scrolling through all of the packets. I then execute the filter, which results in:
 
 ![](../images/recursion-part-2.png)
 
 I then used tshark to extract the filtered packets by using the command:
+
 ```txt
 tshark -r usb.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e usb.capdata > raw
 ```
@@ -25,16 +26,21 @@ Which I then converted to binary using:
 ```txt
 xxd -r -p raw output1.bin
 ```
-I then used binwalk on `output1.bin` to find any hidden files
-Which found a hidden file called `layer4.pcapng`. I then opened that pcap in wireshark
 
-Interesting packets:
-19, 35, 53, 59, 65,    All were going to usb bus 15 and were URB, so I used Tshark again:
+I then used binwalk on `output1.bin` to find any hidden files, typing:
+
+```txt
+binwalk -e output1.bin`
+```
+
+Which found a hidden file called `layer4.pcapng`. A pcap within a pcap, which isn't surprising as the challenge title is Recursion. So, I repeated the process again:
 
 ```txt
 tshark -r layer4.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e usb.capdata > raw
+xxd -r -p raw output2.bin`
 ```
-Then ` xxd -r -p raw output2.bin`
+
+I then attempted to use `binwalk -e` to extract the contents of `output2.bin`, but 
 Then binwalk
 Use `binwalk --dd='.*'  output2.bin` to force extract. Which results in a zip folder titled `2612.zip`, which contains `layer3.pcap`. So I repeat the process again:
 ```txt
