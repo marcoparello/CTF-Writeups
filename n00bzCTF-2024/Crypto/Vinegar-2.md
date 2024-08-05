@@ -4,7 +4,7 @@
 
 
 
-I download `chall.py` and `enc.txt` onto Kali Linux VM and place it in a folder titled `Vinegar 2`. `chall.py` contains:
+I downloaded `chall.py` and `enc.txt` onto my Kali Linux VM and placed them in a folder titled `Vinegar 2`. `chall.py` contained:
 
 ```txt
 alphanumerical = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*(){}_?'
@@ -40,7 +40,7 @@ f = open('enc.txt','w')
 f.write(encrypted)
 ```
 
-While `enc.txt` contains:
+While `enc.txt` contained:
 
 ```txt
 *fa4Q(}$ryHGswGPYhOC{C{1)&_vOpHpc2r0({
