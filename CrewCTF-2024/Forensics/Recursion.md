@@ -6,7 +6,7 @@ I download `usb.pcapng` onto my Kali Linux VM and open Wireshark:
 
 ![](../images/wireshark.png)
 
-I find packets 15, 31, 49, 55, 61, 67, and 77 to be interesting, as they contain a lot more data than the other packets. Additionally, they have text in the packet output. They also all have the header of `URB_BULK out`, and go to USB bus 15. So, I create a filter in wireshark by inputting:
+I find packets 15, 31, 49, 55, 61, 67, and 77 to be interesting, as they contain a lot more data than the other packets. Additionally, they have text in the packet output. They also all have the header of `URB_BULK out`, and go to USB bus 15. So, I create a filter in Wireshark by inputting:
 
 ```txt
 usb.device_address == 15 && usb.capdata
@@ -54,16 +54,14 @@ So, I typed:
 binwalk --dd='.*'  output2.bin
 ```
 
-In order to force extract the file. 
-
-Which results in `_output2.bin.extracted` being created. I then explore the contents of `_output2.bin.extracted`, which contains a zip folder titled `2612.zip`. I unzip `2612.zip`, which reveals that `2612.zip` contained a file titled, `layer3.pcapng`. So, I repeat the process again:
+In order to force extract the file, which results in `_output2.bin.extracted` being created. I then explore the contents of `_output2.bin.extracted`, which contains a zip folder titled `2612.zip`. I unzip `2612.zip`, which reveals that `2612.zip` contained a file titled `layer3.pcapng`. So, I repeat the process again:
 
 ```txt
 tshark -r layer3.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e usb.capdata > raw
 xxd -r -p raw output3.bin
 binwalk --dd='.*'  output3.bin
 ```
-Which results in a folder titled `_output3.bin.extracted`. I then explore the contents of `_output3.bin.extracted`, which contains a zip folder titled `2612.zip`. I unzip `2612.zip`, which reveals that `2612.zip` contained a file titled, `layer2.pcapng`. So I repeat the process again:
+Which results in a folder titled `_output3.bin.extracted`. I then explore the contents of `_output3.bin.extracted`, which contains a zip folder titled `2612.zip`. I unzip `2612.zip`, which reveals that `2612.zip` contained a file titled `layer2.pcapng`. So I repeat the process again:
 
 ```txt
 tshark -r layer2.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e usb.capdata > raw
@@ -71,7 +69,7 @@ xxd -r -p raw output4.bin`
 binwalk --dd='.*'  output4.bin
 ```
 
-Which results in a folder titled `_output4.bin.extracted`. I then explore the contents of `_output3.bin.extracted`, which contains a zip folder titled `4612.zip`. I unzip `4612.zip`, which reveals that `4612.zip` contained a file titled, `layer1.pcapng`. So, I repeat the process again:
+Which results in a folder titled `_output4.bin.extracted`. I then explore the contents of `_output3.bin.extracted`, which contains a zip folder titled `4612.zip`. I unzip `4612.zip`, which reveals that `4612.zip` contained a file titled `layer1.pcapng`. So, I repeat the process again:
 
 ```txt
 tshark -r layer1.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e usb.capdata > raw
@@ -79,7 +77,7 @@ xxd -r -p raw output5.bin`
 binwalk --dd='.*'  output5.bin
 ```
 
-But, `binwalk` doesn't find anything to be extracted, which means this is the end of the road. Now, since I am at the end of the recursion, the flag must be hidden inside of `layer1.pcapng`. So, I type:
+But, `binwalk` doesn't find anything to be extracted, which means this is the end of the recursion. Now, since I am at the end of the recursion, the flag must be hidden inside of `layer1.pcapng`. So, I type:
 
 ```txt
 strings layer1.pcapng | grep crew
