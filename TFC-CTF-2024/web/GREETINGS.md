@@ -74,7 +74,7 @@ This command is very similar to my previous command, but instead of listing all 
 
 ![](../images/greetings-part-10.png)
 
-I then submit `TFCCTF{a6afc419a8d18207ca9435a38cb64f42fef108ad2b24c55321be197b767f0409}` and solve the challenge.
+I then submit `TFCCTF{a6afc419a8d18207ca9435a38cb64f42fef108ad2b24c55321be197b767f0409}`, and solve the challenge.
 
 
 
