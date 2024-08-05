@@ -299,6 +299,6 @@ USBS j
 USBC 
 USBS
 ```
-Reveals crew{l00ks_l1ke_y0u_mad3_1t!}. I then submit `crew{l00ks_l1ke_y0u_mad3_1t!}` and solve the challenge.
+Is the flag. I then submit `crew{l00ks_l1ke_y0u_mad3_1t!}`, and solve the challenge.
 
 
