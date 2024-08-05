@@ -30,10 +30,10 @@ xxd -r -p raw output1.bin
 I then used binwalk on `output1.bin` to extract the contents of `output1.bin`, typing:
 
 ```txt
-binwalk -e output1.bin`
+binwalk -e output1.bin
 ```
 
-Which found a hidden file called `layer4.pcapng`. A pcap within a pcap, which isn't surprising as the challenge title is Recursion. So, I repeated the process again:
+Which results in `_output1.bin.extracted` being created. I then explore the contents of `_output1.bin.extracted`, which reveals a file titled `layer4.pcapng`. A pcap within a pcap, which isn't surprising as the challenge title is Recursion. So, I repeated the process again:
 
 ```txt
 tshark -r layer4.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e usb.capdata > raw
@@ -53,11 +53,14 @@ So, I typed:
 binwalk --dd='.*'  output2.bin
 ```
 
-In order to force extract the file.  Which results in a zip folder titled `2612.zip`, which contains `layer3.pcap`. So I repeat the process again:
+In order to force extract the file. 
+
+Which results in `_output2.bin.extracted`. I then explore the contents of `_output2.bin.extracted`, which contains a zip folder titled `2612.zip`. I unzip `2612.zip`, which reveals that `2612.zip` contained a file titled, `layer3.pcapng`. So I repeat the process again:
 ```txt
 tshark -r layer3.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e usb.capdata > raw
-```
-`xxd -r -p raw output3.bin`
+xxd -r -p raw output3.bin
+binwalk --dd='.*'  output3.bin
+
 
 Then binwalk. Which results in a file titled `layer2.pcapng` So I repeat the process again
 
