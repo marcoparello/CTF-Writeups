@@ -17,3 +17,4 @@
 - [Junior Crypt 2024](Junior-Crypt-2024/table-of-contents.md)
 - [DownUnderCTF 2024](DownUnderCTF-2024/table-of-contents.md)
 - [TFC CTF 2024](TFC-CTF-2024/table-of-contents.md)
+- [CrewCTF 2024](CrewCTF-2024/table-of-contents.md)
