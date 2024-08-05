@@ -27,7 +27,7 @@ Which I then converted to binary using:
 xxd -r -p raw output1.bin
 ```
 
-I then used binwalk on `output1.bin` to find any hidden files, typing:
+I then used binwalk on `output1.bin` to extract the contents of `output1.bin`, typing:
 
 ```txt
 binwalk -e output1.bin`
@@ -40,9 +40,20 @@ tshark -r layer4.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e
 xxd -r -p raw output2.bin`
 ```
 
-I then attempted to use `binwalk -e` to extract the contents of `output2.bin`, but 
-Then binwalk
-Use `binwalk --dd='.*'  output2.bin` to force extract. Which results in a zip folder titled `2612.zip`, which contains `layer3.pcap`. So I repeat the process again:
+I then attempted to use `binwalk -e` to extract the contents of `output2.bin`, but binwalk didn't extract anything, despite showing:
+
+```txt
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+9746          0x2612          7-zip archive data, version 0.4
+```
+
+So, I typed:
+```txt
+binwalk --dd='.*'  output2.bin
+```
+
+In order to force extract the file.  Which results in a zip folder titled `2612.zip`, which contains `layer3.pcap`. So I repeat the process again:
 ```txt
 tshark -r layer3.pcapng -Y 'usb.capdata and usb.device_address==15' -T fields -e usb.capdata > raw
 ```
