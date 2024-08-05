@@ -1,1 +1,4 @@
+# TFC CTF 2024
 
+## WEB
+- [GREETINGS](web/GREETINGS.md)
