@@ -60,7 +60,7 @@ The website seems to be stored in the `/usr/src/app/` directory of the server, a
  #{process.mainModule.require('child_process').spawnSync('ls', ['/usr/src/app/']).stdout}
 ```
 
-This command forces the entry point of the server (`process.mainModule`) to be able to create subprocesses (`.require('child_process')`). Then, a new processes is created by the server, executing the shellcode of `ls /usr/src/app/` (`.spawnSync('ls', ['/usr/src/app/'])), with the standard output of the command enabled (`.stdout`). I then execute the command, which results in:
+This command forces the entry point of the server (`process.mainModule`) to be able to create subprocesses (`.require('child_process')`). Then, a new processes is created by the server, executing the shellcode of `ls /usr/src/app/` (`.spawnSync('ls', ['/usr/src/app/'])`), with the standard output of the command enabled (`.stdout`). I then execute the command, which results in:
 
 ![](../images/greetings-part-9.png)
 
