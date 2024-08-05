@@ -10,23 +10,23 @@ I decide to enter my username as "a", which results in:
 
 ![](../images/greetings-part-3.png)
 
-I then glanced at the URL at the top of the page:
+I then glance at the URL at the top of the page:
 
 ```txt
 http://challs.tfcctf.com:30691/result?username=a
 ```
 
-Wondering what would happen if I deleted the `?username` field from the URL, I changed the URL to:
+Wondering what would happen if I deleted the `?username` field from the URL, I change the URL to:
 
 ```txt
 http://challs.tfcctf.com:30691/result
 ```
 
-Which resulted in:
+Which results in:
 
 ![](../images/greetings-part-4.png)
 
-I then open Burpsuite. While browsing through the requests and responses, one of the responses cataches my eye:
+I then open Burpsuite. While browsing through the requests and responses, I notice something interesting in one of the responses:
 
 ![](../images/greetings-part-5.png)
 
@@ -38,7 +38,7 @@ Now, if the website gives me an error after executing this, it is vulnerable to 
 
 ![](../images/greetings-part-7.png)
 
-The website is vulnerable. Looking at the text of the error:
+The website is vulnerable. Looking through the text of the error:
 
 ```txt
 Syntax Error: Unexpected token
