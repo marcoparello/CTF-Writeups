@@ -2,7 +2,7 @@
 
 ![](../images/passwordless-part-1.png)
 
-Download files. `app.py` contains:
+I click on `app.py`, which takes me to a webpage that contains:
 ```txt
 #!/usr/bin/env python3
 from flask import Flask, request, redirect, render_template, render_template_string
@@ -37,11 +37,11 @@ def user_page(uid):
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=1337)
 ```
-Click on link, which takes to this website:
+I then click on `http://24.199.110.35:40150/`, which takes me to this website:
 
 ![](../images/passwordless-part-2.png)
  
-If a type “a”
+I enter "a"
 
 ![](../images/passwordless-part-3.png)
 
@@ -51,6 +51,7 @@ The url is
 
 
 Simply create a uuid for admin123.  This is the key ` uid = uuid.uuid5(leet,username)`. 
+
 ```txt
 def user_page(uid):
     if uid != str(uuid.uuid5(leet,'admin123')):
