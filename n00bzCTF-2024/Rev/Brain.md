@@ -277,129 +277,189 @@ n
 ```
 
 2nd `<`:
+
 ```txt
 0
 ```
+
 3rd `<`:
+
 ```txt
 0
 ```
+
 4th `<`:
+
 ```txt
 b
 ```
+
 5th `<`:
+
 ```txt
 z
+
 ```
 6th `<`:
+
 ```txt
 {
 ```
+
 `n00bz{` is the standard flag format for this competition. Additionally, after each breakpoint, the code clears the memory. I continue going through each breakpoint:
 
 7th `<`:
+
 ```txt
 1
 ```
+
 8th `<`:
+
 ```txt
 _
 ```
+
 9th `<`:
+
 ```txt
 c
 ```
+
 10th `<`:
+
 ```txt
 4
 ```
+
 11th `<`:
+
 ```txt
 n
 ```
+
 12th `<`:
+
 ```txt
 _
 ```
+
 13th `<`:
+
 ```txt
 c
 ```
+
 14th `<`:
+
 ```txt
 0
 ```
+
 15th `<`:
+
 ```txt
 d
 ```
+
 16th `<`:
+
 ```txt
 3
 ```
+
 17th `<`:
+
 ```txt
 _
 ```
+
 18th `<`:
+
 ```txt
 1
 ```
+
 19th `<`:
+
 ```txt
 n
 ```
+
 20th `<`:
+
 ```txt
 _
 ```
+
 21st `<`:
+
 ```txt
 b
 ```
+
 22nd `<`:
+
 ```txt
 r
 ```
+
 23rd `<`:
+
 ```txt
 4
 ```
+
 24th `<`:
+
 ```txt
 1
 ```
+
 25th `<`:
+
 ```txt
 n
 ```
+
 26th `<`:
+
 ```txt
 f
 ```
+
 27th `<`:
+
 ```txt
 *
 ```
+
 28th `<`:
+
 ```txt
 c
 ```
+
 29th `<`:
+
 ```txt
 k
 ```
+
 30th `<`:
+
 ```txt
 !
 ```
+
 31st `<`:
+
 ```txt
 }
 ```
 
-I then combine all of the characters together, which results in:
+I then combined all of the characters together, which resulted in:
+
 ```txt
 n00bz{1_c4n_c0d3_1n_br41nf*ck!}
 ```
