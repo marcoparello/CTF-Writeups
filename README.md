@@ -18,3 +18,4 @@
 - [DownUnderCTF 2024](DownUnderCTF-2024/table-of-contents.md)
 - [TFC CTF 2024](TFC-CTF-2024/table-of-contents.md)
 - [CrewCTF 2024](CrewCTF-2024/table-of-contents.md)
+- [n00bzCTF 2024](n00bzCTF-2024/table-of-contents.md)
