@@ -81,5 +81,5 @@ I then go back to `http://24.199.110.35:40150/` and change the url to `24.199.11
 
 ![](../images/passwordless-part-4.png)
 
-I then submit ` n00bz{1337-13371337-1337-133713371337-1337}` and solve the challenge.
+I then submit ` n00bz{1337-13371337-1337-133713371337-1337}`, and solve the challenge.
 
