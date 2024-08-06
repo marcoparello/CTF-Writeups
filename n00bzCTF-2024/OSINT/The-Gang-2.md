@@ -17,7 +17,7 @@ USERNAME IS JOHN HACKER DOE
 ```
 
 
-I then searched up `username lookup` on Google, and came across `analyzeid`. I tried:
+I then searched up `username lookup` on Google, and came across `analyzeid`. I tried entering:
 
 ```txt
 John Hacker Doe
@@ -39,6 +39,6 @@ I then went to the `JOHNHACKERDOE` X.com account, where one of the tweets caught
 
 ![](../images/the-gang-2-part-5.png)
  
-I then submitted `n00bz{5t0p_ch4s1ng_m3_4f2d1a7d}` and solved the challenge.
+I then submitted `n00bz{5t0p_ch4s1ng_m3_4f2d1a7d}`, and solved the challenge.
 
 
