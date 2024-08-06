@@ -296,14 +296,24 @@ z
 ```txt
 {
 ```
+`n00bz{` is the standard flag format for this competition. Additionally, after each breakpoint, the code clears the memory. I continue going through each breakpoint:
+
 7th `<`:
+```txt
 1
+```
 8th `<`:
+```txt
 _
+```
 9th `<`:
+```txt
 c
+```
 10th `<`:
+```txt
 4
+```
 11th `<`:
 n
 12th `<`:
