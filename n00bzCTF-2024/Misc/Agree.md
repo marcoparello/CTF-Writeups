@@ -19,5 +19,5 @@ I then changed the URL from ` ctf.n00bzunit3d.xyz` to ` ctf.n00bzunit3d.xyz/priv
 ```txt
 This is our Privacy Policy! Here's 2/2 of your flag: 4nd_pr1v4cy_p0l1cy_6f3a4d}
 ```
-I then submitted ` n00bz{Terms_0f_Serv1c3s_4nd_pr1v4cy_p0l1cy_6f3a4d}` and solved the challenge.
+I then submitted ` n00bz{Terms_0f_Serv1c3s_4nd_pr1v4cy_p0l1cy_6f3a4d}`, and solved the challenge.
 
