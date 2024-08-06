@@ -35,7 +35,7 @@ I was greeted with:
 
 ![](../images/the-gang-2-part-4.png)
  
-I then went to the `JOHNHACKERDOE` X.com account, where one of the tweets caught my eye:
+I then went to the JOHNHACKERDOE X.com account, where one of the tweets caught my eye:
 
 ![](../images/the-gang-2-part-5.png)
  
