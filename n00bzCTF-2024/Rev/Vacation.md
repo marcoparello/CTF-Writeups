@@ -2,7 +2,8 @@
 
 ![](../images/vacation-part-1.png)
 
-Download files. `run.ps1` contains:
+I click on`run.ps1`, which takes me to a webpage that displays:
+
 ```txt
 $bytes = [System.Text.Encoding]::ASCII.GetBytes((cat .\flag.txt))
 [System.Collections.Generic.List[byte]]$newBytes = @()
@@ -12,12 +13,13 @@ $bytes.ForEach({
 $newString =  [System.Text.Encoding]::ASCII.GetString($newBytes)
 echo $newString | Out-File -Encoding ascii .\output.txt
 ```
-While `output.txt` contains:
+I then click on `output.txt`, which takes me to a webpage that displays:
+
 ```txt
 m33ayxeqln\sbqjp\twk\{lq~
 ```
 
-Chatgpt prompt:
+I then ask ChatGPT to explain what the code is doing, line by line, which results in: 
 ```txt
 Using this .ps1 script: $bytes = [System.Text.Encoding]::ASCII.GetBytes((cat .\flag.txt)) [System.Collections.Generic.List[byte]]$newBytes = @() $bytes.ForEach({ $newBytes.Add($_ -bxor 3) }) $newString = [System.Text.Encoding]::ASCII.GetString($newBytes) echo $newString | Out-File -Encoding ascii .\output.txt Reverse engineer the output: m33ayxeqln\sbqjp\twk\{lq~ to get the flag
 ```
@@ -25,14 +27,9 @@ Using this .ps1 script: $bytes = [System.Text.Encoding]::ASCII.GetBytes((cat .\f
 Resulted in this python script 
 
 ```txt
-# Encoded string
 encoded_string = "m33ayxeqln\\sbqjp\\twk\\{lq~"
-
-# Decode the string
 decoded_bytes = [chr(ord(char) ^ 3) for char in encoded_string]
 decoded_string = ''.join(decoded_bytes)
-
-# Output the decoded string
 print(decoded_string)
 ```
 
