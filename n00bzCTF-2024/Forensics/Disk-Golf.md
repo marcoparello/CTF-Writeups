@@ -2,7 +2,7 @@
 
 ![](../images/disk-golf-part-1.png)
 
-I downloaded the file onto my Kali Linux VM and extracted it, which caused a 2.7gb file called `disk.img` to appear. In order to view the file, I used autopsy:
+I downloaded the file onto my Kali Linux VM and extracted it, which caused a 2.7gb file called `disk.img` to appear. Since this was a hard disk image, I used `Autospy`, which is a disk image viewer:
 
 ![](../images/disk-golf-part-2.png)
 
