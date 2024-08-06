@@ -2,7 +2,7 @@
 
 ![](../images/plane-part-1.png)
 
-I clicked on `plane.jpeg', which revealed:
+I clicked on `plane.jpeg`, which revealed:
 
 ![](../images/plane-part-2.jpeg)
 
