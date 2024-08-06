@@ -14,7 +14,7 @@ Since `chall.wav` was a `.wav` file, I needed to find the file signature for `.w
 
 ![](../images/wave-part-4.png)
 
-I could now see what was wrong. The first four bytes of the `chunk descripter` need to be changed from:
+I could now see what was wrong. The first four bytes of the `chunk descripter` needed to be changed from:
 
 ```txt
 30 30 30 30
@@ -26,7 +26,7 @@ To:
 52 49 46 46
 ```
 
-Next, the last four bytes of the `chunk descripter` need to be changed from:
+Next, the last four bytes of the `chunk descripter` needed to be changed from:
 
 ```txt
 30 30 30 30
@@ -38,7 +38,7 @@ To:
 57 41 56 45
 ```
 
-Finally, the first three bytes of the `format subchunk` header need to be changed from:
+Finally, the first three bytes of the `format subchunk` header needed to be changed from:
 
 ```txt
 30 30 30
@@ -50,7 +50,7 @@ To:
 66 6D 74
 ```
 
-So, in `ghex`, I went to work:
+I then went to work:
 
 ![](../images/wave-part-5.png)
  
