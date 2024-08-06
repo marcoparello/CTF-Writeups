@@ -25,7 +25,7 @@ Saved, then opened file:
  
 Here beeps, and it sounds like morse code, so I upload the file to ` morsecode.world/international/decoder/audio-decoder-adaptive.html`, which results in:
 
-![](../images/wave-part-6.png)
+![](../images/wave-part-7.png)
  
 I convert it to lowercase, and submit `n00bzctf{beepbopmorsecode}`, which solves the challenge.
 
