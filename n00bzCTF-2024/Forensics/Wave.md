@@ -6,26 +6,61 @@ I clicked on `chall.wav`, which took me to:
 
 ![](../images/wave-part-2.png)
 
-Corrupted. Need to fix it. Used `filegrab.net`’s file download from url to download the wav file, as I was unable to download it directly from the link. I then opened `chall.wav` in ghex:
+Unfortunately for me, `chall.wav` is corrupted. So, I used `filegrab.net`’s file download from url to download the wav file, as I was unable to download it directly from the link. I then opened `chall.wav` in `ghex`, as I need to manually uncorrupt `chall.wav` by modifying the hexadecimal code:
 
 ![](../images/wave-part-3.png)
  
-Using the headers from `https://soundfile.sapp.org/doc/WaveFormat/`:
+Since `chall.wav` is a `.wav` file, I need to find the hexadecimal headers for `.wav` files. So, I searched `.wav file headers hex` on Google and found this from `https://soundfile.sapp.org/doc/WaveFormat/`:
 
 ![](../images/wave-part-4.png)
 
+I could now see what was wrong. The first four bytes of the `chunk descripter` need to be changed from:
 
-I need to add the RIFF WAVE and fmt headers, so:
+```txt
+30 30 30 30
+```
+
+To:
+
+```txt
+52 49 46 46
+```
+
+Next, the last four bytes of the `chunk descripter` need to be changed from:
+
+```txt
+30 30 30 30
+```
+
+To:
+
+```txt
+57 41 56 45
+```
+
+Finally, the first three bytes of the `format subchunk` header need to be changed from:
+
+```txt
+30 30 30
+```
+
+To:
+
+```txt
+66 6D 74
+```
+
+So, in `ghex`, I went to work:
 
 ![](../images/wave-part-5.png)
  
-Saved, then opened file:
+I then saved `chall.wav`, and opened it:
 
 ![](../images/wave-part-6.png)
  
-Here beeps, and it sounds like morse code, so I upload the file to ` morsecode.world/international/decoder/audio-decoder-adaptive.html`, which results in:
+I heard a series of beeps, which sounded like morse code, so I uploaded the `chall.wav` to ` morsecode.world/international/decoder/audio-decoder-adaptive.html`, which resulted in:
 
 ![](../images/wave-part-7.png)
  
-I convert it to lowercase, and submit `n00bzctf{beepbopmorsecode}`, which solves the challenge.
+I then convert it to lowercase, and submit `n00bzctf{beepbopmorsecode}`, which solves the challenge.
 
