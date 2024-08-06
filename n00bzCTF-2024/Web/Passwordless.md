@@ -77,7 +77,7 @@ I then ran `passwordless_solve.py`, which resulted in:
 3c68e6cc-15a7-59d4-823c-e7563bbb326c
 ```
 
-I then go back to `http://24.199.110.35:40150/` and change the url to `24.199.110.35:40150/3c68e6cc-15a7-59d4-823c-e7563bbb326c`. I then execute the URL, which results in:
+I then go back to `http://24.199.110.35:40150/` and change the URL to `24.199.110.35:40150/3c68e6cc-15a7-59d4-823c-e7563bbb326c`. I then execute the URL, which results in:
 
 ![](../images/passwordless-part-4.png)
 
