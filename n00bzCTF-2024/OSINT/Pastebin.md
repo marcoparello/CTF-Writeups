@@ -14,7 +14,7 @@ I noticed that the actual URL of the pastebin has two captures, so I clicked on 
 
 ![](../images/pastebin-part-4.png)
  
-I then clicked on June 17, which resulted in:
+I then clicked on June 17th, which resulted in:
 
 ![](../images/pastebin-part-5.png)
  
