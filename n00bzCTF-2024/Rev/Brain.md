@@ -2,12 +2,14 @@
 
 ![](../images/brain-part-1.png)
 
-`bf.txt` contains:
+I clicked on `bf.txt`, which took me to a webpage that displayed:
 ```txt
 >+++++++++++[<++++++++++>-]<[-]>++++++++[<++++++>-]<[-]>++++++++[<++++++>-]<[-]>++++++++++++++[<+++++++>-]<[-]>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[<++>-]<[-]>+++++++++++++++++++++++++++++++++++++++++[<+++>-]<[-]>+++++++[<+++++++>-]<[-]>+++++++++++++++++++[<+++++>-]<[-]>+++++++++++[<+++++++++>-]<[-]>+++++++++++++[<++++>-]<[-]>+++++++++++[<++++++++++>-]<[-]>+++++++++++++++++++[<+++++>-]<[-]>+++++++++++[<+++++++++>-]<[-]>++++++++[<++++++>-]<[-]>++++++++++[<++++++++++>-]<[-]>+++++++++++++++++[<+++>-]<[-]>+++++++++++++++++++[<+++++>-]<[-]>+++++++[<+++++++>-]<[-]>+++++++++++[<++++++++++>-]<[-]>+++++++++++++++++++[<+++++>-]<[-]>++++++++++++++[<+++++++>-]<[-]>+++++++++++++++++++[<++++++>-]<[-]>+++++++++++++[<++++>-]<[-]>+++++++[<+++++++>-]<[-]>+++++++++++[<++++++++++>-]<[-]>+++++++++++++++++[<++++++>-]<[-]>+++++++[<++++++>-]<[-]>+++++++++++[<+++++++++>-]<[-]>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[<+>-]<[-]>+++++++++++[<+++>-]<[-]>+++++++++++++++++++++++++[<+++++>-]<[-]
 ```
-Since the challenge is called Brain and the file is named `bf.txt` I think this is the brainf**k language.
-So I use `kvbc.github.io/bf-ide/` brainfuck’s ide. And step through the code manually step by step. I notice that there are characters. Maybe if I set a breakpoint after each `<`, it will reveal each character of the flag?
+
+Since the challenge was called Brain and the file is named `bf.txt`, I could reasonably conclude that the langauge in `bf.txt` is the brainfuck coding langauge (I am not making this up that is what the actual title of the langauge is called. It's a "joke" coding langugae, not meant to ever be used seriously. It's more like "look at this crazy langauge I made").
+
+So, I used `kvbc.github.io/bf-ide/` brainfuck’s ide. And step through the code manually step by step. I notice that there are characters. Maybe if I set a breakpoint after each `<`, it will reveal each character of the flag?
 
 1st `<`:
 
