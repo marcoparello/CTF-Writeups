@@ -399,7 +399,11 @@ k
 }
 ```
 
-Now to bring it all together:
+I then combine all of the characters together, which results in:
+```txt
 n00bz{1_c4n_c0d3_1n_br41nf*ck!}
+```
+
+I then submitted `n00bz{1_c4n_c0d3_1n_br41nf*ck!}`, and solved the challenge.
 
 
