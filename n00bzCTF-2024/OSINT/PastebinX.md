@@ -2,24 +2,24 @@
 
 ![](../images/pastebinx-part-1.png)
 
-Go back to the wayback machine, and click on August 3rd: 
+I went back to the Wayback Machine, and entered the link from the `Pastebin` challenge. I then clicked on August 3rd: 
 
 ![](../images/pastebinx-part-2.png)
 
  
-Click on `Untitled`:
+I then click on `Untitled`, which resulted in:
  
 
 ![](../images/pastebinx-part-3.png)
 
 
-Searched Twitter User ID, and found ` ilo.so/twitter-id/`. Clicked on link:
+I searched `Twitter User ID from username` on Google, and found ` ilo.so/twitter-id/`:
  
 ![](../images/pastebinx-part-4.png)
 
-Entered `@Abhinav78082932` which resulted in:
+I then entered `@Abhinav78082932`, which resulted in:
  
 ![](../images/pastebinx-part-5.png)
 
-I then submitted `n00bz{1d_1596757063039799297}` and solved the challenge.
+I then submitted `n00bz{1d_1596757063039799297}`, and solved the challenge.
 
