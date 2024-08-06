@@ -2,23 +2,40 @@
 
 ![](../images/the-gang-2-part-1.png)
 
-Back to page:
+I went back to John Doe's profile on `n00bzunit3d.xyz`:
 
 ![](../images/the-gang-2-part-2.png)
 
-Click on article:
+Seeing that he wrote an article, I clicked on it, which resulted in:
 
 ![](../images/the-gang-2-part-3.png)
 
-The first letters of each sentence seem to be saying something.
+I noticed that the first letters of each sentence seemed to be spelling something out, so I combined them to get:
+
+```txt
 USERNAME IS JOHN HACKER DOE
+```
 
 
-Used `analyzeid`
+I then searched up `username lookup` on Google, and came across `analyzeid`. I tried:
+
+```txt
+John Hacker Doe
+john hacker doe
+johnhackerdoe
+```
+
+But nothing came up. However, when I entered:
+
+```txt
+JOHNHACKERDOE
+```
+
+I was greeted with:
 
 ![](../images/the-gang-2-part-4.png)
  
-Go to X account:
+I then went to the `JOHNHACKERDOE` X.com account, where one of the tweets caught my eye:
 
 ![](../images/the-gang-2-part-5.png)
  
