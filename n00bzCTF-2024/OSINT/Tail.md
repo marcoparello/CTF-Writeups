@@ -6,7 +6,7 @@ I clicked on `tail.jpeg`, which resulted in this image being displayed in my bro
 
 ![](../images/tail-part-2.jpeg)
  
-The airplane tail had an image of a flower with 7 petals, which gave me an identifying trait of the plane. So, I searched up “airplane tail logo with 7 petal flower blue” on Bing Images in an attempt to find the airline that owned the plane:
+The airplane tail had an image of a flower with 7 petals, which gave me an identifying trait of the plane. So, I searched `airplane tail logo with 7 petal flower blue` on Bing Images in an attempt to find the airline that owned the plane:
 
 ![](../images/tail-part-3.png)
  
