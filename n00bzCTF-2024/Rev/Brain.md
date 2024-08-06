@@ -267,22 +267,35 @@ I noticed that the code regularly repeated the `<` character, which was interest
 [-]
 ```
 
+I then ran the code in the IDE, and checked the memory map after each breakpoint:
 
 
 1st `<`:
 
+```txt
 n
+```
 
 2nd `<`:
+```txt
 0
+```
 3rd `<`:
+```txt
 0
+```
 4th `<`:
+```txt
 b
+```
 5th `<`:
+```txt
 z
+```
 6th `<`:
+```txt
 {
+```
 7th `<`:
 1
 8th `<`:
