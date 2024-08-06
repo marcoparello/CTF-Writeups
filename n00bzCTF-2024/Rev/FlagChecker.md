@@ -2,11 +2,11 @@
 
 ![](../images/flagchecker-part-1.png)
 
-I download FlagChecker.xlsm and open it:
+I downloaded `FlagChecker.xlsm` and opened it:
 
 ![](../images/flagchecker-part-2.png)
  
-I then look at the macro code (enable developer options under the customize ribbion tab in order to do this):
+I then looked at the macro code (I enabled the Developer setting under the Customize Ribbon tab in Options in order to do this):
 
 ```txt
 Sub FlagChecker()
@@ -80,7 +80,7 @@ Sub FlagChecker()
 End Sub
 ```
 
-I then prompt ChatGPT to explain the code line by line, which returns this analysis (this is very helpful in reverse engineering challenges, where part of the challenge is figuring out what the code actually does):
+I then prompted ChatGPT to explain the code line by line, which returns this analysis (this is very helpful in reverse engineering challenges, where part of the challenge is figuring out what the code actually does):
 
 ```txt
 Initial Setup
@@ -162,7 +162,7 @@ Success Message
 MsgBox "you got the flag!"
 ```
 
-I have a clear analysis of what the code does, which I can use to create a script that reverse engineers the code. I then create a python file, which I name `flag_solve.py`, and begin working:
+Now knowing what the code does, I then created a python file, which I named `flagchecker_solve.py`, and began working:
 
 ```txt
 # variables
@@ -265,9 +265,11 @@ find_flag()
 
 ```
 
-I then ran the script, which resulted in:
+I then ran `flagchecker_solve.py`, which resulted in:
+
 ```txt
 n00bz{3xc3l_y0ur_sk1lls}
 ```
+
 I then submitted `n00bz{3xc3l_y0ur_sk1lls}`, and solved the challenge.
 
