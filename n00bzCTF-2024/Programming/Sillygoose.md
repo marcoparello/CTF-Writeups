@@ -41,7 +41,7 @@ while True:
         print("you have a skill issue you silly goose")
 ```
 
-Since I have a limited amount of time to guess the correct number, I must program a script to guess the number for me. With any challenge that requires scripting, I first prompt ChatGPT to solve it for me. If ChatGPT is unable to solve it, I then move toward using ChatGPT's code as a base for me to work from. So, I craft this ChatGPT prompt: 
+Since I have a limited amount of time to guess the correct number, I must program a script to guess the number for me. In order to obtain a script that would efficiently guess the correct number, I crafted this ChatGPT prompt: 
 
 `
 from random import randint import time ans = randint(0, pow(10, 100)) start_time = int(time.time()) turns = 0 while True: turns += 1 inp = input() if int(time.time()) > start_time + 60: print("you ran out of time you silly goose") break if "q" in inp: print("you are no fun you silly goose") break if not inp.isdigit(): print("give me a number you silly goose") continue inp = int(inp) if inp > ans: print("your answer is too large you silly goose") elif inp < ans: print("your answer is too small you silly goose") else: print("congratulations you silly goose") f = open("/flag.txt", "r") print(f.read()) if turns > 500: print("you have a skill issue you silly goose") Reverse engineer this code to obtain the flag, while connecting it to 24.199.110.35 41199
