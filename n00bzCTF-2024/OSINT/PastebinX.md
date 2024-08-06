@@ -7,13 +7,13 @@ I went back to the Wayback Machine, and entered the link from the `Pastebin` cha
 ![](../images/pastebinx-part-2.png)
 
  
-I then click on `Untitled`, which resulted in:
+I then clicked on `Untitled`, which resulted in:
  
 
 ![](../images/pastebinx-part-3.png)
 
 
-I searched `Twitter User ID from username` on Google, and found ` ilo.so/twitter-id/`:
+Since I needed to find the Twitter user ID of `@Abhinav78082932`, I searched `Twitter User ID from username` on Google, and clicked on `ilo.so/twitter-id/`, which resulted in:
  
 ![](../images/pastebinx-part-4.png)
 
