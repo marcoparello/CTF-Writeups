@@ -62,7 +62,7 @@ def user_page(uid):
     else:
         return flag
 ```
-Now, if the UID doesn’t equal `str(uuid.uuid5(leet,’admin123’)), no flag will be sent. However, if the username equals admin123, the page will send `Stop trying to act like you are the admin!`. All I need to do is make a python script that prints out the UID for admin123. I am given the leet for admin123, which is `leet=uuid.UUID('13371337-1337-1337-1337-133713371337')`. So, I created a python file titled `passwordless_solve.py`, and began working:
+Now, if the UID doesn’t equal `str(uuid.uuid5(leet,’admin123’))`, no flag will be sent. However, if the username equals admin123, the page will send `Stop trying to act like you are the admin!`. All I need to do is make a python script that prints out the UID for admin123. I am given the leet for admin123, which is `leet=uuid.UUID('13371337-1337-1337-1337-133713371337')`. So, I created a python file titled `passwordless_solve.py`, and began working:
 
 ```txt
 import uuid
