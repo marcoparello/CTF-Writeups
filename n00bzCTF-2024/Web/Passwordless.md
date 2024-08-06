@@ -3,6 +3,7 @@
 ![](../images/passwordless-part-1.png)
 
 I click on `app.py`, which takes me to a webpage that contains:
+
 ```txt
 #!/usr/bin/env python3
 from flask import Flask, request, redirect, render_template, render_template_string
@@ -41,16 +42,18 @@ I then click on `http://24.199.110.35:40150/`, which takes me to this website:
 
 ![](../images/passwordless-part-2.png)
  
-I enter "a"
+I enter "a" as my username:
 
 ![](../images/passwordless-part-3.png)
 
 
-The url is 
-` 24.199.110.35:40150/8a406be5-22f6-5340-9491-03cf301dcfdf`
+I glance to the top of the page, where I notice that the URL is:
 
+```txt
+24.199.110.35:40150/8a406be5-22f6-5340-9491-03cf301dcfdf
+```
 
-Simply create a uuid for admin123.  This is the key ` uid = uuid.uuid5(leet,username)`. 
+I then go back to `app.py`, where I notice:
 
 ```txt
 def user_page(uid):
@@ -59,19 +62,20 @@ def user_page(uid):
     else:
         return flag
 ```
-If the uid doesn’t equal (leet,’admin123’), no flag will be sent. However, if the `username == admin123`, the page will send ‘Stop trying to act like you are the admin!”. All we need to do is make a python script that prints out the uid for admin123 along with the leet. The leet of ` leet=uuid.UUID('13371337-1337-1337-1337-133713371337')` is given. So I create this python script:
+Now, if the uid doesn’t equal (leet,’admin123’), no flag will be sent. However, if the `username == admin123`, the page will send ‘Stop trying to act like you are the admin!”. All I need to do is make a python script that prints out the uid for admin123 along with the leet. The leet of ` leet=uuid.UUID('13371337-1337-1337-1337-133713371337')` is given. So I create a python file titled `passwordless_solve.py`, and begin working:
+
 ```txt
 import uuid
 leet=uuid.UUID('13371337-1337-1337-1337-133713371337')
 uid = str(uuid.uuid5(leet,'admin123'))
 print(uid)
 ```
-I then run it, which results in 
+I then run `passwordless_solve.py`, which results in 
+
 ```txt
 3c68e6cc-15a7-59d4-823c-e7563bbb326c
 ```
-I then change the url to ` 24.199.110.35:40150/3c68e6cc-15a7-59d4-823c-e7563bbb326c`
-Which results in:
+I then go back to `http://24.199.110.35:40150/` and change the url to `24.199.110.35:40150/3c68e6cc-15a7-59d4-823c-e7563bbb326c`, which results in:
 
 ![](../images/passwordless-part-4.png)
 
