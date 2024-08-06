@@ -48,7 +48,7 @@ To connect to the service. Looking at `server.py` I noticed:
 print(flag[:questions])
 ```
 
-Which means that the number of questions determine how much of the flag is shown. If the number of questions equals 1, the flag will be printed from the character at it's 0th index to it's first index. Therefore, I need to choose the number of questions that will print out the entire flag. However:
+Which means that the number of questions determine how much of the flag is shown. If the number of questions equals 1, the flag will be printed from the character at it's 0th index to it's 1st index. Therefore, I need to choose the number of questions that will print out the entire flag. However:
 
 ```txt
 for i in range(questions):
@@ -76,7 +76,7 @@ As the number of questions increases, the amount of time the server sleeps befor
 questions = int(input("how many questions do you want to answer? "))
 ```
 
-The number of questions is based off user input. As a result, I entered `-1` for the amount of questions, as an index of -1 would correspond to the last character, therefore printing the flag out from the first character of the flag, to the last character of the flag:
+The number of questions is based off user input. As a result, I entered `-1` for the amount of questions, as an index of -1 would correspond to the last character (an index of -2 would correpsond to it's second to last character, and so on), therefore printing the flag out from the character at it's 0th index to the character at it's last index:
 
 ```txt
 how many questions do you want to answer? -1
