@@ -2,24 +2,26 @@
 
 ![](../images/disk-golf-part-1.png)
 
-I downloaded the file onto my Kali Linux VM and extracted it, which caused a 2.7gb file called `disk.img` to appear. Since this was a hard disk image, I used `Autospy`, which is a disk image viewer:
+I downloaded the file onto my Kali Linux VM and extracted it, which caused a 2.7gb file called `disk.img` to appear. Since this was a hard disk image, I used `Autospy`, which is a disk image viewer. I then navigated to the `/home/` directory, and saw a user titled `johnhackerdoe`. I then navigated to the `/johnhackerdoe/` subdirectory, where I noticed:
 
 ![](../images/disk-golf-part-2.png)
 
 `flag.txt` contains:
+
 ```txt
 156 60 60 142 172 173 67 150 63 137 154 60 156 147 137 64 167 64 61 164 63 144 137 144 61 65 153 137 146 60 162 63 156 163 61 143 65 175
 ```
 
 While `flag2.txt` contains:
+
 ```txt
 This flag was added after the memory dump was created! I wish there was a way to access the current file system ;)
 ```
-I already mounted the image so `flag.txt` is the flag. I then used boxentriq’s cipher identifier:
+I already mounted the image so `flag.txt` is the flag. However, I need to decrypt `flag.txt`, as it is encrypted. So, I used `boxentriq`’s cipher identifier:
 
 ![](../images/disk-golf-part-3.png)
 
- I then used `cryptiis` octal code decoder, which resulted in:
+ I then used `cryptii`'s octal code decoder, which resulted in:
 
  ![](../images/disk-golf-part-4.png)
 
