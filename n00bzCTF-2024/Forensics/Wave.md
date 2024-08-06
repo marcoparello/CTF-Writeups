@@ -6,7 +6,7 @@ I clicked on `chall.wav`, which took me to:
 
 ![](../images/wave-part-2.png)
 
-Unfortunately for me, `chall.wav` was corrupted. Additionally, I couldn't find a way to download the `chall.wav` directly from my browser. So, I used `filegrab.net`’s file download from URL feature to download `chall.wav` onto my Kali Linux VM. I then opened `chall.wav` in `ghex`, as from my past experiences with forensics challenges where a file is corrupted, the fix was almost always changing the hexadecimal data of the file to it's correct headers. 
+Unfortunately for me, `chall.wav` was corrupted. Additionally, I couldn't find a way to download the `chall.wav` directly from my browser. So, I used `filegrab.net`’s file download from URL feature to download `chall.wav` onto my Kali Linux VM. I then opened `chall.wav` in `ghex`, as from my past experiences with forensics challenges where a file was corrupted, the fix was almost always changing the hexadecimal data of the file to it's correct headers. 
 
 ![](../images/wave-part-3.png)
  
