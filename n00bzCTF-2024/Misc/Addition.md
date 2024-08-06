@@ -43,7 +43,7 @@ I then typed:
 nc 24.199.110.35 42189
 ```
 
-To connect to the service. Looking at `server.py` I noticed:
+To connect to the service. Looking at `server.py`, I noticed:
 
 ```txt
 print(flag[:questions])
@@ -77,12 +77,12 @@ As the number of questions increases, the amount of time the server sleeps befor
 questions = int(input("how many questions do you want to answer? "))
 ```
 
-The number of questions is based off user input. Therefore, I entered `-1` for the amount of questions, as an index of -1 would correspond to the last character (an index of -2 would correpsond to it's second to last character, and so on), therefore printing the flag out from the character at it's 0th index to the character at it's last index.:
+The number of questions is based off user input. Therefore, I entered `-1` for the amount of questions, as an index of -1 would correspond to the last character (an index of -2 would correpsond to it's second to last character, and so on), therefore printing the flag out from the character at it's 0th index to the character at it's last index:
 
 ```txt
 how many questions do you want to answer? -1
 n00bz{m4th_15nt_4ll_4b0ut_3qu4t10n5}
 ```
 
-I then submitted `n00bz{m4th_15nt_4ll_4b0ut_3qu4t10n5}` and solved the challenge.
+I then submitted `n00bz{m4th_15nt_4ll_4b0ut_3qu4t10n5}`, and solved the challenge.
 
