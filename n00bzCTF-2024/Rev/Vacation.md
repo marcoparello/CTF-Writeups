@@ -2,7 +2,7 @@
 
 ![](../images/vacation-part-1.png)
 
-I click on`run.ps1`, which takes me to a webpage that displays:
+I clicked on`run.ps1`, which took me to a webpage that displayed:
 
 ```txt
 $bytes = [System.Text.Encoding]::ASCII.GetBytes((cat .\flag.txt))
@@ -13,13 +13,14 @@ $bytes.ForEach({
 $newString =  [System.Text.Encoding]::ASCII.GetString($newBytes)
 echo $newString | Out-File -Encoding ascii .\output.txt
 ```
-I then click on `output.txt`, which takes me to a webpage that displays:
+I then clicked on `output.txt`, which took me to a webpage that displayed:
 
 ```txt
 m33ayxeqln\sbqjp\twk\{lq~
 ```
 
-I then ask ChatGPT to explain what the code is doing, line by line, and then summarize it. After I execute the prompt, this summary is returned:
+I then asked ChatGPT to explain what the code is doing, line by line, and then summarize it. After I execute the prompt, this summary is returned:
+
 ```txt
 Reads the contents of flag.txt.
 Converts the content into an array of bytes.
@@ -28,7 +29,7 @@ Converts the modified byte array back into a string.
 Writes the resulting string to output.txt.
 ```
 
-I then create a python file titled `vacation_solve.py` and begin working:
+I then created a python file titled `vacation_solve.py` and began working:
 
 
 ```txt
