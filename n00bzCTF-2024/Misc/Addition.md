@@ -48,7 +48,7 @@ To connect to the service. Looking at `server.py` I noticed:
 print(flag[:questions])
 ```
 
-Therefore, I need to choose the number of questions that will print out the entire flag. However:
+Which means that the number of questions determine how much of the flag is shown. If the number of questions equals 1, the flag will be printed from the character at it's 0th index to it's first index. Therefore, I need to choose the number of questions that will print out the entire flag. However:
 
 ```txt
 for i in range(questions):
