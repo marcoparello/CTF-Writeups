@@ -2,7 +2,7 @@
 
 ![](../images/pastebin-part-1.png)
 
-Since the pastebin was created a "long time ago", I entered the link into the Wayback Machine:
+Since the pastebin was created a "long time ago", I entered `https://pastebin.com/u/abhinav654321` into the Wayback Machine:
 
 ![](../images/pastebin-part-2.png)
  
