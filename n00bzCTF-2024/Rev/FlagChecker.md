@@ -170,17 +170,7 @@ Success Message
 MsgBox "you got the flag!"
 ```
 
-I have a clear analysis of what the code does, which I can use to create a script that reverse engineers the code. But before I start, I look at the challenge description for any other infromatio I could use, and I come across this:
-```txt
-Note: char_21 is the SAME as char_22 Note 2: The correct flag has ALL LOWERCASE, NUMBERS, n00bz{} AND UNDERSCORES (There's two underscores in the entire flag)
-```
-Therefore, I already know a part of the flag, which is:
-
-```txt
-n00bz{
-```
-
-I then create a python file, which I name `flag_solve.py`, and begin working. This was the resulting script:
+I have a clear analysis of what the code does, which I can use to create a script that reverse engineers the code. I then create a python file, which I name `flag_solve.py`, and begin working:
 
 ```txt
 # variables
