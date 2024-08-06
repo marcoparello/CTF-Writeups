@@ -7,9 +7,9 @@ I clicked on `bf.txt`, which took me to a webpage that displayed:
 >+++++++++++[<++++++++++>-]<[-]>++++++++[<++++++>-]<[-]>++++++++[<++++++>-]<[-]>++++++++++++++[<+++++++>-]<[-]>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[<++>-]<[-]>+++++++++++++++++++++++++++++++++++++++++[<+++>-]<[-]>+++++++[<+++++++>-]<[-]>+++++++++++++++++++[<+++++>-]<[-]>+++++++++++[<+++++++++>-]<[-]>+++++++++++++[<++++>-]<[-]>+++++++++++[<++++++++++>-]<[-]>+++++++++++++++++++[<+++++>-]<[-]>+++++++++++[<+++++++++>-]<[-]>++++++++[<++++++>-]<[-]>++++++++++[<++++++++++>-]<[-]>+++++++++++++++++[<+++>-]<[-]>+++++++++++++++++++[<+++++>-]<[-]>+++++++[<+++++++>-]<[-]>+++++++++++[<++++++++++>-]<[-]>+++++++++++++++++++[<+++++>-]<[-]>++++++++++++++[<+++++++>-]<[-]>+++++++++++++++++++[<++++++>-]<[-]>+++++++++++++[<++++>-]<[-]>+++++++[<+++++++>-]<[-]>+++++++++++[<++++++++++>-]<[-]>+++++++++++++++++[<++++++>-]<[-]>+++++++[<++++++>-]<[-]>+++++++++++[<+++++++++>-]<[-]>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[<+>-]<[-]>+++++++++++[<+++>-]<[-]>+++++++++++++++++++++++++[<+++++>-]<[-]
 ```
 
-Since the challenge was called Brain and the file is named `bf.txt`, I could reasonably conclude that the langauge in `bf.txt` is the brainfuck coding langauge (I am not making this up that is what the actual title of the langauge is called. It's a "joke" coding langugae, not meant to ever be used seriously. It's more like "look at this crazy langauge I made").
+Since the challenge was called Brain and the file is named `bf.txt`, I could reasonably conclude that the langauge in `bf.txt` is the Brainfuck coding langauge (I am not making this up that is what the actual title of the langauge is called).
 
-So, I used `kvbc.github.io/bf-ide/` brainfuck IDE, which allows me to set breakpoints. I also used the "beautify" feature to make the code more readable, which resulted in:
+So, I used `kvbc.github.io/bf-ide/`'s Brainfuck IDE, which allowed me to set breakpoints. I also used the "beautify" feature to make the code more readable, which resulted in:
 
 ```txt
 >+++++++++++
@@ -138,7 +138,7 @@ So, I used `kvbc.github.io/bf-ide/` brainfuck IDE, which allows me to set breakp
 [-]
 ```
 
-I noticed that the code regularly repeated the `<` character, which was interesting. So, I set breakpoints at each `<`:
+I noticed that the code regularly repeated the `<` character. So, I set breakpoints at each `<`:
 
 ```txt
 >+++++++++++
@@ -306,7 +306,7 @@ z
 {
 ```
 
-`n00bz{` is the standard flag format for this competition. Additionally, after each breakpoint, the code clears the memory. I continue going through each breakpoint:
+`n00bz{` is the standard flag format for this competition. Additionally, after each breakpoint, the code clears the memory. I continued going through each breakpoint:
 
 7th `<`:
 
