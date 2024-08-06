@@ -32,15 +32,23 @@ I then create a python file titled `vacation_solve.py` and begin working:
 
 
 ```txt
-encoded_string = "m33ayxeqln\\sbqjp\\twk\\{lq~"
-decoded_bytes = [chr(ord(char) ^ 3) for char in encoded_string]
-decoded_string = ''.join(decoded_bytes)
-print(decoded_string)
+# decodes the string by XORing each character by its ASCII value with 3 and then converts the resulting value back to a character
+# Then adds the character to decrypted_string. Once that for loop as finished, prints decrypted_string
+def decode(encoded_string):
+	decrypted_string = ""
+	for char in encoded_string:
+		c = chr(ord(char) ^ 3)
+		decrypted_string += c
+	print(decrypted_string)
+# function call
+decode("m33ayxeqln\\sbqjp\\twk\\{lq~")
 ```
+
+I then ran `vacation_solve.py`, which resulted in:
 
 ```txt
 n00bz{from_paris_wth_xor}
 ```
 
-I then submitted `n00bz{from_paris_wth_xor}` and solved the challenge.
+I then submitted `n00bz{from_paris_wth_xor}`, and solved the challenge.
 
