@@ -138,77 +138,8 @@ So, I used `kvbc.github.io/bf-ide/` brainfuck IDE, which allows me to set breakp
 [-]
 ```
 
-I noticed that the code regularly repeated the `<` character, And step through the code manually step by step. I notice that there are characters. Maybe if I set a breakpoint after each `<`, it will reveal each character of the flag?
+I noticed that the code regularly repeated the `<` character, which was interesting. So, I set breakpoints at each `<`:
 
-1st `<`:
-
-n
-
-2nd `<`:
-0
-3rd `<`:
-0
-4th `<`:
-b
-5th `<`:
-z
-6th `<`:
-{
-7th `<`:
-1
-8th `<`:
-_
-9th `<`:
-c
-10th `<`:
-4
-11th `<`:
-n
-12th `<`:
-_
-13th `<`:
-c
-14th `<`:
-0
-15th `<`:
-d
-16th `<`:
-3
-17th `<`:
-_
-18th `<`:
-1
-19th `<`:
-n
-20th `<`:
-_
-21st `<`:
-b
-22nd `<`:
-r
-23rd `<`:
-4
-24th `<`:
-1
-25th `<`:
-n
-26th `<`:
-f
-27th `<`:
-*
-28th `<`:
-c
-29th `<`:
-k
-30th `<`:
-!
-31st `<`:
-}
-
-Now to bring it all together:
-n00bz{1_c4n_c0d3_1n_br41nf*ck!}
-
-Here is the code with the breakpoints:
 ```txt
 >+++++++++++
 [<++++++++++>-]
@@ -335,4 +266,75 @@ Here is the code with the breakpoints:
 <#
 [-]
 ```
+
+
+
+1st `<`:
+
+n
+
+2nd `<`:
+0
+3rd `<`:
+0
+4th `<`:
+b
+5th `<`:
+z
+6th `<`:
+{
+7th `<`:
+1
+8th `<`:
+_
+9th `<`:
+c
+10th `<`:
+4
+11th `<`:
+n
+12th `<`:
+_
+13th `<`:
+c
+14th `<`:
+0
+15th `<`:
+d
+16th `<`:
+3
+17th `<`:
+_
+18th `<`:
+1
+19th `<`:
+n
+20th `<`:
+_
+21st `<`:
+b
+22nd `<`:
+r
+23rd `<`:
+4
+24th `<`:
+1
+25th `<`:
+n
+26th `<`:
+f
+27th `<`:
+*
+28th `<`:
+c
+29th `<`:
+k
+30th `<`:
+!
+31st `<`:
+}
+
+Now to bring it all together:
+n00bz{1_c4n_c0d3_1n_br41nf*ck!}
+
 
