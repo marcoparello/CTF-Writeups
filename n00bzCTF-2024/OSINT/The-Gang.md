@@ -18,5 +18,5 @@ It displayed `John Doe`. I then clicked on `John Doe`'s profile, which resulted 
 
 ![](../images/the-gang-part-5.png)
  
-I then submitted ` n00bz{1ts_051N7_71m3_3e4a7d6f}`, and solved the challenge.
+I then submitted `n00bz{1ts_051N7_71m3_3e4a7d6f}`, and solved the challenge.
 
