@@ -62,5 +62,5 @@ I heard a series of beeps, which sounded like morse code, so I uploaded the `cha
 
 ![](../images/wave-part-7.png)
  
-I then convert it to lowercase, and submit `n00bzctf{beepbopmorsecode}`, which solves the challenge.
+Due to the challenge description specifying that the inside of the flag is in lowercase, I changed `BEEPBOPMORSECODE` to `beepbopmorsecode`. I then submitted `n00bzctf{beepbopmorsecode}`, and solved the challenge.
 
