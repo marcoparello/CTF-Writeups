@@ -80,15 +80,7 @@ Sub FlagChecker()
 End Sub
 ```
 
-Running the macro results in:
-
-![](../images/flagchecker-part-3.png)
- 
-I type a:
-
-![](../images/flagchecker-part-4.png)
-
-I then prompt ChatGPT to explain the code line by line, which returns this analysis:
+I then prompt ChatGPT to explain the code line by line, which returns this analysis (this is very helpful in reverse engineering challenges, where part of the challenge is figuring out what the code actually does):
 
 ```txt
 Initial Setup
