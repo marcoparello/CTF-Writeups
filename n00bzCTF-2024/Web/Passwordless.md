@@ -2,7 +2,7 @@
 
 ![](../images/passwordless-part-1.png)
 
-I click on `app.py`, which takes me to a webpage that contains:
+I clicked on `app.py`, which took me to a webpage that contains:
 
 ```txt
 #!/usr/bin/env python3
@@ -38,7 +38,7 @@ def user_page(uid):
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=1337)
 ```
-I then click on `http://24.199.110.35:40150/`, which takes me to this website:
+I then clicked on `http://24.199.110.35:40150/`, which takes me to this website:
 
 ![](../images/passwordless-part-2.png)
  
@@ -62,7 +62,7 @@ def user_page(uid):
     else:
         return flag
 ```
-Now, if the UID doesn’t equal (leet,’admin123’), no flag will be sent. However, if the `username == admin123`, the page will send `Stop trying to act like you are the admin!`. All I need to do is make a python script that prints out the UID for admin123. I am given the leet for admin123, which is `leet=uuid.UUID('13371337-1337-1337-1337-133713371337')`. So, I create a python file titled `passwordless_solve.py`, and begin working:
+Now, if the UID doesn’t equal `str(uuid.uuid5(leet,’admin123’)), no flag will be sent. However, if the username equals admin123, the page will send `Stop trying to act like you are the admin!`. All I need to do is make a python script that prints out the UID for admin123. I am given the leet for admin123, which is `leet=uuid.UUID('13371337-1337-1337-1337-133713371337')`. So, I created a python file titled `passwordless_solve.py`, and began working:
 
 ```txt
 import uuid
@@ -71,7 +71,7 @@ uid = str(uuid.uuid5(leet,'admin123'))
 print(uid)
 ```
 
-I then run `passwordless_solve.py`, which results in:
+I then ran `passwordless_solve.py`, which resulted in:
 
 ```txt
 3c68e6cc-15a7-59d4-823c-e7563bbb326c
@@ -81,5 +81,5 @@ I then go back to `http://24.199.110.35:40150/` and change the url to `24.199.11
 
 ![](../images/passwordless-part-4.png)
 
-I then submit ` n00bz{1337-13371337-1337-133713371337-1337}`, and solve the challenge.
+I then submitted `n00bz{1337-13371337-1337-133713371337-1337}`, and solved the challenge.
 
