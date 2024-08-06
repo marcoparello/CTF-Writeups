@@ -21,9 +21,9 @@ I already mounted the image so `flag.txt` is the flag. However, I need to decryp
 
 ![](../images/disk-golf-part-3.png)
 
- I then used `cryptii`'s octal code decoder, which resulted in:
+I then used `cryptii`'s octal code decoder, which resulted in:
 
- ![](../images/disk-golf-part-4.png)
+![](../images/disk-golf-part-4.png)
 
- I then submitted `n00bz{7h3_l0ng_4w41t3d_d15k_f0r3ns1c5}` and solved the challenge.
+I then submitted `n00bz{7h3_l0ng_4w41t3d_d15k_f0r3ns1c5}` and solved the challenge.
 
