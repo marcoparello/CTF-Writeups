@@ -2,13 +2,12 @@
 
 ![](../images/flagchecker-part-1.png)
 
-Download FlagChecker.xlsm
-I opened it in my browser:
+I download FlagChecker.xlsm and open it:
 
 ![](../images/flagchecker-part-2.png)
  
-It’s an actual excel document. Guess I need to research excel reverse engineering. I download x64dbg
-Looking at the macro code (enable developer settings):
+I then look at the macro code (enable developer options under the customize ribbion tab in order to do this):
+
 ```txt
 Sub FlagChecker()
 
@@ -82,11 +81,15 @@ End Sub
 ```
 
 Running the macro results in:
+
+![](../images/flagchecker-part-3.png)
  
-I type a
- 
-qwertyuiop[]\asdfghjkl;'
-Prompted chatgpt to explain the code line by line, Here is it’s analysis:
+I type a:
+
+![](../images/flagchecker-part-4.png)
+
+I then prompt ChatGPT to explain the code line by line, which returns this analysis:
+
 ```txt
 Initial Setup
 Dim chars(1 To 24) As String
@@ -167,14 +170,17 @@ Success Message
 MsgBox "you got the flag!"
 ```
 
-Now to write a script to identify the flag. From the challenge description
+I have a clear analysis of what the code does, which I can use to create a script that reverse engineers the code. But before I start, I look at the challenge description for any other infromatio I could use, and I come across this:
 ```txt
 Note: char_21 is the SAME as char_22 Note 2: The correct flag has ALL LOWERCASE, NUMBERS, n00bz{} AND UNDERSCORES (There's two underscores in the entire flag)
 ```
-So we know that our working characters are: lowercase, numbers, n00bz{}, and underscores
-Here is the flag currently:
-`n00bz{`
-I create a script titled, `flag_solve.py`, and begin working. This was the resulting script:
+Therefore, I already know a part of the flag, which is:
+
+```txt
+n00bz{
+```
+
+I then create a python file, which I name `flag_solve.py`, and begin working. This was the resulting script:
 
 ```txt
 # variables
@@ -281,5 +287,5 @@ I then ran the script, which resulted in:
 ```txt
 n00bz{3xc3l_y0ur_sk1lls}
 ```
-I then submitted `n00bz{3xc3l_y0ur_sk1lls}` and solved the challenge.
+I then submitted `n00bz{3xc3l_y0ur_sk1lls}`, and solved the challenge.
 
